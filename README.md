@@ -1,7 +1,7 @@
 # dockistry
 > "a moderately opinionated docker-compose registry for brazen pterodactyl enthusiasts" 
 
-```
+```bash
                             <\              _
                             \\          _/{
                      _       \\       _-   -_
