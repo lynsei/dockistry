@@ -1,6 +1,6 @@
 # dockistry
 > "a moderately opinionated docker-compose registry for brazen pterodactyl enthusiasts" 
-[![chorus](https://pterops.com.s3.amazonaws.com/dockistry.png)
+[![yo](http://pterops.com.s3.amazonaws.com/dockistry.png)
  
 ```bash
                             <\              _
