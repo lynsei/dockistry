@@ -1,4 +1,6 @@
 # dockistry
+
+[![Join the chat at https://gitter.im/disruptiveware/dockistry](https://badges.gitter.im/disruptiveware/dockistry.svg)](https://gitter.im/disruptiveware/dockistry?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 > "a moderately opinionated docker-compose registry for brazen pterodactyl enthusiasts" 
 
 ## *** note *** this is a early-stage WIP, so use it at your own risk
