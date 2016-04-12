@@ -1,5 +1,23 @@
-# what is dockistry
-> this is a collection of tools and technologies that comes as a package providing:
+# moderately opinionated code
+> Dockistry is a labor of love
+- Started on AWS by a Devops team with 30 years combined experience
+- So we understand the importance of infrastructure-through-code and repeatable patterns.
+- We embrace [12-factor methods](http://12factor.net/)
+- 100% Afero GPL code with enterprise capabilities out-of-the-box
+- We intend to offer enterprise services and world class support alongside the apps web build which utilize this platform.
+- We also offer best-in-class encryption & compliance for HIPAA, HITECH, and GLBA. 
+
+
+# a little about us
+- we are standing on the shoulders of giants, and have been doing so for years thanks to opensource software.  
+- find us on freenode #crypto or #freebsd, often.
+- 
+- we are very supportive of capscicum methodology for security, and thus have taken on docker along with rancher and many other apache-licensed tools running emberjs, nodejs, and ruby.
+
+
+collection of tools and technologies that comes as a pre-packaged instance that is hot-deployable on several hosts:
+- amazon aws [instantly cloud-formation deploy & hot-sync of data from our S3 multi-az
+- google cloud [instantly deployed from gluster or s3 using convoy or duplicity]
 
 # want access? 
 > important note: _this project is pre-alpha, though many modules are production tested and ready for immediate use_ 
