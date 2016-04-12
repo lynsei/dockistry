@@ -7,14 +7,7 @@
 - We intend to offer enterprise services and world class support alongside the apps web build which utilize this platform.
 - We also offer best-in-class encryption & compliance for HIPAA, HITECH, and GLBA. 
 
-
-# a little about us
-- we are standing on the shoulders of giants, and have been doing so for years thanks to opensource software.  
-- find us on freenode #crypto or #freebsd, often.
-- 
-- we are very supportive of capscicum methodology for security, and thus have taken on docker along with rancher and many other apache-licensed tools running emberjs, nodejs, and ruby.
-
-
+# what is dockistry?
 collection of tools and technologies that comes as a pre-packaged instance that is hot-deployable on several hosts:
 - amazon aws [instantly cloud-formation deploy & hot-sync of data from our S3 multi-az
 - google cloud [instantly deployed from gluster or s3 using convoy or duplicity]
@@ -28,9 +21,11 @@ collection of tools and technologies that comes as a pre-packaged instance that 
 
 # pre-alpha gitlab
 - provides a collection of packages in the form of forkable repositories designed to be docker-composed and interchanged
+
 # participate
 - If you wish to participate in the development effort, visit [gitter]().  both are very new to the community so we appreciate any smoke or sage you might have to offer.
-- 
+
+# features from "go"
 - comprehensive fullstack solution for deployment to dev/stage/prod envs.
 - peer-reviewed security practices with fullstack capabilities above and beyond those of traditional dockerhub devops images
 - a modular git-driven architecture containing skeletons & deployments for many different combinations of dockerhub driven app images
@@ -49,7 +44,7 @@ collection of tools and technologies that comes as a pre-packaged instance that 
 
 - we also embrace calling out comcast for injecting javascript, an illegal practice (as seen with the recent Verizon suit)
 
-## 
+# security
 Ephemeral & destructive Gnupg keyrings with external etcd/ consul & watchtower support. Moderately opinionated, but adoptive of docker-compose, Rancher, Ubuntu, and in favor of YAML ubiquity.
 provided by a well-read group of pterodactyl enthusiasts" 
 
