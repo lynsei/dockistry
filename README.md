@@ -1,12 +1,57 @@
-         *** note: this is an early-stage project and has not yet been merged into this public repo.  but we are actively looking for people who build react apps on various platorms and frameworks to participate by contributing their own config repos (docker-composed 2.0).
+         dockistry is an early-stage project and has not yet been merged into this public repo.  but we are actively looking for people who build react apps to participate by contributing their own strategies.  we do have a process and formula for how to do that, and it's entirely YAML driven using pTero and docker-compose.
  
-     - [frameworks](https://github.com/forktheweb/dockistry/blob/master/docks-frameworks.md) - supported reactive frameworks
-     - [componentry](https://github.com/forktheweb/dockistry/blob/master/docks-componentry.md) - tools we're considering supporting or ones we already are (WIP)
-     - [coding standards](https://github.com/forktheweb/dockistry/blob/master/docks-code.md) - our development philosophies
-     - [pTero devops](https://github.com/forktheweb/dockistry/blob/master/docks-ptero.md) - an example stack, but pTero is also a Go-lang shell program that does all our automation for AWS, GC, etc.
-     - [about](https://github.com/forktheweb/dockistry/blob/master/docks-ptero.md) - a little info about the developers
-     
-> Dockistry provides a platform agnostic, fullstack deployment solution for web based apps and apis using 12-factor, Reactology, and Continuous Integration (SOA).  
+## summary
+> Dockistry provides a platform agnostic, fullstack solution for web based apps and apis using 12-factor, Reactology, and Continuous Integration (SOA).  The purpose of dockistry is to allow each developer to create comprehensive strategies and publish them/ collaborate.   These strategies are comprehensive builds containing cloud-init, server, backend, middleware, endpoint, and user interface tools.  
+
+## We intend to support:
+Categories & Tags
+-----------------
+
+### This registry is broken down into the following categories:
+
+-   **Container Types**
+
+    -   Development
+
+    -   Production
+
+    -   Utilities
+
+-   **Container Tags**
+
+    -   Web servers
+
+    -   RDBMS servers
+
+    -   NOSQL servers
+
+    -   Version control
+
+    -   Data management
+
+    -   Rancher & Docker tools
+
+    -   Operating System Baselines
+
+    -   API programs
+
+    -   CLI programs
+
+-   Stacks as Modular Git repositories
+
+    -   DevStack(s) (developer builds)
+
+    -   ProdStack(s) (production builds)
+
+ 
+ ##### dockistry strategy engine builds YAML-driven architecture that deploys stacks which contain the following Reactive driven SPA/SOA applications:
+- [frameworks](https://github.com/forktheweb/dockistry/blob/master/docks-frameworks.md) - supported reactive frameworks
+- [componentry](https://github.com/forktheweb/dockistry/blob/master/docks-componentry.md) - tools we're considering supporting or ones we already are (WIP)
+
+
+- [coding standards](https://github.com/forktheweb/dockistry/blob/master/docks-code.md) - our development philosophies
+- [pTero devops](https://github.com/forktheweb/dockistry/blob/master/docks-ptero.md) - an example stack, but pTero is also a Go-lang shell program that does all our automation for AWS, GC, etc.
+- [about](https://github.com/forktheweb/dockistry/blob/master/docks-ptero.md) - a little info about the developers
 
 ### modular and no-bullshit
 All stacks are 100% SSL-LE, Docker-composed, in modular-fork format.  You just pick the repositories you want, and use the YAML config they supply.  That means they can easily be joined together in various configs with various UI, datagrids, cdnJS, NPM, Bower, Yeoman, JSPM, Go-lang, RVM, and other dependency management tools.  No limitations on language or platform but obviously we lean towards NodeJS and Go with Citus/Postgre or Mysql/Aurora.
