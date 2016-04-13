@@ -1,4 +1,4 @@
-@(dataReactive)[Dockistry] official
+@(dataReactive)[Dockistry]
 
          dockistry is an early-stage project and has not yet been merged into this public repo.  
          but we are actively looking for people who build react apps to participate by contributing 
