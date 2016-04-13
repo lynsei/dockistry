@@ -1,69 +1,25 @@
-# dockistry
-> "a docker strategy engine powered by pterodactyls"
+ *** note: this is an early-stage project and has not yet been merged into this public repo.  but we are actively looking for people who build react apps on various platorms and frameworks to participate by contributing their own config repos (docker-composed 2.0).
 
-designed to cut through devops bullshit and allows developers to work with many different strategies simultaneously, without having to worry about conflicts or tooling setup.
- 
-         > note:
-         dockistry is an early-stage project (on our Gitlab) and has not yet been merged into this public repo.  
-         but we are actively looking for people who build react apps to participate by contributing 
-         their own strategies.  we have a simple way to do that and have examples, but it's all YAML-driven.
- 
-## summary
-> Dockistry is a platform agnostic, fullstack solution for creating web based apps and apis using 12-factor, Reactology, and Continuous Integration (SOA).  It works on *any* cloud based host as a CaaS.
-
-## purpose
-The purpose of dockistry is to allow each developer to create comprehensive fullstack strategies as git repos incorporating their favorite tools and release them as packages built with YAML (docker-compose + ptero) into our eco-system.   
-
-
-## strategies
-Dockistry strategies are essentially just comprehensive builds containing cloud-init, server, backend, middleware, endpoint, and user interface tools.  We eliminate the use of json files for configuration by automating json/yaml conversion (i.e.- for bower/npm/etc).  All the following are composed in our YAML:
-
--   **Container Types**
-    -   Development
-    -   Production
-    -   Utilities
-
--   **Container Tags**
-    -   Web servers
-    -   RDBMS servers
-    -   NOSQL servers
-    -   Version control
-    -   Data management
-    -   Rancher & Docker tools
-    -   Operating System Baselines
-    -   API programs
-    -   CLI programs
--   Stacks as Modular Git repositories
-    -   DevStack(s) (developer builds)
-    -   ProdStack(s) (production builds)
-
- 
-##### dockistry strategy engine builds YAML-driven architecture that deploys stacks which contain the following Reactive driven SPA/SOA applications:
-- [frameworks](https://github.com/forktheweb/dockistry/blob/master/docks-frameworks.md) - supported reactive frameworks
-- [componentry](https://github.com/forktheweb/dockistry/blob/master/docks-componentry.md) - tools we're considering supporting or ones we already are (WIP)
-- [pTero](https://github.com/forktheweb/dockistry/blob/master/docks-ptero.md) - an example stack, but pTero is also a Go-lang shell program that does all our automation for AWS, GC, etc.
-
-##### developer information
-- [coding](https://github.com/forktheweb/dockistry/blob/master/docks-code.md) - our development philosophies
-- [about](https://github.com/forktheweb/dockistry/blob/master/docks-ptero.md) - a little info about the developers
+> Dockistry provides a platform agnostic, fullstack deployment solution for web based apps and apis using 12-factor, Reactology, and Continuous Integration (SOA).  
 
 ### modular and no-bullshit
 All stacks are 100% SSL-LE, Docker-composed, in modular-fork format.  You just pick the repositories you want, and use the YAML config they supply.  That means they can easily be joined together in various configs with various UI, datagrids, cdnJS, NPM, Bower, Yeoman, JSPM, Go-lang, RVM, and other dependency management tools.  No limitations on language or platform but obviously we lean towards NodeJS and Go with Citus/Postgre or Mysql/Aurora.
 
 
-## why you should care
-Dockistry is simple, elegant, one-click setup of packages that are stacks.  They come pre-composed and unit-tested and include everything you need to do fullstack development, and are tailored based on your strategy.
-- strategy examples:
-   - ssl+hhvm+aurelia/
-   - 
+# about
 ### Dockistry is a collection of tools and technologies that comes as a pre-packaged instance AMI/ Kubernetes stack.
 - Comes pre-configured with Gitlab CE, Rancher, Discourse, Rocketchat-Hubot, Private Registries (Dockers/ NPMs), Wekan board, and we pre-load test frameworks for React, Aurelia, Wordpress, Angular, Ember and VueJS. 
 - One-click setup with a very short configuration, just deploy our AMI/ Stack
 - Instant setup script(s) on Amazon AWS or Google Cloud
 
-# stacks for reactive apps
-- all our stacks are docker-composed, rancher managed
-- we support flocker and gluster for volume mounting docker container to the host
+## do you hate bullshit and love pterodactyls?
+
+If you answered yes, it's possible you too may be looking for a fullstack deploy that doesn't suck.
+Perhaps we can help.
+
+### we focus on reactive apps
+- all our stacks are docker-composed, rancher managed, single-step deployed (i.e.- aws ec2-create-instance blah)
+- we support flocker and gluster for volume mounting docker containers, which is dope cause then you can shard your citus & nginx instances and horizontally scale the shit out of them
 - we have several cloud formation examples including:
     * SSL Citus [Postgre] with Go Json Api paired with React App
     * SSL Rancher on Ubuntu/ROS set up with NginxProxy/LetsEncrypt
@@ -71,37 +27,33 @@ Dockistry is simple, elegant, one-click setup of packages that are stacks.  They
  - nearly zero setup api
  - unit-tested
 
-# currently we support
+### we are building an editor
+ - we are currently developing a web-terminal that allows YAML development for our stacks
+ - it allows you to manage the entire stack as YAML (including all the front-end and middleware stuff)
+
+#### currently we support
 - amazon aws [instantly cloud-formation deploy & hot-sync of data from our S3 multi-az
 - google cloud [instantly deployed from gluster or s3 using convoy or duplicity]
 
-# soon we will provide drop-ins for
+#### soon we will provide drop-ins for
 - digital ocean
 - bare metal
 - heroku 
 - scalingo
 - devo.ps
 
-# updates
-- we push updates to our repoistories automatically
-- git updates are *not* pushed to your test sites automatically
-
-# want access? 
+#### how we manage gitlab updates
+we exclude updates from forked repos intentionally because our stacks are unit-tested and stable.  we use bleeding-edge branches to test updates on forks prior to putting them in dockistry as masters.
 
 > important note: _this project is pre-alpha, though many modules are production tested and ready for immediate use_ 
 
-- we currently are offering private repos for community development, so just ask to get access.
-- interested in participating:__
-[![Gitter](https://badges.gitter.im/disruptiveware/dockistry.svg)](https://gitter.im/disruptiveware/dockistry?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) is the best way to reach us, as it filters directly into our internal Rocket webRTC and Xampp set-ups.
-- mention "@ptero help" if the bot is available.  the winged-beast install your oauth credentials from github and even deploy certain apps automatically based on a simple questions & a basic sms validation (no-github).
+- we are opensource 100%
+- private repos for community development, so just ask to get access.
+- they are private cause we think it's bad if devs are downloading our broken stuff accidentally on github
+- our first published release will incorporate one master dockistry with over 60 sub-repos that will be made production/public status
+- 
 
-# pre-alpha gitlab
-- provides a collection of packages in the form of forkable repositories designed to be docker-composed and interchanged
-
-# participate
-- If you wish to participate in the development effort, visit [gitter]().  both are very new to the community so we appreciate any smoke or sage you might have to offer.
-
-# features from "go"
+# technical overview
 - comprehensive fullstack solution for deployment to dev/stage/prod envs.
 - peer-reviewed security practices with fullstack capabilities above and beyond those of traditional dockerhub devops images
 - a modular git-driven architecture containing skeletons & deployments for many different combinations of dockerhub driven app images
@@ -113,16 +65,24 @@ Dockistry is simple, elegant, one-click setup of packages that are stacks.  They
 - wordpress deployment using dependency management via composer, proactive environment setup using ansible
 
 # ssl is automated on every environment
-- we embrace port 80 shaming.  "america... fuck yeah!".  [contact us]() here if you need us to brighten someone's day.
+- we embrace port 80 shaming.  "america... fuck yeah!".  [contact us](https://gitter.im/forktheweb/dockistry) here if you need us to brighten someone's day.
 - yes, we do this for developer environments automatically too
 - immediately deploy our unit-tested, validated configurations via a private ECR
 - we also offer a private registry for nodejs packages called sinopia
 
 - we also embrace calling out comcast for injecting javascript, an illegal practice (as seen with the recent Verizon suit)
 
-# security
-Ephemeral & destructive Gnupg keyrings with external etcd/ consul & watchtower support. Moderately opinionated, but adoptive of docker-compose, Rancher, Ubuntu, and in favor of YAML ubiquity.
-provided by a well-read group of pterodactyl enthusiasts" 
+#### security
+We use Ephemeral & destructive Gnupg keyrings with external etcd/ consul & watchtower support. Moderately opinionated, but adoptive of docker-compose, Rancher, Ubuntu, and in favor of YAML ubiquity.
+
+#### contact us
+- [![Gitter](https://badges.gitter.im/disruptiveware/dockistry.svg)](https://gitter.im/forktheweb/dockistry) 
+- mention "@ptero help" if the bot is available.  the winged-beast install your oauth credentials from github and even deploy certain apps automatically based on a simple questions & a basic sms validation (no-github).
+##### "Dockistry is powered by a well-read group of pterodactyl enthusiasts" 
+
+## how to contribute
+- If you wish to participate in the development effort, visit [gitter](https://gitter.im/forktheweb/dockistry).  both are very new to the community so we appreciate any smoke or sage you might have to offer.
+- our pre-alpha gitlab provides a collection of packages in the form of forkable repositories designed to be docker-composed and interchanged
 
 
 #### built specifically for fullstack
@@ -133,7 +93,7 @@ Started on AWS by a Devops team with 30 years combined experience
 - We embrace [12-factor methods](http://12factor.net/)
 - 100% Afero GPL code with enterprise capabilities out-of-the-box
 - We intend to offer enterprise services and world class support alongside the apps web build which utilize this platform.
-- We also offer best-in-class encryption & compliance for HIPAA, HITECH, and GLBA.
+- We also offer DefaultSecure Let's Encrypt on SSL via Nginx-Proxy by default (automatic for all docker 443 hosts)
 
  
 ```bash
