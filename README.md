@@ -1,3 +1,4 @@
+@dataReactive Dockistry
 dockistry cuts through the devops bullshit and allows developers to work with many different strategies simultaneously, and fork them in repeatable, modular, single-format way using YAML and a web-based editing interface.
 
          dockistry is an early-stage project and has not yet been merged into this public repo.  
