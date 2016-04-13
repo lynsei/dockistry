@@ -1,10 +1,10 @@
          *** note: this is an early-stage project and has not yet been merged into this public repo.  but we are actively looking for people who build react apps on various platorms and frameworks to participate by contributing their own config repos (docker-composed 2.0).
  
-     _[frameworks](https://github.com/forktheweb/dockistry/blob/master/docks-frameworks.md) - supported reactive frameworks
-     _[componentry](https://github.com/forktheweb/dockistry/blob/master/docks-componentry.md) - tools we're considering supporting or ones we already are (WIP)
-     _[coding standards](https://github.com/forktheweb/dockistry/blob/master/docks-code.md) - our development philosophies
-     _[pTero devops](https://github.com/forktheweb/dockistry/blob/master/docks-ptero.md) - an example stack, but pTero is also a Go-lang shell program that does all our automation for AWS, GC, etc.
-     -[about](https://github.com/forktheweb/dockistry/blob/master/docks-ptero.md) - a little info about the developers
+     - [frameworks](https://github.com/forktheweb/dockistry/blob/master/docks-frameworks.md) - supported reactive frameworks
+     - [componentry](https://github.com/forktheweb/dockistry/blob/master/docks-componentry.md) - tools we're considering supporting or ones we already are (WIP)
+     - [coding standards](https://github.com/forktheweb/dockistry/blob/master/docks-code.md) - our development philosophies
+     - [pTero devops](https://github.com/forktheweb/dockistry/blob/master/docks-ptero.md) - an example stack, but pTero is also a Go-lang shell program that does all our automation for AWS, GC, etc.
+     - [about](https://github.com/forktheweb/dockistry/blob/master/docks-ptero.md) - a little info about the developers
      
 > Dockistry provides a platform agnostic, fullstack deployment solution for web based apps and apis using 12-factor, Reactology, and Continuous Integration (SOA).  
 
