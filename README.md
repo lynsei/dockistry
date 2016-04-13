@@ -1,21 +1,24 @@
+# Dockistry 
+> pre-alpha 0.5.0
+
+##### Dockistry provides a platform agnostic, fullstack deployment solution for web based apps and apis using 12-factor, Reactology, and Continuous Integration (SOA).
+
  *** note: this is an early-stage project and has not yet been merged into this public repo.  but we are actively looking for people who build react apps on various platorms and frameworks to participate by contributing their own config repos (docker-composed 2.0).
 
-> Dockistry provides a platform agnostic, fullstack deployment solution for web based apps and apis using 12-factor, Reactology, and Continuous Integration (SOA).  
+## do you dislike bullshit and love pterodactyls?
+
+If you answered yes, it's possible you too may be looking for a fullstack deploy that doesn't suck.
+Perhaps we can help.
+
+# What is Dockistry?
 
 ### modular and no-bullshit
 All stacks are 100% SSL-LE, Docker-composed, in modular-fork format.  You just pick the repositories you want, and use the YAML config they supply.  That means they can easily be joined together in various configs with various UI, datagrids, cdnJS, NPM, Bower, Yeoman, JSPM, Go-lang, RVM, and other dependency management tools.  No limitations on language or platform but obviously we lean towards NodeJS and Go with Citus/Postgre or Mysql/Aurora.
 
-
-# about
 ### Dockistry is a collection of tools and technologies that comes as a pre-packaged instance AMI/ Kubernetes stack.
 - Comes pre-configured with Gitlab CE, Rancher, Discourse, Rocketchat-Hubot, Private Registries (Dockers/ NPMs), Wekan board, and we pre-load test frameworks for React, Aurelia, Wordpress, Angular, Ember and VueJS. 
 - One-click setup with a very short configuration, just deploy our AMI/ Stack
 - Instant setup script(s) on Amazon AWS or Google Cloud
-
-## do you hate bullshit and love pterodactyls?
-
-If you answered yes, it's possible you too may be looking for a fullstack deploy that doesn't suck.
-Perhaps we can help.
 
 ### we focus on reactive apps
 - all our stacks are docker-composed, rancher managed, single-step deployed (i.e.- aws ec2-create-instance blah)
@@ -42,7 +45,7 @@ Perhaps we can help.
 - scalingo
 - devo.ps
 
-#### how we manage gitlab updates
+#### gitlab updates
 we exclude updates from forked repos intentionally because our stacks are unit-tested and stable.  we use bleeding-edge branches to test updates on forks prior to putting them in dockistry as masters.
 
 > important note: _this project is pre-alpha, though many modules are production tested and ready for immediate use_ 
