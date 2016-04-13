@@ -1,8 +1,7 @@
- *** note: this is an early-stage project and has not yet been merged into gitHub
+ *** note: this is an early-stage project and has not yet been merged into this public repo.  but we are actively looking for people who build react apps on various platorms and frameworks to participate by contributing their own configurations in YAML.
 
 > Dockistry provides a platform agnostic, fullstack deployment solution for web based apps and apis
 
- 
 
 # about
 ### Dockistry is a collection of tools and technologies that comes as a pre-packaged instance AMI/ Kubernetes stack.
