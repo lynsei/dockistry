@@ -1,19 +1,36 @@
  *** note: this is an early-stage project and has not yet been merged into gitHub
 
-# fullstack
 > Dockistry provides a platform agnostic, fullstack deployment solution for web based apps and apis
 
  
 
-# what is dockistry?
-collection of tools and technologies that comes as a pre-packaged instance that is hot-deployable on several hosts:
+# about
+Dockistry is a collection of tools and technologies that comes as a pre-packaged instance AMI/ Kubernetes stack.
+- Comes pre-configured with Gitlab CE, Rancher, Discourse, Rocketchat-Hubot, Private Registries (Dockers/ NPMs), Wekan board, and we pre-load test frameworks for React, Aurelia, Wordpress, Angular, Ember and VueJS. 
+- One-click setup with a very short configuration (single domain that is wildcarded)
+- Instant setup via our cloud-init script on Amazon AWS or Google Cloud
+
+# currently we support
 - amazon aws [instantly cloud-formation deploy & hot-sync of data from our S3 multi-az
 - google cloud [instantly deployed from gluster or s3 using convoy or duplicity]
 
+# soon we will provide drop-ins for
+- digital ocean
+- bare metal
+- heroku 
+- scalingo
+- devo.ps
+
+# updates
+- we push updates to our repoistories automatically
+- git updates are *not* pushed to your test sites automatically
+
 # want access? 
+
 > important note: _this project is pre-alpha, though many modules are production tested and ready for immediate use_ 
-- currently 20 gigs of repository images are available & our ECR uses Janitor and is well-maintained in a private GitLabCE
-- __if you are a developer or team who is interested in participating:__
+
+- we currently are offering private repos for community development, so just ask to get access.
+- interested in participating:__
 [![Gitter](https://badges.gitter.im/disruptiveware/dockistry.svg)](https://gitter.im/disruptiveware/dockistry?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) is the best way to reach us, as it filters directly into our internal Rocket webRTC and Xampp set-ups.
 - mention "@ptero help" if the bot is available.  the winged-beast install your oauth credentials from github and even deploy certain apps automatically based on a simple questions & a basic sms validation (no-github).
 
