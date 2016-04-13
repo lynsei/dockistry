@@ -1,11 +1,9 @@
-# moderately opinionated code
-> Dockistry is a labor of love
-- Started on AWS by a Devops team with 30 years combined experience
-- So we understand the importance of infrastructure-through-code and repeatable patterns.
-- We embrace [12-factor methods](http://12factor.net/)
-- 100% Afero GPL code with enterprise capabilities out-of-the-box
-- We intend to offer enterprise services and world class support alongside the apps web build which utilize this platform.
-- We also offer best-in-class encryption & compliance for HIPAA, HITECH, and GLBA. 
+ *** note: this is an early-stage project and has not yet been merged into gitHub
+
+# fullstack
+> Dockistry provides a platform agnostic, fullstack deployment solution for web based apps and apis
+
+ 
 
 # what is dockistry?
 collection of tools and technologies that comes as a pre-packaged instance that is hot-deployable on several hosts:
@@ -48,9 +46,17 @@ collection of tools and technologies that comes as a pre-packaged instance that 
 Ephemeral & destructive Gnupg keyrings with external etcd/ consul & watchtower support. Moderately opinionated, but adoptive of docker-compose, Rancher, Ubuntu, and in favor of YAML ubiquity.
 provided by a well-read group of pterodactyl enthusiasts" 
 
-## *** note *** this is a early-stage WIP, so use it at your own risk
 
-![yo](http://pterops.com.s3.amazonaws.com/dockistry.png)
+#### built specifically for fullstack
+
+Started on AWS by a Devops team with 30 years combined experience
+
+- We understand the importance of infrastructure-through-code and repeatable patterns.
+- We embrace [12-factor methods](http://12factor.net/)
+- 100% Afero GPL code with enterprise capabilities out-of-the-box
+- We intend to offer enterprise services and world class support alongside the apps web build which utilize this platform.
+- We also offer best-in-class encryption & compliance for HIPAA, HITECH, and GLBA.
+
  
 ```bash
                             <\              _
