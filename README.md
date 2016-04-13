@@ -7,8 +7,18 @@
 # about
 ### Dockistry is a collection of tools and technologies that comes as a pre-packaged instance AMI/ Kubernetes stack.
 - Comes pre-configured with Gitlab CE, Rancher, Discourse, Rocketchat-Hubot, Private Registries (Dockers/ NPMs), Wekan board, and we pre-load test frameworks for React, Aurelia, Wordpress, Angular, Ember and VueJS. 
-- One-click setup with a very short configuration (single domain that is wildcarded)
-- Instant setup via our cloud-init script on Amazon AWS or Google Cloud
+- One-click setup with a very short configuration, just deploy our AMI/ Stack
+- Instant setup script(s) on Amazon AWS or Google Cloud
+
+# stacks for reactive apps
+- all our stacks are docker-composed, rancher managed
+- we support flocker and gluster for volume mounting docker container to the host
+- we have several cloud formation examples including:
+    * SSL Citus [Postgre] with Go Json Api paired with React App
+    * SSL Rancher on Ubuntu/ROS set up with NginxProxy/LetsEncrypt
+    * Wordpress with Zero PHP (i.e.- Calypso backend, Aurelia Front-end, Composer)
+ - nearly zero setup api
+ - unit-tested
 
 # currently we support
 - amazon aws [instantly cloud-formation deploy & hot-sync of data from our S3 multi-az
