@@ -5,7 +5,7 @@
  
 
 # about
-Dockistry is a collection of tools and technologies that comes as a pre-packaged instance AMI/ Kubernetes stack.
+### Dockistry is a collection of tools and technologies that comes as a pre-packaged instance AMI/ Kubernetes stack.
 - Comes pre-configured with Gitlab CE, Rancher, Discourse, Rocketchat-Hubot, Private Registries (Dockers/ NPMs), Wekan board, and we pre-load test frameworks for React, Aurelia, Wordpress, Angular, Ember and VueJS. 
 - One-click setup with a very short configuration (single domain that is wildcarded)
 - Instant setup via our cloud-init script on Amazon AWS or Google Cloud
