@@ -51,7 +51,6 @@ we exclude updates from forked repos intentionally because our stacks are unit-t
 - private repos for community development, so just ask to get access.
 - they are private cause we think it's bad if devs are downloading our broken stuff accidentally on github
 - our first published release will incorporate one master dockistry with over 60 sub-repos that will be made production/public status
-- 
 
 # technical overview
 - comprehensive fullstack solution for deployment to dev/stage/prod envs.
