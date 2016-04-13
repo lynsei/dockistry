@@ -1,11 +1,14 @@
-@dataReactive Dockistry
-dockistry cuts through the devops bullshit and allows developers to work with many different strategies simultaneously, and fork them in repeatable, modular, single-format way using YAML and a web-based editing interface.
+@(dataReactive)[Dockistry] official
+
+
 
          dockistry is an early-stage project and has not yet been merged into this public repo.  
          but we are actively looking for people who build react apps to participate by contributing 
          their own strategies.  we do have a process and formula for how to do that, and it's entirely 
          YAML driven using pTero and docker-compose.
  
+dockistry cuts through the devops bullshit and allows developers to work with many different strategies simultaneously.
+
 ## summary
 > Dockistry provides a platform agnostic, fullstack solution for web based apps and apis using 12-factor, Reactology, and Continuous Integration (SOA).  The purpose of dockistry is to allow each developer to create comprehensive strategies and publish them/ collaborate.   These strategies are comprehensive builds containing cloud-init, server, backend, middleware, endpoint, and user interface tools.  
 
