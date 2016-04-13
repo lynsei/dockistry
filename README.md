@@ -16,13 +16,7 @@ The purpose of dockistry is to allow each developer to create comprehensive full
 
 
 ## strategies
-Dockistry strategies are essentially just comprehensive builds containing cloud-init, server, backend, middleware, endpoint, and user interface tools.  We eliminate the use of json files for configuration by automating json/yaml conversion (i.e.- for bower/npm/etc).
-
-## We intend to support:
-Categories & Tags
------------------
-
-### This registry is broken down into the following categories:
+Dockistry strategies are essentially just comprehensive builds containing cloud-init, server, backend, middleware, endpoint, and user interface tools.  We eliminate the use of json files for configuration by automating json/yaml conversion (i.e.- for bower/npm/etc).  All the following are composed in our YAML:
 
 -   **Container Types**
     -   Development
