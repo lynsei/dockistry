@@ -4,12 +4,7 @@
 @(dataReactive)[Marxico|Manual|Markdown]
 
 **dev**/prod/stack 
-	->pipeline
-	    ->actions
-	    ->tasks
-	    ->tests
-	    ->monitors
-	
+	->$$	x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
 
          dockistry is an early-stage project and has not yet been merged into this public repo.  
          but we are actively looking for people who build react apps to participate by contributing 
