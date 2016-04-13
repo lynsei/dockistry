@@ -1,4 +1,8 @@
  *** note: this is an early-stage project and has not yet been merged into this public repo.  but we are actively looking for people who build react apps on various platorms and frameworks to participate by contributing their own config repos (docker-composed 2.0).
+ 
+         _[frameworks we support]()
+         _[our componentry]()
+         _[coding standards]()
 
 > Dockistry provides a platform agnostic, fullstack deployment solution for web based apps and apis using 12-factor, Reactology, and Continuous Integration (SOA).  
 
@@ -6,7 +10,11 @@
 All stacks are 100% SSL-LE, Docker-composed, in modular-fork format.  You just pick the repositories you want, and use the YAML config they supply.  That means they can easily be joined together in various configs with various UI, datagrids, cdnJS, NPM, Bower, Yeoman, JSPM, Go-lang, RVM, and other dependency management tools.  No limitations on language or platform but obviously we lean towards NodeJS and Go with Citus/Postgre or Mysql/Aurora.
 
 
-# about
+## why you should care
+Dockistry is simple, elegant, one-click setup of packages that are stacks.  They come pre-composed and unit-tested and include everything you need to do fullstack development, and are tailored based on your strategy.
+- strategy examples:
+   - ssl+hhvm+aurelia/
+   - 
 ### Dockistry is a collection of tools and technologies that comes as a pre-packaged instance AMI/ Kubernetes stack.
 - Comes pre-configured with Gitlab CE, Rancher, Discourse, Rocketchat-Hubot, Private Registries (Dockers/ NPMs), Wekan board, and we pre-load test frameworks for React, Aurelia, Wordpress, Angular, Ember and VueJS. 
 - One-click setup with a very short configuration, just deploy our AMI/ Stack
