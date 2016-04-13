@@ -1,15 +1,22 @@
- 
-       @(dataReactive)[Marxico|Manual|Markdown]
- 
-         dockistry is an early-stage project and has not yet been merged into this public repo.  
-         but we are actively looking for people who build react apps to participate by contributing 
-         their own strategies.  we do have a process and formula for how to do that, and it's entirely 
-         YAML driven using pTero and docker-compose.
- 
-dockistry cuts through the devops bullshit and allows developers to work with many different strategies simultaneously.
+# dockistry
+> "a docker strategy engine powered by pterodactyls"
 
+designed to cut through devops bullshit and allows developers to work with many different strategies simultaneously, without having to worry about conflicts or tooling setup.
+ 
+         > note:
+         dockistry is an early-stage project (on our Gitlab) and has not yet been merged into this public repo.  
+         but we are actively looking for people who build react apps to participate by contributing 
+         their own strategies.  we have a simple way to do that and have examples, but it's all YAML-driven.
+ 
 ## summary
-> Dockistry provides a platform agnostic, fullstack solution for web based apps and apis using 12-factor, Reactology, and Continuous Integration (SOA).  The purpose of dockistry is to allow each developer to create comprehensive strategies and publish them/ collaborate.   These strategies are comprehensive builds containing cloud-init, server, backend, middleware, endpoint, and user interface tools.  
+> Dockistry is a platform agnostic, fullstack solution for creating web based apps and apis using 12-factor, Reactology, and Continuous Integration (SOA).  It works on *any* cloud based host as a CaaS.
+
+## purpose
+The purpose of dockistry is to allow each developer to create comprehensive fullstack strategies as git repos incorporating their favorite tools and release them as packages built with YAML (docker-compose + ptero) into our eco-system.   
+
+
+## strategy engine
+Dockistry strategies are essentially just comprehensive builds containing cloud-init, server, backend, middleware, endpoint, and user interface tools.  We eliminate the use of json files for configuration by automating json/yaml conversion (i.e.- for bower/npm/etc).
 
 ## We intend to support:
 Categories & Tags
@@ -18,47 +25,32 @@ Categories & Tags
 ### This registry is broken down into the following categories:
 
 -   **Container Types**
-
     -   Development
-
     -   Production
-
     -   Utilities
 
 -   **Container Tags**
-
     -   Web servers
-
     -   RDBMS servers
-
     -   NOSQL servers
-
     -   Version control
-
     -   Data management
-
     -   Rancher & Docker tools
-
     -   Operating System Baselines
-
     -   API programs
-
     -   CLI programs
-
 -   Stacks as Modular Git repositories
-
     -   DevStack(s) (developer builds)
-
     -   ProdStack(s) (production builds)
 
  
- ##### dockistry strategy engine builds YAML-driven architecture that deploys stacks which contain the following Reactive driven SPA/SOA applications:
+##### dockistry strategy engine builds YAML-driven architecture that deploys stacks which contain the following Reactive driven SPA/SOA applications:
 - [frameworks](https://github.com/forktheweb/dockistry/blob/master/docks-frameworks.md) - supported reactive frameworks
 - [componentry](https://github.com/forktheweb/dockistry/blob/master/docks-componentry.md) - tools we're considering supporting or ones we already are (WIP)
+- [pTero](https://github.com/forktheweb/dockistry/blob/master/docks-ptero.md) - an example stack, but pTero is also a Go-lang shell program that does all our automation for AWS, GC, etc.
 
-
-- [coding standards](https://github.com/forktheweb/dockistry/blob/master/docks-code.md) - our development philosophies
-- [pTero devops](https://github.com/forktheweb/dockistry/blob/master/docks-ptero.md) - an example stack, but pTero is also a Go-lang shell program that does all our automation for AWS, GC, etc.
+##### developer information
+- [coding](https://github.com/forktheweb/dockistry/blob/master/docks-code.md) - our development philosophies
 - [about](https://github.com/forktheweb/dockistry/blob/master/docks-ptero.md) - a little info about the developers
 
 ### modular and no-bullshit
