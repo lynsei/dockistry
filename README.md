@@ -15,7 +15,7 @@ designed to cut through devops bullshit and allows developers to work with many 
 The purpose of dockistry is to allow each developer to create comprehensive fullstack strategies as git repos incorporating their favorite tools and release them as packages built with YAML (docker-compose + ptero) into our eco-system.   
 
 
-## strategy engine
+## strategies
 Dockistry strategies are essentially just comprehensive builds containing cloud-init, server, backend, middleware, endpoint, and user interface tools.  We eliminate the use of json files for configuration by automating json/yaml conversion (i.e.- for bower/npm/etc).
 
 ## We intend to support:
