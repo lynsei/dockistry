@@ -1,7 +1,25 @@
 # Dockistry 
 > pre-alpha 0.5.0
 
-##### Dockistry provides a platform agnostic, fullstack deployment solution for web based apps and apis using 12-factor, Reactology, and Continuous Integration (SOA).
+##### Dockistry is strategy engine first and foremost, and is designed for developers. It provides a simple, one-step, elegant method to deploy complex software in cloudbased clusters and for E2E implementations (apps) using one set of YAML and our web-based editor.   
+
+Dockistry is both an editor and a private provider for web-based git repos, docker registries, and npm registries.  When you install Dockistry for the first time, our CLI will provide installation options for deploying your registries.
+
+Registries are forkable stacks that are packaged to deploy in development and production environments, and much like docker containers, we intend for them to be disposable.  Our system "stacks" these repositories by automating the Docker-Compose process and installing your favorite NPM or bower/yeoman/jspm/frameworks/ui(s)/datagrids/etc.  
+
+Our master repository can be pulled and deployed on your own copy at any time, which makes rolling out updates and testing them very simple.
+
+Dockistry handles everything needed to run a complete E2E code pipeline and reactive app
+* cloud formations
+* server tools 
+* middleware
+* frontend tools
+
+Dockistry currently supports 
+* Amazon AWS
+* Google Cloud
+
+More support is actively being developed as we intend for this project to be fully platform agnostic, and independent of any package management/ dependency management tools.  We try to instead embrace all the ones that currently exist as it is not our intention to create a package or dependency management tool, but rather a comprehensive strategy engine for various types of fullstack deploys.
 
 > dockistry is an early-stage project and has not yet been merged into this public repo.  but we are actively looking  for people who build react apps to participate by contributing their own strategies.  we do have a process and formula for how to do that, and it's entirely YAML driven using pTero and docker-compose.
 
