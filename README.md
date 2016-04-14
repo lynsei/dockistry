@@ -130,15 +130,13 @@ we exclude updates from forked repos intentionally because our stacks are unit-t
 - wordpress deployment using dependency management via composer, proactive environment setup using ansible
 
 # ssl is automated on every environment
-- we embrace port 80 shaming.  "america... fuck yeah!".  [contact us](https://gitter.im/forktheweb/dockistry) here if you need us to brighten someone's day.
-- yes, we do this for developer environments automatically too
-- immediately deploy our unit-tested, validated configurations via a private ECR
-- we also offer a private registry for nodejs packages called sinopia
-
+- we embrace [port-80 shaming](https://github.com/jimmycuadra/port-80-shame) because it's fun.
+- yes, we fully automate SSL deploys for you with Zero Setup using the Let's Encrypt CA (no SSL errors)
+- we are on the way to implementing Gnupg keyrings and validated GPG signatures too.
 - we also embrace calling out comcast for injecting javascript, an illegal practice (as seen with the recent Verizon suit)
 
 #### security
-We use Ephemeral & destructive Gnupg keyrings with external etcd/ consul & watchtower support. Moderately opinionated, but adoptive of docker-compose, Rancher, Ubuntu, and in favor of YAML ubiquity.
+We intend to use Ephemeral & destructive Gnupg keyrings with external etcd/ consul & watchtower support.  For security reasons, our stacks are moderately opinionated as far as the types of SSL and encryption we use and recommend, but this still leaves developers in control because we are adoptive of docker-compose, Rancher, Ubuntu, and in favor of YAML ubiquity.  We are in favor of default-secure practices and SSL by default for all environments.
 
 #### contact us
 - [![Gitter](https://badges.gitter.im/disruptiveware/dockistry.svg)](https://gitter.im/forktheweb/dockistry) 
