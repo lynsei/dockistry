@@ -1,21 +1,50 @@
 # Dockistry 
 > pre-alpha 0.5.0
 
-##### Dockistry is strategy engine first and foremost, and is designed for developers. It provides a simple, one-step, elegant method to deploy complex software in cloudbased clusters and for E2E implementations (apps) using one set of YAML and our web-based editor.   
+##### Dockistry is strategy engine first and foremost, and it is designed to empower developers to quickly switch strategies and requirements, and instantly deploy those requirements.  **We believe that there are currently too many projects focused on tooling being provided in open source communities like GitHub, and not rarely enough strategy.**  We focus **only** on the big picture, and our focus is on CaaS via **platform agnostic** tools.  Dockistry refer to the  stacks/clusters created by our CLI as "strategies", because that's what they are for.  They are fully comprehensive in that they use Git to deploy, and are docker-composed using strictly YAML. 
 
-Dockistry is both an editor and a private provider for web-based git repos, docker registries, and npm registries.  When you install Dockistry for the first time, our CLI will provide installation options for deploying your own local copies of our master registries.  These registries are in pre-alpha, but are <a href="https://labs.stackfork.com:2003/">available</a> here.
+> EXAMPLE SCENARIO:  you might have a strategy for a single page application (SPA) that builds out your mobile app via Cordova/Phonegap variations and using an Amazon Code Pipeline with Gulp compiler process housed on Docker and served by HHVM with Citus or MongoDB.  That's complex and the stack is far different if it's to be production-ready.
 
-Our registries contain many modular stacks that are packaged to deploy in development and production environments.  Our registry copies are ephemeral and you are not encouraged to roll out updates by destroying them and downloading new copies (much like how docker containers typically operate, only on a registry level).  
+That would be far different from the tooling used on a performance tuned API stack written on a NodeJS API or using something like Goat/ Gorilla on a GVM stack running Go-lang, and again, the developer stack in each use case is very complicated to set up without operating something like Ansible or Vagrant.  Even if you do, there are still considerations when you are executing a comprehensive E2E strategy with a code-pipeline and multiple collaborating developers.
+
+> Each stack you set up using Dockistry will operate to serve the needs of a particular strategy, and it incorporates *either* development or production, and our registry naming convention denotes that by prefixing each strategy with "devstack" or "prodstack".  So if we are creating a stack that focuses on wordpress theme development, it will contain no performance tuning, but it will contain a ton of developer tools like vim-spf13, samson, c++ nodegyp, etc.  
+
+# No Wheel Re-inventing
+We use *only* existing tools for stack setup, such as NPM for depenencies, and/or systems such as Bower, scaffolds such as Yeoman, or even JSPM/ Go-lang.  Docker stacks are composed to avoid custom Makefiles and custom Dockerfiles, this allows everything to be executed as a single process that is easy to review and organize in our YAML editor.
+
+##### Strategy storage
+We expect and encourage you to have your own strategies, and if they are working well for you, please contribute them to our StackFork master repo because the idea here is to implement strategy recommendations from developers all over the world.  
+
+One of our primary goals is to organize our master repository in such a way that it can be used as by anyone without making it complicated and confusing, and they can rely on Dockistry to allow them to switch strategy without an all-day process to learn the tooling setup.  
+
+##### E2E and Continuous Delivery focused
+Using our registries as a playbook, and through using YAML, you can quickly create virtually any kind of relevant react application or API, go-lang app, or even an ethereum blockchain app.  
+
+"Strategies" can include virtually anything that would need to live on an AWS or Google Cloud that horizontally scales:
+* cloud instances/ environments
+* servers/ backends
+* middleware/ tasks
+* uix/ componentry
+* cli tools and editors
+
+# Deploy clusters in a single step
+Dockistry provides a simple, one-step, elegant method to deploy complex software in cloudbased clusters and for E2E implementations (apps) using one set of YAML and our web-based editor.  The only pre-requisite is a domain name that will be set up by our CLI (you will need to point the A record, or have the CLI do it via route53 automatically).
+
+Dockistry is both an editor and a private provider for web-based git repos, docker registries, and npm registries.  When you install Dockistry for the first time, our CLI will provide installation options for deploying your own local copies of our master registries.  These registries are in pre-alpha, but are <a href="https://labs.stackfork.com:2003/">available</a> here on request for those wishing to contribute.  
+
+Our registries contain many modular stacks that are packaged to deploy in development and production environments.  Your registry copies are ephemeral and you are encouraged to roll out updates by destroying them and downloading new copies with the CLI tools we provide.  The CLI sets you up (optionally) with a full-on infrastructure using the AWS and Google SDK via pTero devops.
+* gitlab ce installation and config over ssl on sub-domain
+* rancher master/slave
+* rocketchat and hubot instance
+* nginx reverse proxy
+* ssl fully automated 
+* gnupg keyrings
 
 Our opensource web-based editor "stacks" these repositories by automating the creation of cloud based servers on various providers, automating the Docker-Compose process & server configurations, installing your favorite dependency tools, and then rolling out your actual software for unit-testing.  We operate Gitlab CI for test automation on various OS.
 
 So to put it as simply as possible, Dockistry is for building Reactive apps and the infrastructure necessary for any developer or company to do that quickly and easily on any cloud hosting provider.  
 
-Dockistry handles everything needed to run a complete E2E code pipeline
-* cloud formations
-* server tools 
-* middleware
-* frontend tools
+
 
 Dockistry currently supports 
 * Amazon AWS
