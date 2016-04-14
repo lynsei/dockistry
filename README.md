@@ -3,7 +3,7 @@
 
 ##### Dockistry provides a platform agnostic, fullstack deployment solution for web based apps and apis using 12-factor, Reactology, and Continuous Integration (SOA).
 
- *** note: this is an early-stage project and has not yet been merged into this public repo.  but we are actively looking for people who build react apps on various platorms and frameworks to participate by contributing their own config repos (docker-composed 2.0).
+> dockistry is an early-stage project and has not yet been merged into this public repo.  but we are actively looking  for people who build react apps to participate by contributing their own strategies.  we do have a process and formula for how to do that, and it's entirely YAML driven using pTero and docker-compose.
 
 ## do you dislike bullshit and love pterodactyls?
 
@@ -20,17 +20,32 @@ All stacks are 100% SSL-LE, Docker-composed, in modular-fork format.  You just p
 - One-click setup with a very short configuration, just deploy our AMI/ Stack
 - Instant setup script(s) on Amazon AWS or Google Cloud
 
-### we focus on reactive apps
+TRUE FACT:
+##### Did you know that pTerodactyls can fly holding nearly 10x their wait in devops bullshit?
+
+Detailed specifications and other info:
+- [frameworks](https://github.com/forktheweb/dockistry/blob/master/docks-frameworks.md) - supported reactive frameworks
+- [componentry](https://github.com/forktheweb/dockistry/blob/master/docks-componentry.md) - tools we're considering supporting or ones we already are (WIP)
+- [coding standards](https://github.com/forktheweb/dockistry/blob/master/docks-code.md) - our development philosophies
+- [pTero devops](https://github.com/forktheweb/dockistry/blob/master/docks-ptero.md) - an example stack, but pTero is also a Go-lang shell program that does all our automation for AWS, GC, etc.
+- [about](https://github.com/forktheweb/dockistry/blob/master/docks-ptero.md) - a little info about the developers
+
+# Reactive apps
 - all our stacks are docker-composed, rancher managed, single-step deployed (i.e.- aws ec2-create-instance blah)
 - we support flocker and gluster for volume mounting docker containers, which is dope cause then you can shard your citus & nginx instances and horizontally scale the shit out of them
-- we have several cloud formation examples including:
+- we have several stack examples in beta including:
     * SSL Citus [Postgre] with Go Json Api paired with React App
     * SSL Rancher on Ubuntu/ROS set up with NginxProxy/LetsEncrypt
     * Wordpress with Zero PHP (i.e.- Calypso backend, Aurelia Front-end, Composer)
- - nearly zero setup api
+ - near-zero setup (it requires a TLD)
  - unit-tested
 
-### we are building an editor
+
+- [frameworks we support]()
+- [our componentry]()
+[coding standards]()
+
+### we are building an editor, too
  - we are currently developing a web-terminal that allows YAML development for our stacks
  - it allows you to manage the entire stack as YAML (including all the front-end and middleware stuff)
 
