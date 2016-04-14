@@ -12,7 +12,7 @@ Perhaps we can help.
 
 # What is Dockistry?
 
-### modular and no-bullshit
+##### elegant forking format & kittycat simple stacking deploys
 All stacks are 100% SSL-LE, Docker-composed, in modular-fork format.  You just pick the repositories you want, and use the YAML config they supply.  That means they can easily be joined together in various configs with various UI, datagrids, cdnJS, NPM, Bower, Yeoman, JSPM, Go-lang, RVM, and other dependency management tools.  No limitations on language or platform but obviously we lean towards NodeJS and Go with Citus/Postgre or Mysql/Aurora.
 
 ### Dockistry is a collection of tools and technologies that comes as a pre-packaged instance AMI/ Kubernetes stack.
@@ -20,10 +20,10 @@ All stacks are 100% SSL-LE, Docker-composed, in modular-fork format.  You just p
 - One-click setup with a very short configuration, just deploy our AMI/ Stack
 - Instant setup script(s) on Amazon AWS or Google Cloud
 
-TRUE FACT:
-##### Did you know that pTerodactyls can fly holding nearly 10x their wait in devops bullshit?
+##### Did you know that pTerodactyls can fly holding nearly 10x their wait in devops bullshit? (TRUE FACT)
 
-Detailed specifications and other info:
+##### Detailed specifications and other info:
+
 - [frameworks](https://github.com/forktheweb/dockistry/blob/master/docks-frameworks.md) - supported reactive frameworks
 - [componentry](https://github.com/forktheweb/dockistry/blob/master/docks-componentry.md) - tools we're considering supporting or ones we already are (WIP)
 - [coding standards](https://github.com/forktheweb/dockistry/blob/master/docks-code.md) - our development philosophies
