@@ -1,6 +1,10 @@
 # Dockistry 
 > pre-alpha 0.5.0
 
+Every developer uses different tooling, environments, and every project use different dependencies and package management tools, scaffolds, and testing/monitoring tools.
+
+Have you ever desired to unify those considerations into singular format so that your favorite environment setup for development and production can be distributed and stablized for mass consumption?  It's under that premise that Dockistry has been invented.  If you answered yes, then read on friend...
+
 ##### Dockistry is strategy engine first and foremost. 100% comprehensive, Platform Agnostic, AGPL, community-driven.
 
 Dockistry empower developers to quickly implement expert strategies from a centralized repository that is curated.   Each strategy is E2E and created by expert developers to serve a very specific purpose.  
