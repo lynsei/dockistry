@@ -72,15 +72,18 @@ Our opensource web-based editor "stacks" these repositories by automating the cr
 So to put it as simply as possible, Dockistry is for building Reactive apps and the infrastructure necessary for any developer or company to do that quickly and easily on any cloud hosting provider.  
 
 
-
 Dockistry currently supports 
 * Amazon AWS
 * Google Cloud
 * Docker Machine/Swarm
 
-More support is actively being developed as we intend for this project to be fully platform agnostic, and independent of any package or depenency tools.  Instead, we try to embrace all the existing tools out there.  It is not our intention to create (yet another) package manager.
+We intend for this project to be fully platform independent upon launching the 1.0 version (Stable), and independent of any package or depenency tools, but the beta versions are specific to AWS and Kubernetes environment setups. 
 
-Dockistry is a comprehensive strategy engine for various types of fullstack deploys, though we use it primarily for web based apps using reactive SPA(s) over frameworks such as:
+         **It is not our intention to create (yet another) package manager.**
+
+The developers of Dockistry have primarily used it for E2E websites and mobile apps using Javascript with React-style  frameworks and NodeJS.  We use tons of web components, CDNjs packages, SVG tools, and lots of other shiny web things.  It's because of the magpie-esque tooling considerations and overwhelming amount of customization options, that we identified this clear need for a strategic, focused, and comprehensive management system using existing tooling. 
+
+> We incorporate stacks in our repo that use the following types of React frameworks:
 
 * React native
 * Aurelia
@@ -89,33 +92,34 @@ Dockistry is a comprehensive strategy engine for various types of fullstack depl
 * Riot
 * Roots
 
-This allows you to use whatever framework you wish with hundreds of other web-based components such as:
+When combining the above frameworks with baseline stacks, you can have hundreds of tooling considerations and variants:
 * package managers (npm/ bower/ yeoman scaffolds/ etc.)
 * webpack & polymer components
-* semantic or material ui, or whatever other UI you want
-* about 40 different datagrid providers (from jspreadsheets.com)
-* badass devtools such as gulp, grunt, vinyl, and even editors such as vim-spf13
+* ui toolkits such as material-ui, angular-material, semantic ui, uikit
+* there are nearly 40 different datagrid providers 
+* editors are also available such as vim-spf13 and even SAWS (docker-composed)
 
-> dockistry is an early-stage project and has not yet been merged into this public repo.  but we are actively looking  for people who build react apps to participate by contributing their own strategies.  we do have a process and formula for how to do that, and it's entirely YAML driven using pTero and docker-compose.
+> Dockistry is an early-stage Pre-Alpha status project and has not yet been merged into this public repo.  We are actively looking for developers to participate by contributing their own strategies (even portions of them that they are most familiar with).  Our devteam is super friendly, and we are available easily via Gitter.
 
 ## do you dislike bullshit and love pterodactyls?
 
-If you answered yes, it's possible you too may be looking for a fullstack deploy that doesn't suck.
+If you answered yes, it's possible you too may be looking for a fullstack deploy using Dockistry...
 Perhaps we can help.
 
-# What is Dockistry?
+# how to deploy and customize
 
 ##### elegant forking format & kittycat simple stacking deploys
 All stacks are 100% SSL-LE, Docker-composed, in modular-fork format.  You just pick the repositories you want, and use the YAML config they supply.  That means they can easily be joined together in various configs with various UI, datagrids, cdnJS, NPM, Bower, Yeoman, JSPM, Go-lang, RVM, and other dependency management tools.  No limitations on language or platform but obviously we lean towards NodeJS and Go with Citus/Postgre or Mysql/Aurora.
 
-### Dockistry is a collection of tools and technologies that comes as a pre-packaged instance AMI/ Kubernetes stack.
+### Dockistry is built as an instance using our CLI and via a cloud-init script for Amazon AMI or Google Kubernetes hosts and using existing technology for HHVM/Paravirtual virtual servers.
 - Comes pre-configured with Gitlab CE, Rancher, Discourse, Rocketchat-Hubot, Private Registries (Dockers/ NPMs), Wekan board, and we pre-load test frameworks for React, Aurelia, Wordpress, Angular, Ember and VueJS. 
-- One-click setup with a very short configuration, just deploy our AMI/ Stack
-- Instant setup script(s) on Amazon AWS or Google Cloud
+- One-click setup with a very short configuration
+- Instant setup via our ptero cli app written in Go as a distributable binary for Amazon AWS or Google Cloud (more providers will soon be made available)
 
-##### Did you know that pTerodactyls can fly holding nearly 10x their wait in devops bullshit? (TRUE FACT)
+### ptero
+Did you know that pTerodactyls can fly holding nearly 10x their wait in devops?  That's why we call the CLI ptero. 
 
-##### Detailed specifications and other info:
+### active development specs:
 
 - [frameworks](https://github.com/forktheweb/dockistry/blob/master/docks-frameworks.md) - supported reactive frameworks
 - [componentry](https://github.com/forktheweb/dockistry/blob/master/docks-componentry.md) - tools we're considering supporting or ones we already are (WIP)
@@ -123,15 +127,15 @@ All stacks are 100% SSL-LE, Docker-composed, in modular-fork format.  You just p
 - [pTero devops](https://github.com/forktheweb/dockistry/blob/master/docks-ptero.md) - an example stack, but pTero is also a Go-lang shell program that does all our automation for AWS, GC, etc.
 - [about](https://github.com/forktheweb/dockistry/blob/master/docks-ptero.md) - a little info about the developers
 
-# Reactive apps
-- all our stacks are docker-composed, rancher managed, single-step deployed (i.e.- aws ec2-create-instance blah)
+# reactive specs
+- docker-composed, rancher managed, single-step deployed (i.e.- aws ec2-create-instance blah)
 - we support flocker and gluster for volume mounting docker containers, which is dope cause then you can shard your citus & nginx instances and horizontally scale the shit out of them
-- we have several stack examples in beta including:
-    * SSL Citus [Postgre] with Go Json Api paired with React App
-    * SSL Rancher on Ubuntu/ROS set up with NginxProxy/LetsEncrypt
-    * Wordpress with Zero PHP (i.e.- Calypso backend, Aurelia Front-end, Composer)
- - near-zero setup (it requires a TLD)
- - unit-tested
+- there are many stack repos we house, but here are some examples:
+    * SSL Citus [Postgre] with Go Json Api paired with React App (clustered and rancher manged)
+    * SSL Rancher on Ubuntu/ROS set up with NginxProxy/LetsEncrypt (built to manage other hosts)
+    * Wordpress with Zero PHP (i.e.- Calypso backend, Aurelia Front-end, Composer for deps, in a docker container group)
+ - near-zero setup for most repos (some will require a top-level domain to be registered or added manually)
+ - unit-tested (not all repos require unit testing, such as performance-tuned prod envs)
 
 ### Dockistry CLI
 
