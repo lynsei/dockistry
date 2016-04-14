@@ -1,25 +1,33 @@
 # Dockistry 
 > pre-alpha 0.5.0
 
-##### Dockistry is strategy engine first and foremost, and it is designed to empower developers to quickly switch strategies and requirements, and instantly deploy those requirements.  
+##### Dockistry is strategy engine first and foremost. 100% comprehensive, Platform Agnostic, AGPL, community-driven.
 
-> **We believe that there are currently too many projects focused on tooling** being provided in open source communities like GitHub, and **not enough focus on comprehensive strategy.**  
+Dockistry empower developers to quickly implement strategies and requirements, and instantly build/deploy those requirements without retooling the entire cluster or having to learn a bunch of caveats.  That's because each strategy  is created by expert developers who know why they created it, and explain its purpose in the repository that stores its composition rules.  Our compose proces is 100% YAML driven, and the rest is volume mounted filesystem using Aufs/Docker on the host HHVM or Paravirtual instance (i.e.- Elastic Computing Cloud).
 
-We focus **only** on the big picture, and our focus is on CaaS via **platform agnostic** tools.  Dockistry refer to the  stacks/clusters created by our CLI as "strategies", because that's what they are for.  They are fully comprehensive in that they use Git to deploy, and are docker-composed using strictly YAML. 
+> **We believe that there are currently too many projects focused on tooling being provided in communities like GitHub, and not enough focus on providing stable Continuous Delivery Strategies.**  
 
-> EXAMPLE SCENARIO:  you might have a strategy for a single page application (SPA) that builds out your mobile app via Cordova/Phonegap variations and using an Amazon Code Pipeline with Gulp compiler process housed on Docker and served by HHVM with Citus or MongoDB.  That's complex and the stack is far different if it's to be production-ready.
+Dockistry focuses **only** on the big picture & elegant simplicity.  We operate containers as a service (CaaS) via a  **platform agnostic** tooling kit over existing technologies only, and using a powerful CLI that works on any cloud provider as a compiled binary.  
 
-That would be far different from the tooling used on a performance tuned API stack written on a NodeJS API or using something like Goat/ Gorilla on a GVM stack running Go-lang, and again, the developer stack in each use case is very complicated to set up without operating something like Ansible or Vagrant.  Even if you do, there are still considerations when you are executing a comprehensive E2E strategy with a code-pipeline and multiple collaborating developers.
+# Use Case Examples
+> **example #1:**  You might have a strategy for a single page application (SPA) that builds out your mobile app via Cordova/Phonegap variations and using an Amazon Code Pipeline with Gulp compiler process housed on Docker and served by HHVM with Citus or MongoDB.  That's complex and the stack is far different if it's to be production-ready.
 
-> Each stack you set up using Dockistry will operate to serve the needs of a particular strategy, and it incorporates *either* development or production, and our registry naming convention denotes that by prefixing each strategy with "devstack" or "prodstack".  So if we are creating a stack that focuses on wordpress theme development, it will contain no performance tuning, but it will contain a ton of developer tools like vim-spf13, samson, c++ nodegyp, etc.  
+> **example #2:** That would be far different from the tooling used on a performance tuned API stack written on the NodeJS API or using something like Goat/ Gorilla on a GVM powered stack running Go-lang 1.4.  If we are using this stack for testing or development, we might use something like Ansible or Vagrant to configure our stack with the right tools and this can be done inside the stack repository (strategy).  
+
+For every development or production use case, there are considerations and almost certainly caveats, especially when executing a comprehensive E2E strategy with a code-pipeline and multiple collaborating developers.
+
+> Each stack you set up using Dockistry will operate to serve the needs of a particular strategy, and it incorporates *either* development or production (or both).  Our registry naming convention denotes that by prefixing each strategy with "dev, prod, or fork".  So if we are creating a stack that focuses on wordpress theme development, it will contain no performance tuning, but it will contain a ton of developer tools like vim-spf13, samson, c++ nodegyp, and the prefix "devstack".
 
 # No Wheel Re-inventing
-We use *only* existing tools for stack setup, such as NPM for depenencies, and/or systems such as Bower, scaffolds such as Yeoman, or even JSPM/ Go-lang.  Docker stacks are composed to avoid custom Makefiles and custom Dockerfiles, this allows everything to be executed as a single process that is easy to review and organize in our YAML editor.
+We use *only* existing tools for stack setup, such as NPM for depenencies, and/or systems such as Bower, scaffolds such as Yeoman, or even JSPM/ Go-lang.  Docker stacks are composed to avoid custom Makefiles and custom Dockerfiles, this allows everything to be executed as a single process that is easy to review and organize in our YAML editor.  It also allows you to work locally on your own stack and then push those files into the composed repository that operates your target strategy for the code pipeline, if you choose, with your task runner of choice.
 
 ##### Strategy storage
-We expect and encourage you to have your own strategies, and if they are working well for you, please contribute them to our StackFork master repo because the idea here is to implement strategy recommendations from developers all over the world.  
+We expect and encourage you to have your own strategies, and if they are working well for you, please contribute them to our StackFork master repo because the idea here is to implement strategy recommendations from developers all over the world.  Each developer has different goals and backgrounds, so we are certain to see a plethora of interesting use cases and tooling setups.  Our hope is to drive innovation in these areas, especially in the usage of of React/Aurelia SPA(s), datagrids, and componentry.
 
-One of our primary goals is to organize our master repository in such a way that it can be used as by anyone without making it complicated and confusing, and they can rely on Dockistry to allow them to switch strategy without an all-day process to learn the tooling setup.  
+##### Master repo
+One of our primary goals is to organize our "StackFork" master repository in such a way that it can be used as by anyone without making it complicated and confusing (and that's not easy).  This will allow developers to turn to Dockistry to allow them to switch strategy easily when new sets of tools come out without spending unnecessary time on configurations and tooling, and that includes use cases for tools like compass/phonegap or even Java operations like Gradle. 
+
+The configuration and usage of tools like Atom or VIM can take *days*, so it is our goal to really remove that as a boundary because you know each time you download one of our stacks, it's been created by an expert in their respective field and curated through our peer review process.  We do not want our repository to operate like NPM (tons of dead and useless  projects).
 
 ##### E2E and Continuous Delivery focused
 Using our registries as a playbook, and through using YAML, you can quickly create virtually any kind of relevant react application or API, go-lang app, or even an ethereum blockchain app.  
