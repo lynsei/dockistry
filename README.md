@@ -1,7 +1,11 @@
 # Dockistry 
 > pre-alpha 0.5.0
 
-##### Dockistry is strategy engine first and foremost, and it is designed to empower developers to quickly switch strategies and requirements, and instantly deploy those requirements.  **We believe that there are currently too many projects focused on tooling being provided in open source communities like GitHub, and not rarely enough strategy.**  We focus **only** on the big picture, and our focus is on CaaS via **platform agnostic** tools.  Dockistry refer to the  stacks/clusters created by our CLI as "strategies", because that's what they are for.  They are fully comprehensive in that they use Git to deploy, and are docker-composed using strictly YAML. 
+##### Dockistry is strategy engine first and foremost, and it is designed to empower developers to quickly switch strategies and requirements, and instantly deploy those requirements.  
+
+> **We believe that there are currently too many projects focused on tooling** being provided in open source communities like GitHub, and **not enough focus on comprehensive strategy.**  
+
+We focus **only** on the big picture, and our focus is on CaaS via **platform agnostic** tools.  Dockistry refer to the  stacks/clusters created by our CLI as "strategies", because that's what they are for.  They are fully comprehensive in that they use Git to deploy, and are docker-composed using strictly YAML. 
 
 > EXAMPLE SCENARIO:  you might have a strategy for a single page application (SPA) that builds out your mobile app via Cordova/Phonegap variations and using an Amazon Code Pipeline with Gulp compiler process housed on Docker and served by HHVM with Citus or MongoDB.  That's complex and the stack is far different if it's to be production-ready.
 
