@@ -3,13 +3,15 @@
 
 ##### Dockistry is strategy engine first and foremost, and is designed for developers. It provides a simple, one-step, elegant method to deploy complex software in cloudbased clusters and for E2E implementations (apps) using one set of YAML and our web-based editor.   
 
-Dockistry is both an editor and a private provider for web-based git repos, docker registries, and npm registries.  When you install Dockistry for the first time, our CLI will provide installation options for deploying your registries.
+Dockistry is both an editor and a private provider for web-based git repos, docker registries, and npm registries.  When you install Dockistry for the first time, our CLI will provide installation options for deploying your own local copies of our master registries.  These registries are in pre-alpha, but are <a href="https://labs.stackfork.com:2003/">available</a> here.
 
-Registries are forkable stacks that are packaged to deploy in development and production environments, and much like docker containers, we intend for them to be disposable.  Our system "stacks" these repositories by automating the Docker-Compose process and installing your favorite NPM or bower/yeoman/jspm/frameworks/ui(s)/datagrids/etc.  
+Our registries contain many modular stacks that are packaged to deploy in development and production environments.  Our registry copies are ephemeral and you are not encouraged to roll out updates by destroying them and downloading new copies (much like how docker containers typically operate, only on a registry level).  
 
-Our master repository can be pulled and deployed on your own copy at any time, which makes rolling out updates and testing them very simple.
+Our opensource web-based editor "stacks" these repositories by automating the creation of cloud based servers on various providers, automating the Docker-Compose process & server configurations, installing your favorite dependency tools, and then rolling out your actual software for unit-testing.  We operate Gitlab CI for test automation on various OS.
 
-Dockistry handles everything needed to run a complete E2E code pipeline and reactive app
+So to put it as simply as possible, Dockistry is for building Reactive apps and the infrastructure necessary for any developer or company to do that quickly and easily on any cloud hosting provider.  
+
+Dockistry handles everything needed to run a complete E2E code pipeline
 * cloud formations
 * server tools 
 * middleware
@@ -18,8 +20,25 @@ Dockistry handles everything needed to run a complete E2E code pipeline and reac
 Dockistry currently supports 
 * Amazon AWS
 * Google Cloud
+* Docker Machine/Swarm
 
-More support is actively being developed as we intend for this project to be fully platform agnostic, and independent of any package management/ dependency management tools.  We try to instead embrace all the ones that currently exist as it is not our intention to create a package or dependency management tool, but rather a comprehensive strategy engine for various types of fullstack deploys.
+More support is actively being developed as we intend for this project to be fully platform agnostic, and independent of any package or depenency tools.  Instead, we try to embrace all the existing tools out there.  It is not our intention to create (yet another) package manager.
+
+Dockistry is a comprehensive strategy engine for various types of fullstack deploys, though we use it primarily for web based apps using reactive SPA(s) over frameworks such as:
+
+* React native
+* Aurelia
+* Angular
+* VueJS
+* Riot
+* Roots
+
+This allows you to use whatever framework you wish with hundreds of other web-based components such as:
+* package managers (npm/ bower/ yeoman scaffolds/ etc.)
+* webpack & polymer components
+* semantic or material ui, or whatever other UI you want
+* about 40 different datagrid providers (from jspreadsheets.com)
+* badass devtools such as gulp, grunt, vinyl, and even editors such as vim-spf13
 
 > dockistry is an early-stage project and has not yet been merged into this public repo.  but we are actively looking  for people who build react apps to participate by contributing their own strategies.  we do have a process and formula for how to do that, and it's entirely YAML driven using pTero and docker-compose.
 
