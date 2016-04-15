@@ -43,16 +43,6 @@ We supply a docker image that makes installation very easy:
 ##### then run the docker image
 ``` docker run -it ./:/usr/src/dockistry forktheweb/dockistry ```
 
-Once the Go binary is installed, run the setup command and you will be asked a few questions about what you are using dockistry to do.
-Based on those questions, the CLI will install a variety of things or store your configuration for future reference.  
-- builds/restores registries from our master
-- can create new server instances for:
-   * rancher master (it's good to keep this separate)
-   * worker instance
-   * infrastructure instance (developer tooling, rocketchat, hubot, gitlab, backups etc.)
-   * gluster filesystem mounts
-   * private registries
-- optionally, it can do all of the creations above locally too. (see size recommendations)
 
 ## usage
 For first-time setup
@@ -67,7 +57,38 @@ To run the CLI executable (complete menu)
 ## uninstalling
 ```docker rm forktheweb/dockistry```
 
-##### Why have a CLI tool written in Go using Cobra?
+## what setup does
+Once the Go binary is installed, run the setup command and you will be asked a few questions about what you are using dockistry to do.
+Based on those questions, the CLI will install a variety of things or store your configuration for future reference.  
+- builds/restores registries from our master
+- can create new server instances for:
+   * rancher master (it's good to keep this separate)
+   * worker instance
+   * infrastructure instance (developer tooling, rocketchat, hubot, gitlab, backups etc.)
+   * gluster filesystem mounts
+   * private registries
+- optionally, it can do all of the creations above locally too. (see size recommendations)
+- configure backup locations (i.e.- on S3 or locally)
+- configure smtp settings
+- configure primary let's encrypt e-mail and primary devops url (used to create reverse-proxies over SSL)
+
+## what build or deploying repos does
+- sets up the git location for installing (or pass it with --gitpath)
+- fetches specified repo (local/master)
+- reads the following files:
+    * dockistry-compose.yml - specific rules for the cli to follow
+    * docker-compose.yml - docker composition 2.0
+    * rancher-compose.yml - cluster setup info
+- upon reading the rules, the CLI will execute the creation of the docker-compose using the install path
+- volume paths not specified will prompt the user for those
+- containers are brought online, as is the cluster
+- once containers are online the system executes commands based on the dockistry-compose.yml rules
+-   * npm installation commands
+-   * yo generators
+-   * bower commands
+- afterwards the system will backup the state of the container volumes with duplicity and do a test restore
+
+##### why we built things this way (Go/Cobra/Docker/Rancher/etc)
  - works on any platform because it's a compiled app
  - we use a webterm so you can perform operations via the web if needed (along with the editor)
  - installs all your local registries
