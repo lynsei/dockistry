@@ -93,8 +93,7 @@ Dockistry currently supports these hosts:
 
 We intend for this project to be fully platform agnostic upon launching the 1.0 version (Stable), but the beta versions are specific to AWS and Kubernetes environment setups. 
 
-         **It is not our intention to create (yet another) package manager.**
-
+#### "It is not our intention to create (yet another) package manager."
 
 ### Primary use case
 The developers of Dockistry have primarily used it for E2E websites and mobile apps using Javascript with React-style  frameworks and NodeJS.  We use tons of web components, CDNjs packages, SVG tools, and lots of other shiny web things.  It's because of the magpie-esque tooling considerations and overwhelming amount of customization options, that we identified this clear need for a strategic, focused, and comprehensive management system using existing tooling. 
@@ -123,11 +122,10 @@ We are actively looking for developers to participate by contributing their own 
  
 # deploys
 
-##### elegant forking format & kittycat simple stacking deploys
+##### elegant forking & kitty-cat-simple stacking deploys
 All stacks are 100% SSL-LE, Docker-composed, in modular-fork format.  You just pick the repositories you want, and use the YAML config they supply.  That means they can easily be joined together in various configs with various UI, datagrids, cdnJS, NPM, Bower, Yeoman, JSPM, Go-lang, RVM, and other dependency management tools. 
 
 No limitations on language or platform but obviously we lean towards NodeJS and Go with Citus/Postgre or Mysql/Aurora.
-
 
 # instances
 Dockistry can build rock solid instances from the CLI automatically for Amazon AMI or Google Kubernetes hosts and using existing technology for HHVM/Paravirtual virtual servers that is very simple and elegant.  This allows you to install a full stack with tons of features without having to configure anything.
