@@ -28,9 +28,10 @@ http://feathersjs.com/
 ### angular
 https://angular.io/
 
- - angular2-gulp-webpack generator](https://github.com/ericmdantas/generator-ng-fullstack)
- - angular ui grid http://ui-grid.info/
- - https://github.com/angular/material2
+ - [angular2-gulp-webpack generator](https://github.com/ericmdantas/generator-ng-fullstack)
+ - [ui grid](http://ui-grid.info/)
+ - [dynatable](https://www.dynatable.com/) for small page light-weight grids
+ - [material2](https://github.com/angular/material2) or [semantic ui](http://semantic-ui.com/introduction/integrations.html)
  - https://material.angularjs.org
  - [mean stack generator optional](https://github.com/angular-fullstack/generator-angular-fullstack)
  - [blur example](https://github.com/akveo/blur-admin)
@@ -40,7 +41,7 @@ https://angular.io/
     * [react with flux and alt and webpack](https://github.com/weblogixx/generator-react-webpack-alt)
     * [react baseline with webpack](https://github.com/newtriks/generator-react-webpack)
     * [react material-ui](https://www.npmjs.com/package/generator-material-react)
-
+- [semantic ui](http://semantic-ui.com/introduction/integrations.html)
 - [material ui for react](http://www.material-ui.com)
-- examples: https://www.reactstarterkit.com
- 
+- fullstack example [react starter kit](https://www.reactstarterkit.com) 
+- possibly using [structor](https://github.com/ipselon/material-ui-prepack) material-ui-prepack
