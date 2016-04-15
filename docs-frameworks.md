@@ -19,8 +19,8 @@ http://feathersjs.com/
 - feathersjs base
 - material-ui
 - feathers-accounts
-- many plugins from here http://kulakowka.com/
-- generator https://github.com/feathersjs/generator-feathers
+- [this guy](http://kulakowka.com/) has more forks than even I do, so I follow him for feathers watching
+- [feathersjs generator](https://github.com/feathersjs/generator-feathers)
 
 ### angular
 https://angular.io/
