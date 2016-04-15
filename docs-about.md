@@ -28,14 +28,14 @@
 ## How we stack apps
 Our web-platform and mobile apps offer the following:
 
-	* Cloud cost estimation for most providers
-	* Rapidly evolving eco-system using standard technology such as NPM, Dockerhub, and Kubernetes
-	* Instant deployment of up to 100 websites per Node, with automatic Devops available
-	* No programming experience necessary and no hosting experience necessary
-	* Instant access to your backup data
-	* 100% uptime, continuous integration, and available in 14 regions worldwide
-	* Integrated monitoring solutions, and premium support offerings
-	* Automatic updates are available across our spectrum of Node, Wordpres, and API software.
+* Cloud cost estimation for most providers
+* Rapidly evolving eco-system using standard technology such as NPM, Dockerhub, and Kubernetes
+* Instant deployment of up to 100 websites per Node, with automatic Devops available
+* No programming experience necessary and no hosting experience necessary
+* Instant access to your backup data
+* 100% uptime, continuous integration, and available in 14 regions worldwide
+* Integrated monitoring solutions, and premium support offerings
+* Automatic updates are available across our spectrum of Node, Wordpres, and API software.
 
 
 # About our team
