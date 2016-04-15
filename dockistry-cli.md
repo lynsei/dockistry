@@ -54,7 +54,19 @@ It operates using the following options menu:
     
 ## installing
 We supply a docker image called forktheweb/dockistry that contains the go api, and it runs in a single step:
-```docker exec -it forktheweb/dockistry```
+
+```docker run -it ./install-here:/usr/src/dockistry forktheweb/dockistry```
+
+When you execute this command, the docker image will run the go-lang application within the container, and volume mount it to "./install-here", which installs the binary distribution package and builds everything necessary to operate it.
+
+Upon completing the installation, run:
+```sudo sh ./install-here/install.sh``` and be sure to change the "install-here" path to wherever you installed it.  
+
+For documentation within the system shell:
+```dockistry help```
+
+To run the CLI executable, simply type:
+```dockistry```
 
 ## uninstalling
 ```docker rm forktheweb/dockistry```
