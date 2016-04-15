@@ -10,7 +10,7 @@
 "We offer flexible, extensible, cloud optimized software as production-ready sets of components that work on any host or device."
 
 ### DevStacker.com
-"Our (PaaS) enterprise offerings using API-driven apps that work seamlessly alongside Wordpress."
+"Our (PaaS) enterprise offerings using API-driven apps from the Dockistry community & our own enterprise stacks."
 
 ### StackFork.com
 "Deploy bullet proof, pre-bundled app stacks without ever touching code."
