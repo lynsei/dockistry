@@ -140,26 +140,6 @@ Did you know that pTerodactyls can fly holding nearly 10x their wait in devops? 
     * Wordpress with Zero PHP (i.e.- Calypso backend, Aurelia Front-end, Composer for deps, in a docker container group)
  - near-zero setup for most repos (some will require a top-level domain to be registered or added manually)
  - unit-tested (not all repos require unit testing, such as performance-tuned prod envs)
-
-### Dockistry CLI
-
-##### Why have a CLI tool written in Go using Cobra?
- - works on any platform because it's a compiled app
- - we use a webterm so you can perform operations via the web if needed (along with the editor)
- - installs all your local registries
- - stores your favorite commands in a local (or remotely stored) Etcd container (handy! for shell commands)
- - sets up backups with duplicty & bup for all of your volume mounts on s3 or other provider(s)
- - sets up crontab(s) depending on your needs
- - validates backup checksums for incrementally stored database and filesystem backups
- - installs gitlab ce, dockistry, rocketchat-hubot, reverse proxy with automated ssl
- - installs rancher on a separate management instance or locally (over ssl)
- - destroys and creates git, docker, and npm repostiories locally
- - create new container services via rancher api or docker-compose & registries you specify
-
-##### What does the CLI *not* do
- - manage the docker containers (we feel Rancher does this amazingly well and so do not provide that)
- - manage registry data (they are disposable anyway, don't repair them, just copy from our master back down)
- - manage docker container volume data (only backups & initial setup of new containers)
  
 #### currently we support
 - amazon aws [instantly cloud-formation deploy & hot-sync of data from our S3 multi-az
