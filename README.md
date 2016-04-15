@@ -1,5 +1,6 @@
 # Dockistry 
-> pre-alpha 0.5.0
+> "offering modular stack strategies powered by caffeine and forking pterodactyls"
+** status: ~pre-alpha 0.5.0/**[gitlab-ce](https://labs.stackfork.com:2003/?)
 
 Every developer uses different tooling, environments, and every project use different dependencies and package management tools, scaffolds, and testing/monitoring tools.
 
@@ -33,7 +34,9 @@ Simple installation for our tools:
 That's pretty much it, then just run:
 ``` dockistry make /location/of/dockistry-compose.yml  ```
 
-pTero devops handes everything from there through Rancher, Docker-Compose, and using a variety of tooling set up commands like npm, bower, and anything else existing in the mount yml.  This allows for a full stack to be created along with load balancing, clustering, and everything else necessary to operate both development and production stacks using the repositories we host.  The dockistry YAML rules provide a roadmap for the system to follow when installing repositories, which allows it to dynamically update the docker-compose container attachments & paths.  It then passes all of that info to the Rancher API and builds the cluster so it will appear in there all nicely!
+``` pTero devops ``` handes everything from there through Rancher, Docker-Compose, and using a variety of tooling set up commands like npm, bower, and anything else existing in the mount yml.  This allows for a full stack to be created along with load balancing, clustering, and everything else necessary to operate both development and production stacks using the repositories we host.  
+
+The dockistry YAML rules provide a roadmap for the system to follow when installing repositories, which allows it to dynamically update the docker-compose container attachments & paths.  It then passes all of that info to the Rancher API and builds the cluster so it will appear in there all nicely!
 
 Because we install a webterm and editor on your specified URL (over SSL proxy), you can use that as a management tool too.
 It allows for browsing and composing our repos, and configuring the stacks using the dockistry, docker, and rancher compose yaml, along with other yaml directives for npm, bower, yeoman, and more.
@@ -62,9 +65,13 @@ Using our registries as a playbook, and through using YAML, you can quickly crea
 # Deploy clusters in a single step
 Dockistry provides a simple, one-step, elegant method to deploy complex software in cloudbased clusters and for E2E implementations (apps) using one set of YAML and our web-based editor.  The only pre-requisite is a domain name that will be set up by our CLI (you will need to point the A record, or have the CLI do it via route53 automatically).
 
-Dockistry is both an editor and a private provider for web-based git repos, docker registries, and npm registries.  When you install Dockistry for the first time, our CLI will provide installation options for deploying your own local copies of our master registries.  These registries are in pre-alpha, but are <a href="https://labs.stackfork.com:2003/">available</a> here on request for those wishing to contribute.  
+Dockistry is both an editor and a private provider for web-based git repos, docker registries, and npm registries.  When you install Dockistry for the first time, our CLI will provide installation options for deploying your own local copies of our master registries. 
 
-Our registries contain many modular stacks that are packaged to deploy in development and production environments.  Your registry copies are ephemeral and you are encouraged to roll out updates by destroying them and downloading new copies with the CLI tools we provide.  The CLI sets you up (optionally) with a full-on infrastructure using the AWS and Google SDK via pTero devops.
+These registries are in pre-alpha, but are <a href="https://labs.stackfork.com:2003/">available</a> here on request for those wishing to contribute.  
+
+Our master contains many modular stacks that are packaged to deploy in development and production environments.  Your registry copies are ephemeral and you are encouraged to roll out updates by destroying them and downloading new copies with the CLI tools we provide.
+
+The [Dockistry CLI](docs-cli.md) sets you up (optionally) with a full-on infrastructure using the AWS and Google SDK via pTero devops.
 * gitlab ce installation and config over ssl on sub-domain
 * rancher master/slave
 * rocketchat and hubot instance
@@ -72,23 +79,27 @@ Our registries contain many modular stacks that are packaged to deploy in develo
 * ssl fully automated 
 * gnupg keyrings
 
-Our opensource web-based editor "stacks" these repositories by automating the creation of cloud based servers on various providers, automating the Docker-Compose process & server configurations, installing your favorite dependency tools, and then rolling out your actual software for unit-testing.  We operate Gitlab CI for test automation on various OS.
+Our open source web-based editor allows you to stack these repositories by automating the creation of cloud based servers on various providers, automating the Docker-Compose/ Rancher process & server configurations, installing your favorite dependency tools, and then rolling out your actual software for unit-testing.  We operate Gitlab CI for test automation on various OS.
 
-So to put it as simply as possible, Dockistry is for building Reactive apps and the infrastructure necessary for any developer or company to do that quickly and easily on any cloud hosting provider.  
+**To put it as simply as possible:**
+
+Dockistry is for building Reactive apps and the infrastructure necessary for any developer or company to do that quickly and easily on any cloud hosting provider.  
 
 
-Dockistry currently supports 
+Dockistry currently supports these hosts:
 * Amazon AWS
 * Google Cloud
 * Docker Machine/Swarm
 
-We intend for this project to be fully platform independent upon launching the 1.0 version (Stable), and independent of any package or depenency tools, but the beta versions are specific to AWS and Kubernetes environment setups. 
+We intend for this project to be fully platform agnostic upon launching the 1.0 version (Stable), but the beta versions are specific to AWS and Kubernetes environment setups. 
 
          **It is not our intention to create (yet another) package manager.**
 
+
+### Primary use case
 The developers of Dockistry have primarily used it for E2E websites and mobile apps using Javascript with React-style  frameworks and NodeJS.  We use tons of web components, CDNjs packages, SVG tools, and lots of other shiny web things.  It's because of the magpie-esque tooling considerations and overwhelming amount of customization options, that we identified this clear need for a strategic, focused, and comprehensive management system using existing tooling. 
 
-> We incorporate stacks in our repo that use the following types of React frameworks:
+> We intend to incorporate stacks in our repo that use the following types of React frameworks:
 
 * React native
 * Aurelia
@@ -97,35 +108,41 @@ The developers of Dockistry have primarily used it for E2E websites and mobile a
 * Riot
 * Roots
 
-When combining the above frameworks with baseline stacks, you can have hundreds of tooling considerations and variants:
+**When combining the above frameworks with baseline stacks, you can have hundreds of tooling considerations and variants:**
+
 * package managers (npm/ bower/ yeoman scaffolds/ etc.)
 * webpack & polymer components
 * ui toolkits such as material-ui, angular-material, semantic ui, uikit
 * there are nearly 40 different datagrid providers 
 * editors are also available such as vim-spf13 and even SAWS (docker-composed)
 
-> Dockistry is an early-stage Pre-Alpha status project and has not yet been merged into this public repo.  We are actively looking for developers to participate by contributing their own strategies (even portions of them that they are most familiar with).  Our devteam is super friendly, and we are available easily via Gitter.
+> Dockistry code is stored on StackFork while we are in a pre-alpha stage, as we do not want people executing processes that may harm their servers or development environments.  
 
-## do you dislike bullshit and love pterodactyls?
-
-If you answered yes, it's possible you too may be looking for a fullstack deploy using Dockistry...
-Perhaps we can help.
-
-# how to deploy and customize
+### Looking for contributors!
+We are actively looking for developers to participate by contributing their own strategies (even portions of them that they are most familiar with).  Our devteam is super friendly, and we are available easily via Gitter.
+ 
+# deploys
 
 ##### elegant forking format & kittycat simple stacking deploys
-All stacks are 100% SSL-LE, Docker-composed, in modular-fork format.  You just pick the repositories you want, and use the YAML config they supply.  That means they can easily be joined together in various configs with various UI, datagrids, cdnJS, NPM, Bower, Yeoman, JSPM, Go-lang, RVM, and other dependency management tools.  No limitations on language or platform but obviously we lean towards NodeJS and Go with Citus/Postgre or Mysql/Aurora.
+All stacks are 100% SSL-LE, Docker-composed, in modular-fork format.  You just pick the repositories you want, and use the YAML config they supply.  That means they can easily be joined together in various configs with various UI, datagrids, cdnJS, NPM, Bower, Yeoman, JSPM, Go-lang, RVM, and other dependency management tools. 
 
-#### ami/kube instances
+No limitations on language or platform but obviously we lean towards NodeJS and Go with Citus/Postgre or Mysql/Aurora.
+
+
+# instances
 Dockistry can build rock solid instances from the CLI automatically for Amazon AMI or Google Kubernetes hosts and using existing technology for HHVM/Paravirtual virtual servers that is very simple and elegant.  This allows you to install a full stack with tons of features without having to configure anything.
 
-#### pre-configured stacks
-- Comes pre-configured with Gitlab CE, Rancher, Discourse, Rocketchat-Hubot, Private Registries (Dockers/ NPMs), Wekan board, and we pre-load test frameworks for React, Aurelia, Wordpress, Angular, and Feathers.
+# infrastructure
+We hope to make many people have an easier time setting up their programming tooling and infrastructure by using Dockistry Strategies including our tooling/ infrastructure options:
+
+- Setup Rancher as a master instance using our AMI/Kube/Droplet
+- Pre-configured deployment of Gitlab CE, Rancher, Discourse, Rocketchat-Hubot, Private Registries (Dockers/ NPMs), Wekan board and others
+- Optionally pre-load test frameworks for React, Aurelia, Wordpress, Angular, and Feathers and build/deploy them on your test environments
 - Our Go CLI can build test stacks for a variety of strategies in a single process
-- The process is entirely customizable via the dockistry-yml file, and the other configs in the repository.
+- The build process is entirely customizable via the dockistry-yml file, and the other configs in the repository.
 - You can easily fork a repository to make minor modifications for your deployment
 
-### active development specs:
+# specifications
 
 - [frameworks](https://github.com/forktheweb/dockistry/blob/master/docks-frameworks.md) - supported reactive frameworks
 - [componentry](https://github.com/forktheweb/dockistry/blob/master/docks-componentry.md) - tools we're considering supporting or ones we already are (WIP)
@@ -133,16 +150,24 @@ Dockistry can build rock solid instances from the CLI automatically for Amazon A
 - [pTero devops](https://github.com/forktheweb/dockistry/blob/master/docks-ptero.md) - an example stack, but pTero is also a Go-lang shell program that does all our automation for AWS, GC, etc.
 - [about](https://github.com/forktheweb/dockistry/blob/master/docks-ptero.md) - a little info about the developers
 
-# reactive specs
-- docker-composed, rancher managed, single-step deployed (i.e.- aws ec2-create-instance blah)
-- we support flocker and gluster for volume mounting docker containers, which is dope cause then you can shard your citus & nginx instances and horizontally scale the shit out of them
+# stack info
+- docker-composed, rancher managed, single-step builds
+- all dockistry strategies are contained in forkable repositories.  
+- we encourage forking and modification where necessary.
 - there are many stack repos we house, but here are some examples:
     * SSL Citus [Postgre] with Go Json Api paired with React App (clustered and rancher manged)
     * SSL Rancher on Ubuntu/ROS set up with NginxProxy/LetsEncrypt (built to manage other hosts)
     * Wordpress with Zero PHP (i.e.- Calypso backend, Aurelia Front-end, Composer for deps, in a docker container group)
  - near-zero setup for most repos (some will require a top-level domain to be registered or added manually)
  - unit-tested (not all repos require unit testing, such as performance-tuned prod envs)
- 
+
+# scaling 
+We love the ability to scale, and that's why we prefer to use postgre with citus, or mongo/rethink when creating projects that need scaling built right in.  
+
+Rancher compositional YAML configures automatic container-scaling based on the settings of the health check and memory.  If you need the instances to scale based on alarms/monitoring that is a bit more complex, but can be done using the auto-scaling features of Cloudwatch for instance (with AWS).  Typically you won't run into this problem given enough swap space unless you are expecting to hit the front page of reddit, but it's nice to think about in advance of the scenario actually happening.
+
+Another great option is to run the database instance on an entirely separate worker node, and run all containers externally.  Or you could use something like Mysql on Aurora if you are really wanting to pay a lot of money & get very improved speed.
+
 #### currently we support
 - amazon aws [instantly cloud-formation deploy & hot-sync of data from our S3 multi-az
 - google cloud [instantly deployed from gluster or s3 using convoy or duplicity]
