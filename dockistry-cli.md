@@ -45,13 +45,18 @@ Upon completing the installation, run:
 ```sudo sh ./install-here/install.sh``` and be sure to change the "install-here" path to wherever you installed it.  
 
 For documentation within the system shell:
-```dockistry help```
+``` dockistry help ```
 
 To run the CLI executable, simply type:
-```dockistry```
+``` dockistry ```
+
+
 
 ## uninstalling
 ```docker rm forktheweb/dockistry```
+
+
+
 
 ##### Why have a CLI tool written in Go using Cobra?
  - works on any platform because it's a compiled app
@@ -65,6 +70,9 @@ To run the CLI executable, simply type:
  - installs rancher on a separate management instance or locally (over ssl)
  - destroys and creates git, docker, and npm repostiories locally
  - create new container services via rancher api or docker-compose & registries you specify
+
+
+
 
 ##### What does the CLI *not* do
  - manage the docker containers (we feel Rancher does this amazingly well and so do not provide that)
