@@ -4,11 +4,11 @@
 ##### status / ~pre-alpha 0.5.0 / [gitlab-ce](https://labs.stackfork.com:2003/?) / author: CDH / date 04-15-2016
 
 ## introduction
-Every developer uses different tooling, environments, and every project use different dependencies and package management tools, scaffolds, and testing/monitoring tools.
+Every developer uses different tooling, environments, and projects can use different dependencies and package management tools, scaffolds, and testing/monitoring tools... not to mention continuous integration and E2E tools.
 
 Have you ever desired to unify those considerations into singular format so that your favorite environment setup for development and production can be distributed and stablized for mass consumption?  
 
-It's under that premise that Dockistry has been invented.  If you answered yes, then read on friend...
+It's under that premise that Dockistry has been created.  
 
 ## strategy engine
 Dockistry puts emphasis on strategy and tooling configs, because these days that is 99% of the problem in setting up various frameworks.  Managing compatibility issues and dependencies, and knowing which packages to install is a problem that is only solved by expert curation.  We do not wish to be the next NPM, and instead wish to create a curated list of repositories that are expertly developed and possibly have a voting system attached to it in the future.  (i.e. Loomio + Discourse)
