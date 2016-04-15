@@ -41,7 +41,7 @@ https://angular.io/
     * [react with flux and alt and webpack](https://github.com/weblogixx/generator-react-webpack-alt)
     * [react baseline with webpack](https://github.com/newtriks/generator-react-webpack)
     * [react material-ui](https://www.npmjs.com/package/generator-material-react)
-- [semantic ui](http://semantic-ui.com/introduction/integrations.html)
-- [material ui for react](http://www.material-ui.com)
-- fullstack example [react starter kit](https://www.reactstarterkit.com) 
-- possibly using [structor](https://github.com/ipselon/material-ui-prepack) material-ui-prepack
+- ui options 
+    * [semantic ui](http://semantic-ui.com/introduction/integrations.html)
+    * [material ui for react](http://www.material-ui.com)
+- option for [structor](https://github.com/ipselon/structor) [material-ui-prepack](https://github.com/ipselon/material-ui-prepack)
