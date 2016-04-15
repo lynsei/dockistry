@@ -3,15 +3,21 @@
 
 ##### status / ~pre-alpha 0.5.0 / [gitlab-ce](https://labs.stackfork.com:2003/?) / author: CDH / date 04-15-2016
 
+## introduction
 Every developer uses different tooling, environments, and every project use different dependencies and package management tools, scaffolds, and testing/monitoring tools.
 
-Have you ever desired to unify those considerations into singular format so that your favorite environment setup for development and production can be distributed and stablized for mass consumption?  It's under that premise that Dockistry has been invented.  If you answered yes, then read on friend...
+Have you ever desired to unify those considerations into singular format so that your favorite environment setup for development and production can be distributed and stablized for mass consumption?  
 
-##### Dockistry is strategy engine first and foremost. 100% comprehensive, Platform Agnostic, AGPL, community-driven.
+It's under that premise that Dockistry has been invented.  If you answered yes, then read on friend...
 
-Dockistry empower developers to quickly implement expert strategies from a centralized repository that is curated.   Each strategy is E2E and created by expert developers to serve a very specific purpose.  
+### Dockistry is a "strategy engine"  
+##### 100% comprehensive, Platform Agnostic, AGPL, community-driven.
 
-Dockistry repositories we host utilize a compose process that is 100% YAML driven for the stack, but applications within it are volume mounted in their filesystem using Aufs/Docker on the host. We believe this to be the best scenario for backups and storage, because the containers are fully disposable, but the host data is easily backed-up without messing around inside each container.
+Dockistry empowers developers to quickly implement expert strategies from a centralized repository that is curated.   Each strategy is created by expert developers to serve a very specific purpose.   The developers of Dockistry build web apps that use Electron, so that's been our focus.  We've incorporated many framework & stack options that we find useful in our repo (over 10 baselines and 300 forks, with thousands of possible combinations).
+
+The repositories we host utilize a compose process that is 100% YAML driven for the stack, but applications within it are volume mounted in their filesystem using Aufs/Docker on the host.  We believe this to be the best scenario for backups and storage, because the containers are fully disposable, but the host data is easily backed-up without messing around inside each container.  It also means that since these volumes are available after they are composed on the host container, our CLI can finish the compose process by executing all sorts of package managers and other tasks to set up tooling properly.
+
+We offer AMI/Kubernetes images for quickly deploying 100% bullet-proof cloud-init based formations, in the event you run into any trouble with our CLI composing your management tools, developer stacks, private registries, or anything else.
 
 # Why Dockistry?
 ##### Well, our belief is that: 
