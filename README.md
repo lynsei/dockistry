@@ -10,7 +10,9 @@ Have you ever desired to unify those considerations into singular format so that
 
 It's under that premise that Dockistry has been invented.  If you answered yes, then read on friend...
 
-### Dockistry is a "strategy engine"  
+## strategy engine
+Dockistry puts emphasis on strategy and tooling configs, because these days that is 99% of the problem in setting up various frameworks.  Managing compatibility issues and dependencies, and knowing which packages to install is a problem that is only solved by expert curation.  We do not wish to be the next NPM, and instead wish to create a curated list of repositories that are expertly developed and possibly have a voting system attached to it in the future.  (i.e. Loomio + Discourse)
+
 ##### 100% comprehensive, Platform Agnostic, AGPL, community-driven.
 
 Dockistry empowers developers to quickly implement expert strategies from a centralized repository that is curated.   Each strategy is created by expert developers to serve a very specific purpose.   The developers of Dockistry build web apps that use Electron, so that's been our focus.  We've incorporated many framework & stack options that we find useful in our repo (over 10 baselines and 300 forks, with thousands of possible combinations).
