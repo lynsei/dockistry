@@ -1,4 +1,5 @@
 # Dockistry CLI
+```please note: this CLI is not publicly available yet, as it is in pre-alpha 0.5.0```
 
 ##### Why have a CLI tool written in Go using Cobra?
  - works on any platform because it's a compiled app
@@ -21,22 +22,39 @@
 # How it works
 
 Our dockistry CLI is written in Go-lang using [Spf13/Cobra](https://github.com/spf13/cobra).
-It operates using the following order of operations:
- - installations (on host, or ignore and use docker attachment layers)
+It operates using the following options menu:
+
+ - tools (on host, or ignore and use docker attachment layers)
     * management tools
     * rancher
-    * docker
+    * docker tools
+    * update registries
     * npm & jspm
- - search repo
+    * saws
+    * kubernetes
+ - search
     * search npm
     * search dockerhub
     * search jspm
     * search bower
     * search yeoman generators
     * search cdnjs
-  - install dockistry repo
+ - install stack
     * autocompletes 
       - devstack-*
       - prodstack-*
       - forkme-*
+    * search instances (pre-created)
+ - deploy stack
+ - test stack
+ - configure system
+    * backups via duplicity
+    * database hot backups using bup
+    * webterm & editor URL config
     
+## installing
+We supply a docker image called forktheweb/dockistry that contains the go api, and it runs in a single step:
+```docker exec -it forktheweb/dockistry```
+
+## uninstalling
+```docker rm forktheweb/dockistry```
