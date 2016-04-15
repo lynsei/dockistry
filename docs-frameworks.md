@@ -37,6 +37,8 @@ https://angular.io/
  - [blur example](https://github.com/akveo/blur-admin)
  
 ### react native 
+https://facebook.github.io/react/
+
 - generators
     * [react with flux and alt and webpack](https://github.com/weblogixx/generator-react-webpack-alt)
     * [react baseline with webpack](https://github.com/newtriks/generator-react-webpack)
