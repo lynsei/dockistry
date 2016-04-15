@@ -1,5 +1,8 @@
 # frameworks
 This is a bleeding edge list of the frameworks we are working to support for reactive apps as strategies within our CLI.
+The CLI is written to execute sets of instructional YML from the dockistry-compose.yml file in each strategy repository.
+
+For more information, view [docs-cli](/forktheweb/dockistry/blob/master/docs-cli.md).
 
 ### aurelia 
 http://aurelia.io
