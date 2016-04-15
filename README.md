@@ -10,7 +10,7 @@ Have you ever desired to unify those considerations into singular format so that
 
 It's under that premise that Dockistry has been created.  
 
-## strategy engine
+## a powerful strategy engine
 Dockistry puts emphasis on strategy and tooling configs, because these days that is 99% of the problem in setting up various frameworks.  Managing compatibility issues and dependencies, and knowing which packages to install is a problem that is only solved by expert curation.  We do not wish to be the next NPM, and instead wish to create a curated list of repositories that are expertly developed and possibly have a voting system attached to it in the future.  (i.e. Loomio + Discourse)
 
 ##### 100% comprehensive, Platform Agnostic, AGPL, community-driven.
