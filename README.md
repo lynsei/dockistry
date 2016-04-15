@@ -22,7 +22,8 @@ Managing compatibility issues and dependencies, and knowing which packages to in
 Dockistry focuses **only** on the big picture & elegance/ simplicity.  We make every effort to integrate as many existing (useful) tools as possible from the existing open source community while avoiding false affordance, and working to increase intuition with our product.   We operate containers as a service (CaaS) via a  **platform agnostic** tooling kit over such existing technologies only, and using one entry-point for SSH2 via a powerful CLI that works on any cloud provider as a compiled binary.
 
 # Example Fullstack 
-** [view pdf](https://goo.gl/dnBX4u)
+** [view pdf](https://goo.gl/dnBX4u) **
+
 This example shows a sample production fullstack built and deployed on an EC2 Host using Dockistry, and managed by Rancher.   Typically an install of this nature would be monitored & unit-tested, and have nightly builds for E2E components such as Electron, which are built from the Reactive framework (i.e.- Aurelia) and use the same codebase.
 <img src="https://raw.githubusercontent.com/forktheweb/dockistry/master/Dockistry-Production-Deploy-Example-Stack.png" width="100%">
 
