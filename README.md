@@ -116,13 +116,14 @@ Perhaps we can help.
 ##### elegant forking format & kittycat simple stacking deploys
 All stacks are 100% SSL-LE, Docker-composed, in modular-fork format.  You just pick the repositories you want, and use the YAML config they supply.  That means they can easily be joined together in various configs with various UI, datagrids, cdnJS, NPM, Bower, Yeoman, JSPM, Go-lang, RVM, and other dependency management tools.  No limitations on language or platform but obviously we lean towards NodeJS and Go with Citus/Postgre or Mysql/Aurora.
 
-### Dockistry is built as an instance using our CLI and via a cloud-init script for Amazon AMI or Google Kubernetes hosts and using existing technology for HHVM/Paravirtual virtual servers.
-- Comes pre-configured with Gitlab CE, Rancher, Discourse, Rocketchat-Hubot, Private Registries (Dockers/ NPMs), Wekan board, and we pre-load test frameworks for React, Aurelia, Wordpress, Angular, Ember and VueJS. 
-- One-click setup with a very short configuration
-- Instant setup via our ptero cli app written in Go as a distributable binary for Amazon AWS or Google Cloud (more providers will soon be made available)
+#### ami/kube instances
+Dockistry can build rock solid instances from the CLI automatically for Amazon AMI or Google Kubernetes hosts and using existing technology for HHVM/Paravirtual virtual servers that is very simple and elegant.  This allows you to install a full stack with tons of features without having to configure anything.
 
-### ptero
-Did you know that pTerodactyls can fly holding nearly 10x their wait in devops?  That's why we call the CLI ptero. 
+#### pre-configured stacks
+- Comes pre-configured with Gitlab CE, Rancher, Discourse, Rocketchat-Hubot, Private Registries (Dockers/ NPMs), Wekan board, and we pre-load test frameworks for React, Aurelia, Wordpress, Angular, and Feathers.
+- Our Go CLI can build test stacks for a variety of strategies in a single process
+- The process is entirely customizable via the dockistry-yml file, and the other configs in the repository.
+- You can easily fork a repository to make minor modifications for your deployment
 
 ### active development specs:
 
