@@ -21,15 +21,16 @@ http://feathersjs.com/
 - feathers-accounts
 - many plugins from here http://kulakowka.com/
 - generator https://github.com/feathersjs/generator-feathers
-- 
+
 ### angular
 https://angular.io/
 
- - angular2 beta
- - angular beta samples (blur)
+ - angular2-gulp-webpack generator](https://github.com/ericmdantas/generator-ng-fullstack)
  - angular ui grid http://ui-grid.info/
  - https://github.com/angular/material2
  - https://material.angularjs.org
+ - [mean stack generator optional](https://github.com/angular-fullstack/generator-angular-fullstack)
+ - [blur example](https://github.com/akveo/blur-admin)
  
 ### react native 
 - generators
