@@ -37,26 +37,24 @@ It operates using the following options menu:
 ## installing
 We supply a docker image called forktheweb/dockistry that contains the go api, and it runs in a single step:
 
-```docker run -it ./install-here:/usr/src/dockistry forktheweb/dockistry```
+##### first make the install path:
+``` mkdir -p /usr/local/dockistry; cd /usr/local/dockistry ```
 
-When you execute this command, the docker image will run the go-lang application within the container, and volume mount it to "./install-here", which installs the binary distribution package and builds everything necessary to operate it.
+##### then run the docker image
+``` docker run -it ./:/usr/src/dockistry forktheweb/dockistry ```
 
-Upon completing the installation, run:
-```sudo sh ./install-here/install.sh``` and be sure to change the "install-here" path to wherever you installed it.  
-
+## usage
+For first-time setup
+``` dockistry setup ```
+ 
 For documentation within the system shell:
 ``` dockistry help ```
 
-To run the CLI executable, simply type:
+To run the CLI executable (complete menu)
 ``` dockistry ```
-
-
 
 ## uninstalling
 ```docker rm forktheweb/dockistry```
-
-
-
 
 ##### Why have a CLI tool written in Go using Cobra?
  - works on any platform because it's a compiled app
@@ -70,9 +68,6 @@ To run the CLI executable, simply type:
  - installs rancher on a separate management instance or locally (over ssl)
  - destroys and creates git, docker, and npm repostiories locally
  - create new container services via rancher api or docker-compose & registries you specify
-
-
-
 
 ##### What does the CLI *not* do
  - manage the docker containers (we feel Rancher does this amazingly well and so do not provide that)
