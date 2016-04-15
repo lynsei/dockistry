@@ -20,12 +20,17 @@ Dockistry supports all databases via docker-compose, and this documentation expl
 - we utilize boilerplate SQL for membership such as [membership.db](https://github.com/membership/membership.db)
 
 ### docker attachment containers
-the following list is composed of private StackFork docker images we pre-compose for the purpose of attaching to strategies as baseline database layers.
-these are **not** performance-tuned currently, as we do performance tuning in prodstack-* only.
+the following list is composed of private StackFork docker images we pre-compose for the purpose of attaching to strategies as baseline database layers. these are **not** performance-tuned currently, as we do performance tuning in prodstack-* only.
 
+each of these is it's own repository and docker registry image for use with docker-compose
 - postgre
   * postgre with [php-crud-api](https://github.com/mevdschee/php-crud-api)
   * citus with [php-crud-api](https://github.com/mevdschee/php-crud-api)
 - mysql
   * mysql with [php-crud-api](https://github.com/mevdschee/php-crud-api)
   * mariadb with [php-crud-api](https://github.com/mevdschee/php-crud-api)
+- eloquent
+  * [generator for laravel](https://www.npmjs.com/package/generator-laravel)
+- admins
+  * phpmyadmin dockerhub
+  
