@@ -15,9 +15,13 @@ It's under that premise that Dockistry has been invented.  If you answered yes, 
 
 Dockistry empowers developers to quickly implement expert strategies from a centralized repository that is curated.   Each strategy is created by expert developers to serve a very specific purpose.   The developers of Dockistry build web apps that use Electron, so that's been our focus.  We've incorporated many framework & stack options that we find useful in our repo (over 10 baselines and 300 forks, with thousands of possible combinations).
 
-The repositories we host utilize a compose process that is 100% YAML driven for the stack, but applications within it are volume mounted in their filesystem using Aufs/Docker on the host.  We believe this to be the best scenario for backups and storage, because the containers are fully disposable, but the host data is easily backed-up without messing around inside each container.  It also means that since these volumes are available after they are composed on the host container, our CLI can finish the compose process by executing all sorts of package managers and other tasks to set up tooling properly.  
+The repositories we host utilize a compose process that is 100% YAML driven for the stack, but applications within it are volume mounted in their filesystem using Aufs/Docker on the host.  We believe this to be the best scenario for backups and storage.
 
-Our CLI helps you create a fully comprehensive process for both creating and building your stacks in various environments.  Each stack is environment specific, and easy to fork/customize since they are entirely YAML driven.
+##### automatic tooling setup
+Containers are fully disposable and volumes are backed-up without exporting each container state.  After containers are composed, our Dockistry CLI follows whatever rules are in the dockistry-compose.yml file by executing a variety of container attachments and package management tasks.  For instance it could attache a NodeJS container and run npm commands, or Yeoman scaffold setups.  These tasks are easily configured for both builds and deploys using either our web-based editor, or a notepad/terminal. 
+
+
+Our CLI helps you create & distribute a fully comprehensive process for stack management & clustering.  Each stack is environment specific & serves a tailored strategy.  All stacks are easy to fork/customize since they are entirely YAML driven and very lightweight (housing mostly yaml and json/jscript files only).
 
 # Why Dockistry?
 ##### Well, our belief is that: 
