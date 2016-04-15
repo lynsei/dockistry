@@ -83,9 +83,10 @@ Based on those questions, the CLI will install a variety of things or store your
 - volume paths not specified will prompt the user for those
 - containers are brought online, as is the cluster
 - once containers are online the system executes commands based on the dockistry-compose.yml rules
--   * npm installation commands
--   * yo generators
--   * bower commands
+   * npm installation commands
+   * jspm commands
+   * yo generators
+   * bower commands
 - afterwards the system will backup the state of the container volumes with duplicity and do a test restore
 
 ##### why we built things this way (Go/Cobra/Docker/Rancher/etc)
