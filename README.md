@@ -1,7 +1,7 @@
 # Dockistry 
 > "offering modular stack strategies powered by caffeine and forking pterodactyls"
 
-** status: ~pre-alpha 0.5.0/**[gitlab-ce](https://labs.stackfork.com:2003/?)
+##### status / ~pre-alpha 0.5.0 / [gitlab-ce](https://labs.stackfork.com:2003/?) / author: CDH / date 04-15-2016
 
 Every developer uses different tooling, environments, and every project use different dependencies and package management tools, scaffolds, and testing/monitoring tools.
 
