@@ -15,9 +15,9 @@ It's under that premise that Dockistry has been invented.  If you answered yes, 
 
 Dockistry empowers developers to quickly implement expert strategies from a centralized repository that is curated.   Each strategy is created by expert developers to serve a very specific purpose.   The developers of Dockistry build web apps that use Electron, so that's been our focus.  We've incorporated many framework & stack options that we find useful in our repo (over 10 baselines and 300 forks, with thousands of possible combinations).
 
-The repositories we host utilize a compose process that is 100% YAML driven for the stack, but applications within it are volume mounted in their filesystem using Aufs/Docker on the host.  We believe this to be the best scenario for backups and storage, because the containers are fully disposable, but the host data is easily backed-up without messing around inside each container.  It also means that since these volumes are available after they are composed on the host container, our CLI can finish the compose process by executing all sorts of package managers and other tasks to set up tooling properly.
+The repositories we host utilize a compose process that is 100% YAML driven for the stack, but applications within it are volume mounted in their filesystem using Aufs/Docker on the host.  We believe this to be the best scenario for backups and storage, because the containers are fully disposable, but the host data is easily backed-up without messing around inside each container.  It also means that since these volumes are available after they are composed on the host container, our CLI can finish the compose process by executing all sorts of package managers and other tasks to set up tooling properly.  
 
-We offer AMI/Kubernetes images for quickly deploying 100% bullet-proof cloud-init based formations, in the event you run into any trouble with our CLI composing your management tools, developer stacks, private registries, or anything else.
+Our CLI helps you create a fully comprehensive process for both creating and building your stacks in various environments.  Each stack is environment specific, and easy to fork/customize since they are entirely YAML driven.
 
 # Why Dockistry?
 ##### Well, our belief is that: 
