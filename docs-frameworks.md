@@ -21,9 +21,22 @@ http://feathersjs.com/
 - feathers-accounts
 - many plugins from here http://kulakowka.com/
 - generator https://github.com/feathersjs/generator-feathers
-### angular
-- angular2 beta
-- angular beta samples (blur)
-
-### roots 
 - 
+### angular
+https://angular.io/
+
+ - angular2 beta
+ - angular beta samples (blur)
+ - angular ui grid http://ui-grid.info/
+ - https://github.com/angular/material2
+ - https://material.angularjs.org
+ 
+### react native 
+- generators
+    * [react with flux and alt and webpack](https://github.com/weblogixx/generator-react-webpack-alt)
+    * [react baseline with webpack](https://github.com/newtriks/generator-react-webpack)
+    * [react material-ui](https://www.npmjs.com/package/generator-material-react)
+
+- [material ui for react](http://www.material-ui.com)
+- examples: https://www.reactstarterkit.com
+ 
