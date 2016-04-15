@@ -35,13 +35,24 @@ It operates using the following options menu:
     * webterm & editor URL config
     
 ## installing
-We supply a docker image called forktheweb/dockistry that contains the go api, and it runs in a single step:
+We supply a docker image that makes installation very easy:
 
 ##### first make the install path:
 ``` mkdir -p /usr/local/dockistry; cd /usr/local/dockistry ```
 
 ##### then run the docker image
 ``` docker run -it ./:/usr/src/dockistry forktheweb/dockistry ```
+
+Once the Go binary is installed, run the setup command and you will be asked a few questions about what you are using dockistry to do.
+Based on those questions, the CLI will install a variety of things or store your configuration for future reference.  
+- builds/restores registries from our master
+- can create new server instances for:
+   * rancher master (it's good to keep this separate)
+   * worker instance
+   * infrastructure instance (developer tooling, rocketchat, hubot, gitlab, backups etc.)
+   * gluster filesystem mounts
+   * private registries
+- optionally, it can do all of the creations above locally too. (see size recommendations)
 
 ## usage
 For first-time setup
