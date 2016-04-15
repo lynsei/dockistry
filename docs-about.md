@@ -3,7 +3,7 @@
 
 # Business Summary
 
-### DevStacker, LLC
+### Data Reactive, LLC.
 "a modern, turn-key stack solutions company for web and mobile apps"
 
 ### Offering summary
@@ -15,22 +15,8 @@
 ### StackFork.com
 "Deploy bullet proof, pre-bundled app stacks without ever touching code."
 
-### Stackerize.com
-"Price compare a DevStack on many cloud hosts, or use our boilerplate and configure your own."
- -  Multi-instance cost calculation now available
-
-### MailAfterDark.com
-"Set up your domain with a Default Secure mail service over PGP/SSL without hosting or programming knowledge."
--  stackFork this in a single click
--  stackerize to see pricing on various hosts
-
-### DevReactive.com
-
-* "a Powerful CRM offering full Wordpress integration over our custom API & caching layer, instantaneous cloud-agnostic deployment, and many API integrations pre-bundled as a DevStack."
-stackFork or stackerize this package in a single-click
-
-
 > free-tier eligible on aws and devstacker.com
+
 #### zero setup:
    - no programming necessary
    - no hosting necessary
