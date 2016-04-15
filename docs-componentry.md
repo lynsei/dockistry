@@ -33,4 +33,10 @@ these are state management tools we intend to support
 
 ### ui components roadmap
 these are ui packages we intend to support by default for our strategy baselines
-- 
+- [material-ui](http://www.material-ui.com/#/)
+- [semantic-ui](http://semantic-ui.com/)
+- [zurb](https://github.com/zurb/foundation-sites)
+- [ui-kit](https://github.com/CinKon/generator-uikit-webapp)
+- [bootstrap](https://github.com/CinKon/generator-uikit-webapp)
+- [polymer](https://github.com/yeoman/generator-polymer)
+- [framework7](http://framework7.io/)
