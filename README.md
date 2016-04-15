@@ -16,6 +16,16 @@ Tools like Ansible and Vagrant address the problem of setup, but do not address 
 
 Managing compatibility issues and dependencies, and knowing which packages to install is also a problem that is only solved by a strategy-focused development community & master repository.  We do not wish to create another tool, but rather provide expertly developed strategies for various deploys that work on any host.  We encourage our master strategy registry to be cloned locally for forking & we also encourage contributions to the cause. 
 
+# Why Dockistry?
+> **There are currently too many projects focused on tooling being provided in communities like GitHub, and not enough focus on providing stable Continuous Delivery Strategies.**  
+
+Dockistry focuses **only** on the big picture & elegance/ simplicity.  We make every effort to integrate as many existing (useful) tools as possible from the existing open source community while avoiding false affordance, and working to increase intuition with our product.   We operate containers as a service (CaaS) via a  **platform agnostic** tooling kit over such existing technologies only, and using one entry-point for SSH2 via a powerful CLI that works on any cloud provider as a compiled binary.
+
+# Example Fullstack 
+** [view pdf](https://goo.gl/dnBX4u)
+This example shows a sample production fullstack built and deployed on an EC2 Host using Dockistry, and managed by Rancher.   Typically an install of this nature would be monitored & unit-tested, and have nightly builds for E2E components such as Electron, which are built from the Reactive framework (i.e.- Aurelia) and use the same codebase.
+<img src="https://raw.githubusercontent.com/forktheweb/dockistry/master/Dockistry-Production-Deploy-Example-Stack.png" width="100%">
+
 ##### 100% comprehensive, Platform Agnostic, AGPL, community-driven.
 
 Dockistry empowers developers to quickly implement expert strategies from a centralized repository that is curated.   Each strategy is created to serve a very specific purpose.   Our focus is on Reactive apps for Web and E2E, and on Continous Delivery & horizontal scaling capabilities.  We've incorporated many framework & stack options that we find useful in our repo (over 10 baselines and 300 forks, with thousands of possible combinations).
@@ -26,11 +36,6 @@ The repositories we host at [stackfork](https://labs.stackfork.com:2003) utilize
 Containers are fully disposable and volumes are backed-up without exporting each container state.  After containers are composed, our Dockistry CLI follows whatever rules are in the dockistry-compose.yml file by executing a variety of container attachments and package management tasks.  For instance it could attache a NodeJS container and run npm commands, or Yeoman scaffold setups.  These tasks are easily configured for both builds and deploys using either our web-based editor, or your notepad/terminal. 
 
 Our CLI helps you create & distribute a fully comprehensive process for stack management & clustering.  Each stack is environment specific & serves a tailored strategy.  All stacks are easy to fork/customize since they are entirely YAML driven and very lightweight (housing mostly .yml/.json/.js/.ts files only).
-
-# Why Dockistry?
-> **There are currently too many projects focused on tooling being provided in communities like GitHub, and not enough focus on providing stable Continuous Delivery Strategies.**  
-
-Dockistry focuses **only** on the big picture & elegance/ simplicity.  We make every effort to integrate as many existing (useful) tools as possible from the existing open source community while avoiding false affordance, and working to increase intuition with our product.   We operate containers as a service (CaaS) via a  **platform agnostic** tooling kit over such existing technologies only, and using one entry-point for SSH2 via a powerful CLI that works on any cloud provider as a compiled binary.  
 
 # Examples
 > **example #1:**  You might have a strategy for a single page application (SPA) that builds out your mobile app via Cordova/Phonegap variations and using an Amazon Code Pipeline with Gulp compiler process housed on Docker and served by HHVM with Citus or MongoDB.  That's complex and the stack is far different if it's to be production-ready.
