@@ -8,10 +8,14 @@ http://aurelia.io
 - aurelia-skeleton-navigation
    * webpack-typescript
    * es2016
-- aurelia-kendoui-bridge
-- aurelia-kendo-demo
-- aurelia-auth (jwt/ddd)
-- aurelia-config
+- optional sample apps
+  * aurelia-kendoui-bridge
+  * aurelia-kendo-demo
+- optional aurelia modules
+  * aurelia-auth (jwt/ddd)
+  * aurelia-config
+- generators
+   * [aurelia-ts generator](https://www.npmjs.com/package/generator-aurelia-ts)
 
 
 ### feathers
