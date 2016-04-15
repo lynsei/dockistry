@@ -27,15 +27,16 @@ For every development or production use case, there are considerations and almos
 > Each stack you compose using the Dockistry CLI will operate to serve the needs of a particular strategy for   development or production (or both).  All repos are prefixed with "dev, prod, or fork" to make that clear.  So if we are creating a stack that focuses on wordpress theme development, it will contain no performance tuning, but it will contain a ton of developer tools like vim-spf13, samson, c++ nodegyp, and it will be called something like "devstack-wp-cplus".
 
 Simple installation for our tools:
-* download CLI
-* install the private registries (clones from our master)
-* make a few choices for your host (Dev/prod/master/slave/domain)
-* setup cron automatically (y/n)
+* download CLI from our dockerhub image
+* run ``` dockistry setup ```
 
 That's pretty much it, then just run:
-``` ptero make /location/of/docker-compose.yml  ```
+``` dockistry make /location/of/dockistry-compose.yml  ```
 
-pTero devops handes everything from there through Rancher, Docker-Compose, and using a variety of tooling set up commands like npm, bower, and anything else existing in the mount yml.
+pTero devops handes everything from there through Rancher, Docker-Compose, and using a variety of tooling set up commands like npm, bower, and anything else existing in the mount yml.  This allows for a full stack to be created along with load balancing, clustering, and everything else necessary to operate both development and production stacks using the repositories we host.  The dockistry YAML rules provide a roadmap for the system to follow when installing repositories, which allows it to dynamically update the docker-compose container attachments & paths.  It then passes all of that info to the Rancher API and builds the cluster so it will appear in there all nicely!
+
+Because we install a webterm and editor on your specified URL (over SSL proxy), you can use that as a management tool too.
+It allows for browsing and composing our repos, and configuring the stacks using the dockistry, docker, and rancher compose yaml, along with other yaml directives for npm, bower, yeoman, and more.
 
 # No Wheel Re-inventing
 We use *only* existing tools for stack setup, such as NPM for depenencies, and/or systems such as Bower, scaffolds such as Yeoman, and Go-lang tools.  Docker stacks are composed to avoid custom Makefiles and custom Dockerfiles (ideally), this allows everything to be executed as a single process that is easy to review and organize in our YAML editor.  It's not *always* possible to do that (for certain compilation processes, for example), but we avoid Dockerfiles, Makefiles, and scripted shell commands whenever possible, and avoid JSON in favor of YAML whenever possible (we convert it on deploy for most configurations).
