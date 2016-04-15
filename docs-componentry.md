@@ -24,6 +24,8 @@ the following grids are those we intend to support by default via the CLI as att
 - dynatable
 - datatables
 
+the above can be [found here](http://jspreadsheets.com/)
+
 ### state management roadmap
 these are state management tools we intend to support
 - alt
