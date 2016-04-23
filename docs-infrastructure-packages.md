@@ -12,17 +12,21 @@
 ![ec2-images-dockistry](http://pterops.com.s3.amazonaws.com/screen-dockistry/dockistry-owncloud.gif)
 
 ### Rancher Container Management
-- this can be installed on a single node, or using a master/worker type strategy
+
+> installation binaries allow for various provisioning setups for actual AWS & Kubernetes nodes (instantly configured via cloud-init & cloud formation style templates)
+
 --------
 ![ec2-images-dockistry](http://pterops.com.s3.amazonaws.com/screen-dockistry/dockistry-rancher.gif)
 
 ### Rocket Chat with Hubot pre-installed and Hot script loading enabled
-- this makes it easy to switch coffee scripts in and out of the bot's code without reloading him
+> this makes it easy to switch coffee scripts in and out of the bot's code without reloading him
+
 --------
 ![ec2-images-dockistry](http://pterops.com.s3.amazonaws.com/screen-dockistry/dockistry-rocket.gif)
 
 ### Wekan board 
-- we know you like to plan!
+> c'mon now! ... you know you like to plan & strategize otherwise you wouldn't be reading this!
+
 --------
 ![ec2-images-dockistry](http://pterops.com.s3.amazonaws.com/screen-dockistry/dockistry-wekan.gif)
 
