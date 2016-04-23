@@ -4,8 +4,8 @@
 ##### status / ~pre-alpha 0.5.9
 - [video-gifs](https://github.com/forktheweb/dockistry/blob/master/docs-infrastructure-packages.md) of what is included with Dockistry infrastructure by default
 - [video-gifs](https://github.com/forktheweb/dockistry/blob/master/docs-experimental-cli.md) of our experimental CLI(s) and some background info on existing CLI(s)
-- [video-gifs](https://github.com/forktheweb/dockistry/blob/master/dockistry-cli.md) devstacks optimized for developer tooling distributions and devops automation on multiple platforms
-- 
+- [video-gifs](https://github.com/forktheweb/dockistry/blob/master/dockistry-cli.md) of a devstack tooling setup on windows
+
 `To get access to the registry:`
 - Shoot me your e-mail [on gitter](https://gitter.im/forktheweb/dockistry), and I'll create a contributor account for you.
 - Master-Registry Location for Strategies: [dockistry-contributors](https://labs.stackfork.com:2003/)  
