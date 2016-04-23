@@ -3,6 +3,17 @@
 
 # How it works
 
+### Example stack using developer tooling:
+Sometimes the best way to understand what a thing does, is to watch a quick video.  Just keep in mind that this is a very specific stack example, and we have many different stacks and many configurable options within them:
+
+> Watch the [video screencast](http://screencast-o-matic.com/watch/cDf0fO1GWx) (don't worry it's only like 99 seconds long!)
+
+#### Short version:
+
+<img src="http://pterops.com.s3.amazonaws.com/cli-devtools-powershell-windows.gif" width="100%" alt="Windows Developer Tooling" />
+
+### How the CLI distribution works:
+
 Our dockistry CLI is written in Go-lang using [Spf13/Cobra](https://github.com/spf13/cobra).
 It operates using the following options menu:
 
