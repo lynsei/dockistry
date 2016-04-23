@@ -1,5 +1,14 @@
 # Dockistry infrastructure
+
+`note: this project is in pre-alpha and actively seeking contributors`
+
 > upon first installing dockistry, we set you up with an entire infrastructure suite.  It's enough technology to run most web companies.
+
+## What is not shown here yet:
+
+- Developer tooling for PowerShell setups on Windows 
+- Our instantly-deployed web-based NPM, Dockerfile, and Dockistry clones 
+- Installation process
 
 ## What is included:
 
