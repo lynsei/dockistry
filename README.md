@@ -5,7 +5,10 @@
 - [video-gifs](https://github.com/forktheweb/dockistry/blob/master/docs-infrastructure-packages.md) of what is included with Dockistry infrastructure by default
 - [video-gifs](https://github.com/forktheweb/dockistry/blob/master/docs-experimental-cli.md) of our experimental CLI(s) and some background info on existing CLI(s)
 - [video-gifs](https://github.com/forktheweb/dockistry/blob/master/dockistry-cli.md) devstacks optimized for developer tooling distributions and devops automation on multiple platforms
-- contributors or advocates please use our [gitlab-dockistry](https://labs.stackfork.com:2003/)  
+- 
+`To get access to the registry:`
+- Shoot me your e-mail [on gitter](https://gitter.im/forktheweb/dockistry), and I'll create a contributor account for you.
+- Master-Registry Location for Strategies: [dockistry-contributors](https://labs.stackfork.com:2003/)  
 - information about the [author](https://labs.stackfork.com:2003/dockistry-contributors/cho/blob/master/resume/resume-coverletter.md)
 - last updated date 04-22-2016
 
