@@ -1,14 +1,25 @@
 # Dockistry 
 > "offering modular stack strategies powered by caffeine and forking pterodactyls"
 
-##### status / ~pre-alpha 0.5.0 / [gitlab-ce](https://labs.stackfork.com:2003/?) / author: CDH / date 04-15-2016
+##### status / ~pre-alpha 0.5.9
+- contributors or advocates please use our [gitlab-dockistry](https://labs.stackfork.com:2003/)  
+- information about the [author](https://labs.stackfork.com:2003/dockistry-contributors/cho/blob/master/resume/resume-coverletter.md)
+- last updated date 04-22-2016
 
 ## introduction
-Every developer uses different tooling, environments, and projects can use different dependencies and package management tools, scaffolds, and testing/monitoring tools... not to mention continuous integration and E2E tools.
+Every developer uses different tooling, dependencies and package management tools, scaffolds, and testing/monitoring tools. Not to mention continuous integration and E2E tools, and all the other considerations that go along with building end-to-end apps with continuous delivery cycles.
 
-Have you ever desired to unify those considerations into singular format so that your favorite environment setup for development and production can be distributed and stablized for mass consumption?  
+Have you ever desired to unify E2E considerations into single format so that your favorite environment setup for development and production on any platform can be distributed and stablized for mass consumption?  
 
 It's under that premise that Dockistry has been created.  
+
+# stacks
+
+> [pdf](https://goo.gl/dnBX4u)
+
+The diagram below shows an example of a production fullstack solution on AWS built automatically using our CLI.  It contains everything a developer or company might need to operate on an EC2 Ubuntu Trusty HHVM image, with [Docker](https://www.docker.com), [Rancher](https://rancher.com), and Dockistry portable registries.  This is one of many YAML driven stacks that are built by experts using the Dockistry CLI to address the needs of various strategies.
+ 
+<img src="https://raw.githubusercontent.com/forktheweb/dockistry/master/Dockistry-Production-Deploy-Example-Stack.png" width="100%">
 
 ## a powerful strategy engine
 Dockistry puts emphasis on strategy and tooling configs, because these days that is 99% of the problem in setting up environments. 
@@ -20,12 +31,6 @@ Managing compatibility issues and dependencies, and knowing which packages to in
 > **There are currently too many projects focused on tooling being provided in communities like GitHub, and not enough focus on providing stable Continuous Delivery Strategies.**  
 
 Dockistry focuses **only** on the big picture & elegance/ simplicity.  We make every effort to integrate as many existing (useful) tools as possible from the existing open source community while avoiding false affordance, and working to increase intuition with our product.   We operate containers as a service (CaaS) via a  **platform agnostic** tooling kit over such existing technologies only, and using one entry-point for SSH2 via a powerful CLI that works on any cloud provider as a compiled binary.
-
-# Example Fullstack 
-[pdf](https://goo.gl/dnBX4u)
-
-This example shows a sample production fullstack built and deployed on an EC2 Host using Dockistry, and managed by Rancher.   Typically an install of this nature would be monitored & unit-tested, and have nightly builds for E2E components such as Electron, which are built from the Reactive framework (i.e.- Aurelia) and use the same codebase.
-<img src="https://raw.githubusercontent.com/forktheweb/dockistry/master/Dockistry-Production-Deploy-Example-Stack.png" width="100%">
 
 ##### 100% comprehensive, Platform Agnostic, AGPL, community-driven.
 
