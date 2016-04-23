@@ -1,5 +1,5 @@
 # Dockistry CLI
-```please note: this CLI is not publicly available yet, as it is in pre-alpha 0.5.0```
+```please note: this CLI is not publicly available yet, as it is in pre-alpha 0.5.9```
 
 # How it works
 
