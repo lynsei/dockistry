@@ -1,5 +1,5 @@
 # Dockistry 
-"offering modular stack strategies powered by caffeine and forking pterodactyls"
+"Amazon/Google HHVM stack strategies powered by forking pterodactyls"
 
 > TLDR: Dockistry is a portable registry containing 20+ docker-composed stacks with devops tooling and hundreds of options for developing reactive SPA software.  It's open source, and is designed to be portable and browsable via an Electron-driven CLI.  It also contains pre-built HHVM images for rapid infrastructure setup on Amazon/Google clouds, and come pre-installed with a variety of software packages such as Rancher, Gitlab CE, and other tools.
 
