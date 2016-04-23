@@ -8,8 +8,8 @@
 - [video-gifs](https://github.com/forktheweb/dockistry/blob/master/docs-experimental-cli.md) of our experimental CLI(s) and some background info on existing CLI(s)
 - [video-gifs](https://github.com/forktheweb/dockistry/blob/master/dockistry-cli.md) of a devstack tooling setup on windows
 
-`To get access to the registry:`
-- Shoot me your e-mail [on gitter](https://gitter.im/forktheweb/dockistry), and I'll create a contributor account for you.
+# To get access to the registry:
+- Shoot me your e-mail [on gitter](https://gitter.im/forktheweb/dockistry), and I'll create a contributor account for you. 
 - Master-Registry Location for Strategies: [dockistry-contributors](https://labs.stackfork.com:2003/)  
 - information about the [author](https://labs.stackfork.com:2003/dockistry-contributors/cho/blob/master/resume/resume-coverletter.md)
 - last updated date 04-22-2016
