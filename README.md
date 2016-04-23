@@ -2,6 +2,7 @@
 > "offering modular stack strategies powered by caffeine and forking pterodactyls"
 
 ##### status / ~pre-alpha 0.5.9
+- [videos](https://github.com/forktheweb/dockistry/blob/master/docs-infrastructure-packages.md) of what is included with Dockistry infrastructure by default
 - contributors or advocates please use our [gitlab-dockistry](https://labs.stackfork.com:2003/)  
 - information about the [author](https://labs.stackfork.com:2003/dockistry-contributors/cho/blob/master/resume/resume-coverletter.md)
 - last updated date 04-22-2016
