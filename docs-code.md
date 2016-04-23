@@ -15,8 +15,10 @@ DWIM
 # Avoidance of false affordance
 >An affordance is a relation between an object or an environment and an organism that, through a collection of stimuli, affords the opportunity for that organism to perform an action.   This concept is the opposite of that, and relates to web development more specifically than most other concepts.  a good example of a false affordance for web pages is a link that says "view bill", yet goes to a pdf for the bill in a new window.  False affordance is lazy programming typically, but it can also be as severe as "deceptive".  Google is super-tough now a days with V8 chrome and so we are using PhantomJS and Karma testing suites to prevent problems before they happen.  A good example of "deceptive" errors they prevent now-a-days are "download" buttons that redirect to another domain.  They also do not allow you to wget or curl, or use php to pull versions of their Google signup forms and display them in a frame... to prevent Phishing. (again, just an example).
 
-## We code like the mafia
+## Minimist
 > "If code were poetry, people would want to read it"
+
+## Policies
 * Use ubiquitous SSL and crypto on everything
 * Don't store keys or write them down
 * Automate everything that is repeated often; including unit, integration, functional and performance testing.
@@ -31,12 +33,13 @@ DWIM
 * Put your logs in a centralized location so that you can debug and troubleshoot issues quickly.
 * Make your deployments as boring, drama-free and non-eventful as possible.
 
-#### Interesting Reads
-- [how to be a programmer](https://github.com/dataReactive/HowToBeAProgrammer)
+ 
 
 #### Find Humor Wherever Possible
 - a foreward from our [forefathers](http://search.cpan.org/dist/perlsecret/lib/perlsecret.pod#SYNOPSIS)
-- a [top secret](https://metacpan.org/pod/perlsecret#Goatse) perl reference
-- a [ruby reference](https://github.com/JuanitoFatas/what-do-you-call-this-in-ruby) of characters a.k.a "> Pythonists are all "explicit is better than implicit" and Rubists are all like "LOOK AT ME I MADE A BONG OUT OF THIS HAIR DRYER"
+- a [ruby reference](https://github.com/JuanitoFatas/what-do-you-call-this-in-ruby) of characters
+ 
+> Pythonists are all "explicit is better than implicit" and Rubists are all like "LOOK AT ME I MADE A BONG OUT OF THIS HAIR DRYER"
+
 - a [how-to](https://github.com/braydie/HowToBeAProgrammer) worth reading
 - a [really funny guide](https://encyclopediadramatica.se/Ruby_on_Rails) to ruby
