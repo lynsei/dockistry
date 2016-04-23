@@ -3,6 +3,12 @@
 
 # How it works
 
+- each stack is different, and is purposed for either development or production environments
+- we have separate distributions for the CLI ops for production and development (for tuning/tooling)
+- the example below is a custom tooling for Angular, RethinkDB, StrongLoopAPI, StrongLoop Arc, and Restangular
+- it allows the developer to choose from multiple themes including blur-admin, material, and semantic-ui
+- it runs on local domains using .dev extensions using hotel
+
 ### Example stack using developer tooling:
 Sometimes the best way to understand what a thing does, is to watch a quick video.  Just keep in mind that this is a very specific stack example, and we have many different stacks and many configurable options within them:
 
