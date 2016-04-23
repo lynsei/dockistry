@@ -104,7 +104,7 @@ These registries are in pre-alpha, but are <a href="https://labs.stackfork.com:2
 
 Our master contains many modular stacks that are packaged to deploy in development and production environments.  Your registry copies are ephemeral and you are encouraged to roll out updates by destroying them and downloading new copies with the CLI tools we provide.
 
-The [Dockistry CLI](docs-cli.md) sets you up (optionally) with a full-on infrastructure using the AWS and Google SDK via pTero devops.
+The [Dockistry CLI](https://github.com/forktheweb/dockistry/blob/master/dockistry-cli.md) sets you up (optionally) with a full-on infrastructure using the AWS and Google SDK via pTero devops.
 * gitlab ce installation and config over ssl on sub-domain
 * rancher master/slave
 * rocketchat and hubot instance
