@@ -18,6 +18,17 @@ http://aurelia.io
    * [aurelia-ts generator](https://www.npmjs.com/package/generator-aurelia-ts)
 
 
+### roots
+http://roots.cx
+
+- sprout based setup
+- instant deploys on win32/64 node 0.12/4.43+/5.90+
+- ptero rapid environments setup
+- rethinkdb with strongloop
+- lightweight alternative to gulp/grunt based setups
+- great for desktop electron apps using coffee-basis
+- stable cli integration with ptero devops
+
 ### feathers
 http://feathersjs.com/
 
