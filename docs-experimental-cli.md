@@ -8,7 +8,7 @@ Since late 2015 I've redesigned ptero several times, and now it's morphed into t
 I have really dialed in the specific functionality that I want from it at this point, which includes:
 
 - multi-platform binary distribution using [electron-boilerplate](https://github.com/szwacz/electron-boilerplate)
-- local windows and mac testing using [hotel](https://github.com/typicode/hotel) and [travie ci/ gitlab ci runners](https://github.com/electron/electron/blob/master/docs/tutorial/testing-on-headless-ci.md)
+- local windows and mac testing using [hotel](https://github.com/typicode/hotel) and [travis / gitlab ci runners](https://github.com/electron/electron/blob/master/docs/tutorial/testing-on-headless-ci.md)
 - maintaining distributions and synchronizations for [Dockistry](https://github.com/forktheweb/dockistry)
 
 
