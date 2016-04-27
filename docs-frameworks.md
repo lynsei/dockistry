@@ -1,6 +1,12 @@
 # frameworks
-This is a bleeding edge list of the frameworks we are working to support for reactive apps as strategies within our CLI.
-For more information on how the CLI operates, view [docs-cli](/forktheweb/dockistry/blob/master/docs-cli.md).
+This is a bleeding edge list of the frameworks we support for SPA (reactive) strategies within our Developer CLI and as part of our "baselines" for stack deployment on Docker/ Rancher/ Npm.   
+
+Because Dockistry maintains private repos and is built on Docker-compose YAML, we can avoid Node-gyp and other package issues commonly occurring in NPM (depending on your platform).  This also allows you to run test instances on separate  versions of the master registries thereby circumventing unit testing/ versioning issues on HHVM/ROS/Node environments.
+
+For more information on how the CLI operates, view [docs-cli](https://github.com/forktheweb/dockistry/blob/master/dockistry-cli.md).
+For windows examples view [experimental-cli](https://github.com/forktheweb/dockistry/blob/master/docs-experimental-cli.md).
+
+To contribute or view our (pre-alpha) registry of stack strategies, say hi on [gitter](https://gitter.im/forktheweb/dockistry).
 
 ### aurelia 
 http://aurelia.io
