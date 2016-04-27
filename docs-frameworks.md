@@ -55,7 +55,7 @@ https://angular.io/
  - [mean stack generator optional](https://github.com/angular-fullstack/generator-angular-fullstack)
  - [blur example](https://github.com/akveo/blur-admin)
  
-### react native 
+### react
 https://facebook.github.io/react/
 
 - generators
