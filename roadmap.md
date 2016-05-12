@@ -20,7 +20,7 @@ Dockistry provides native tooling & docker-driven images that ease deployment an
 | name | description | architectures | purpose | built with |
 | :-------- | --------:| :------: | :------: | :------: |
 | *"stackfork.com"*  |   desktop E2E primary  | darwin, win10, ubuntu | desktop installer baseline: live strategy management & toolkit installers |  angular2, electron, and using Falcor & RethinkDB.  immediately deploy stacks to any AWS/ Google Cloud/ Windows, or Ubuntu environment
-| *"multi-tools-cli"*  |  multi-platform, agoric packages designed to streamline developer tooling &  consolidate build-tools and unit-testing.   | all platforms and devices | the goal is to keep the tooling the same for all packages in our registry. |  go, node, powershell, docker... [phase 2 maybe some elixir, swift, ionic] |
+| *"[multi-tools-cli](https://github.com/dockistry/devtools-multi-clis)"*  |  multi-platform, agoric packages designed to streamline developer tooling &  consolidate build-tools and unit-testing.   | all platforms and devices | the goal is to keep the tooling the same for all packages in our registry. |  go, node, powershell, docker... [phase 2 maybe some elixir, swift, ionic] |
 
 ## desktop 
 Dockistry comes in several flavors for desktop users, however all of our tools are installed from a single package called "StackFork, which provides both a website and SPA for the registry (not currently set up)".
