@@ -9,14 +9,48 @@
 
 # Dockistry
 
-#### Quick question:
-> Why clone a git repo when some nerd has done all the work for you and you can shop like tons of badass stacks from a single registry containing tons of wicked pimpin' components and frameworks designed to be smart, scalable, effortless to deploy, and with a pterodactyl as a mascot!?  
+> - Why clone one git repository after another, just to test solutions, and stack examples only to have them fail, or annoy you?
+> - Why bother doing this again and again, only to find out the solution isn't _truly_ end-to-end or fails where it wasn't supposed to
+> - Why attempt to setup your own critical infrastructure on Amazon or Google Cloud clusters if you don't have to?
 
-## That's right folks! Leave those GitKrakens alone!
-Our stacks are in-fact powered by enormous flying beasts and designed with your security and peace-of-mind, in mind!
-We build complete E2E strategies that work together and are designed *not to* fail miserably on any Windows 10, Linux Ubuntu Trusty, or Darwin/Mac OSX Environment that uses our fancy cross-platform SPA technology.
+Dockistry is a curated docker registry (its actually several registries in one).
+
+You choose from over 30 stem baselines and hundreds of component combinations, cluster options, database options, and more... all from the comfort of our desktop app or website.   Deploy instantly to your local machine for testing, or to AWS/Google instantly for staging or production environments.  (adding heroku, digital ocean, and other provider soon too!)
+
+### True-facts 
+- Not another package manager
+- Not another tool
+- Intelligently designed for an intuitive, elegant experience
+- YAML-driven, Docker-composed, CLI-driven
+- Dinosaurs are teh rad
+
+# WAIT WAIT THERE'S MORE!
+![awesome-rex](http://forktheweb.com.s3.amazonaws.com/rext.gif)
+
+### Free fo shizzle
+
+- Some nerd has done all the work for you.  BRILLIANT!
+- These stacks are pre-composed, unit-tested, and have all your normal tooling stuff.
+- Our pTerodactyls are taking care of yo business, saving you the land before time and money!!
+- Focus on building your apps, cause we took care of some crazy awesome strategy for you!
+ 
+## Did we mention that this is 100% OPEN-SOURCE 
+
+> That's right my brotha!  We slave-drive our wicked programmers so they can craft unbelievably cool components and frameworks designed to be smart, scalable, and effortless to deploy!  All on the MIT (Might Ingest Tyrannosaurs later) license!
+
+#### Will code for food though, so if you got it don't hold back now! ;)
+
+### We also have a pterodactyl as a mascot!
+
+
+
 
 ## This is not a joke
+
+- That's right folks! Leave those GitKrakens alone!
+- Our stacks are in definitely powered by enormous flying jurassic beasts and designed with your security and peace-of-mind, in mind!
+We build complete E2E strategies that work together and are designed *not to* fail miserably on any Windows 10, Linux Ubuntu Trusty, or Darwin/Mac OSX Environment that uses our fancy cross-platform SPA technology.
+
 We know those lousy [node-gyp issues](https://github.com/nodejs/node-gyp/issues/629) got you down!   And it's time to fire that accountant, or nephew who was supposed to build your technology infrastructures months ago ... we know they still haven't finished the wordpress website, and for christsakes we can set you up with fat HHVM mariadb stack running a PHP-LESS wordpress and Aurelia.  CAN YOUR NEPHEW AUTOMATE THAT?  I THINK NOT!
 
 # All Jokes Aside
