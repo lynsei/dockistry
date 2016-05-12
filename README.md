@@ -1,8 +1,35 @@
-# Dockistry 
-"Amazon/Google HHVM stack strategies powered by forking pterodactyls"
+	     ||`           '||               ||                  
+	     ||             ||     ''        ||                  
+	 .|''|| .|''|,.|'', || //` || (''''''||'' '||''|'||  ||` 
+	 ||  || ||  ||||    ||<<   ||  `'')  ||    ||    `|..||  
+	 `|..||.`|..|'`|..'.|| \\..||.`...'  `|..'.||.       ||  
+	                                                  ,  |'  
+	 ~ Fullstack strategies by forking pterodactyls    ''              
+
+
+# Dockistry
+
+#### Quick question:
+> Why clone a git repo when some nerd has done all the work for you and you can shop like tons of badass stacks from a single registry containing tons of wicked pimpin' components and frameworks designed to be smart, scalable, effortless to deploy, and with a pterodactyl as a mascot!?  
+
+## That's right folks! Leave those GitKrakens alone!
+Our stacks are in-fact powered by enormous flying beasts and designed with your security and peace-of-mind, in mind!
+We build complete E2E strategies that work together and are designed *not to* fail miserably on any Windows 10, Linux Ubuntu Trusty, or Darwin/Mac OSX Environment that uses our fancy cross-platform SPA technology.
+
+## This is not a joke
+We know those lousy [node-gyp issues](https://github.com/nodejs/node-gyp/issues/629) got you down!   And it's time to fire that accountant, or nephew who was supposed to build your technology infrastructures months ago ... we know they still haven't finished the wordpress website, and for christsakes we can set you up with fat HHVM mariadb stack running a PHP-LESS wordpress and Aurelia.  CAN YOUR NEPHEW AUTOMATE THAT?  I THINK NOT!
+
+# All Jokes Aside
+
+Now that we have your interest, this projects is definitely a real-deal thing.  It's our labor of love.
+
+# STATUS
+
 ##### status is now ~pre-alpha 0.7x
 
-> TLDR: Dockistry is a portable registry containing 20+ docker-composed stacks with devops tooling and hundreds of options for developing reactive SPA software.  It's open source, and is designed to be portable and browsable via an Electron-driven CLI.  It also contains pre-built HHVM images for rapid infrastructure setup on Amazon/Google clouds, and come pre-installed with a variety of software packages such as Rancher, Gitlab CE, and other tools.
+# TLDR
+
+> Dockistry is a portable registry containing 20+ docker-composed stacks with devops tooling and hundreds of options for developing reactive SPA software.  It's open source, and is designed to be portable and browsable via an Electron-driven CLI.  It also contains pre-built HHVM images for rapid infrastructure setup on Amazon/Google clouds, and come pre-installed with a variety of software packages such as Rancher, Gitlab CE, and other tools.
 
 #### videos
 These are nice if you have no idea what this project is all about, but keep reading! :)
@@ -20,13 +47,6 @@ These are nice if you have no idea what this project is all about, but keep read
    
 > last updated: 05-12-2016 2pm
 
-	     ||`           '||               ||                  
-	     ||             ||     ''        ||                  
-	 .|''|| .|''|,.|'', || //` || (''''''||'' '||''|'||  ||` 
-	 ||  || ||  ||||    ||<<   ||  `'')  ||    ||    `|..||  
-	 `|..||.`|..|'`|..'.|| \\..||.`...'  `|..'.||.       ||  
-	                                                  ,  |'  
-	 ~ Fullstack strategies by forking pterodactyls    ''              
 
 
 
