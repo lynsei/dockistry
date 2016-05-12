@@ -1,23 +1,48 @@
 # Dockistry 
 "Amazon/Google HHVM stack strategies powered by forking pterodactyls"
+##### status is now ~pre-alpha 0.7x
 
 > TLDR: Dockistry is a portable registry containing 20+ docker-composed stacks with devops tooling and hundreds of options for developing reactive SPA software.  It's open source, and is designed to be portable and browsable via an Electron-driven CLI.  It also contains pre-built HHVM images for rapid infrastructure setup on Amazon/Google clouds, and come pre-installed with a variety of software packages such as Rancher, Gitlab CE, and other tools.
 
-##### status / ~pre-alpha 0.5.9
-- [video-gifs](https://github.com/forktheweb/dockistry/blob/master/docs-infrastructure-packages.md) of what is included with Dockistry infrastructure by default
-- [video-gifs](https://github.com/forktheweb/dockistry/blob/master/docs-experimental-cli.md) of our experimental CLI(s) and some background info on existing CLI(s)
-- [video-gifs](https://github.com/forktheweb/dockistry/blob/master/dockistry-cli.md) of a devstack tooling setup on windows
+#### videos
+These are nice if you have no idea what this project is all about, but keep reading! :)
+- ***[Video Examples](#Video-Gifs)***
 
-##### To get access to the registry:
-- Shoot me your e-mail [on gitter](https://gitter.im/forktheweb/dockistry), and I'll create a contributor account for you. 
-- Master-Registry Location for Strategies: [dockistry-contributors](https://labs.stackfork.com:2003/)  
-- information about the [author](https://labs.stackfork.com:2003/dockistry-contributors/cho/blob/master/resume/resume-coverletter.md)
-- last updated date 04-22-2016
+#### news
+* brand new: 
+   * [dockistry/devtools-multi-clis](https://github.com/dockistry/devtools-multi-clis)
+   * [lots of changes](#Changelog)
+   * [roadmap updates](https://github.com/forktheweb/dockistry/blob/master/roadmap.md)
+* [major updates](https://labs.stackfork.com:2003/dashboard/groups) have been made to the master registry (both groups & projects content)
+   
+> last updated: 05-12-2016 2pm
 
-# introduction
-Every developer uses different tooling, dependencies and package management tools, scaffolds, and testing/monitoring tools. Not to mention continuous integration and E2E tools, and all the other considerations that go along with building end-to-end apps with continuous delivery cycles.
+	     ||`           '||               ||                  
+	     ||             ||     ''        ||                  
+	 .|''|| .|''|,.|'', || //` || (''''''||'' '||''|'||  ||` 
+	 ||  || ||  ||||    ||<<   ||  `'')  ||    ||    `|..||  
+	 `|..||.`|..|'`|..'.|| \\..||.`...'  `|..'.||.       ||  
+	                                                  ,  |'  
+	 ~ Fullstack strategies by forking pterodactyls    ''              
 
-Have you ever desired to unify E2E considerations into single format so that your favorite environment setup for development and production on any platform can be distributed and stablized for mass consumption?  
+
+
+# Dockistry Fullstacks!
+Every developer uses different tooling, dependencies and package management tools, scaffolds, and testing/monitoring tools.  There are too many tools out there, and we are not building another one.  Dockistry is a strategy engine, and it organizes all the crap you don't want to test and debug and learn how to setup, so that you can more easily "shop" strategies.
+
+There are a million fullstack considerations, and we've broken them down into an easy to understand registry that is modular, and will have a full-fledged SPA app that runs on your desktop and stays in sync with our master repo!  Our experts are constantly forming stack strategies and assembling collections of the best products you can find on Github using kick ass pTerodactyl powered devops!
+
+# introducing pTero!
+***let pTerodactyls handle your business!***
+- Have worked with Docker?  No matter if you haven't!  
+- Have you ever worked with Rancher?  No matter if you haven't
+- Have you ever setup EC2 stacks on Amazon AWS?  No matter
+- BAM! All of our production stacks are docker-composed & rancher compatible!
+
+#### 
+- Having trouble finding Angular, Aurelia, or other SPA stuff that works right?
+- Have you had Node-Gyp Errors in the past?  NO PROBLEM.  Our stacks come pre-configured and compiled via the power of GO LANG!
+- 
 
 It's under that premise that Dockistry has been created.  
 
@@ -260,7 +285,34 @@ Started on AWS by a Devops team with 30 years combined experience
 - We intend to offer enterprise services and world class support alongside the apps web build which utilize this platform.
 - We also offer DefaultSecure Let's Encrypt on SSL via Nginx-Proxy by default (automatic for all docker 443 hosts)
 
+
+# Changelog
+##### status 05-12-2016 2pm / ~pre-alpha 0.7
+
+##### latest change-log & news / ~cli-multi-dev-tools pre-alpha stage is 0.7
+- baseline infrastructures and planning, and node depdendencies
+- electron and ionic configs are functional and tested on desktop app portion
+- go-lang terminal is functional on devstack and will be utilized in tandem with cobra (github release automation too)
+- finalized concept & baseline go-lang to docker ephemeral process for the elliptical curve go algorithms (key management via ETCD and KMS via docker containers generators that are ephemeraly and use SRM to delete their keys after specified time-range)  [ECDH module](https://labs.stackfork.com:2003/dockistry/cryptodev-ephemeral-ecdh)
+- regarding the stackFork primary installer & registry SPA:
+  - SPA work is solid on both web-pack-devserver and straight gulp build with jspm (both @ng 1.4)
+  - angular 2.0 build is 40% there & it's functioning but I still have a ways to go and it's buggy
+  - angular 1.4 SPA is nearly finished for stackfork, but I have to test the integration with the CLI code next
+  - powershell configs, and go-lang elliptical crypto, cobra/viper installations are done
+
+# Video-Gifs
+- [video-gifs](https://github.com/forktheweb/dockistry/blob/master/docs-infrastructure-packages.md) of what is included with Dockistry infrastructure by default
+- [video-gifs](https://github.com/forktheweb/dockistry/blob/master/docs-experimental-cli.md) of our experimental CLI(s) and some background info on existing CLI(s)
+- [video-gifs](https://github.com/forktheweb/dockistry/blob/master/dockistry-cli.md) of a devstack tooling setup on windows
+
+## To get access to the registry:
+- Shoot me your e-mail [on gitter](https://gitter.im/forktheweb/dockistry), and I'll create a contributor account for you. 
+- Master-Registry Location for Strategies: [dockistry-contributors](https://labs.stackfork.com:2003/)  
+- information about the [author](https://labs.stackfork.com:2003/dockistry-contributors/cho/blob/master/resume/resume-coverletter.md)
  
+
+
+
 ```bash
                             <\              _
                             \\          _/{
