@@ -6,14 +6,17 @@
 
 #### videos
 These are nice if you have no idea what this project is all about, but keep reading! :)
-- ***[Video Examples](#Video-Gifs)***
+- ***[Video Examples](https://github.com/forktheweb/dockistry/blob/master/README.md#video-gifs)***
 
 #### news
 * brand new: 
    * [dockistry/devtools-multi-clis](https://github.com/dockistry/devtools-multi-clis)
-   * [lots of changes](#Changelog)
+   * [lots of changes](https://github.com/forktheweb/dockistry/blob/master/README.md#changelog)
    * [roadmap updates](https://github.com/forktheweb/dockistry/blob/master/roadmap.md)
-* [major updates](https://labs.stackfork.com:2003/dashboard/groups) have been made to the master registry (both groups & projects content)
+
+> *** NOTE: YOU MUST REQUEST REGISTRY ACCESS TO LOGIN AND VIEW MOST PROJECTS ***
+* [major updates](https://labs.stackfork.com:2003/dashboard/groups) have been made to the master registry
+* [public registry updates](https://labs.stackfork.com:2003/explore/projects/starred)
    
 > last updated: 05-12-2016 2pm
 
@@ -32,19 +35,31 @@ Every developer uses different tooling, dependencies and package management tool
 
 There are a million fullstack considerations, and we've broken them down into an easy to understand registry that is modular, and will have a full-fledged SPA app that runs on your desktop and stays in sync with our master repo!  Our experts are constantly forming stack strategies and assembling collections of the best products you can find on Github using kick ass pTerodactyl powered devops!
 
-# introducing pTero!
+## introducing pTero!
 ***let pTerodactyls handle your business!***
 - Have worked with Docker?  No matter if you haven't!  
 - Have you ever worked with Rancher?  No matter if you haven't
 - Have you ever setup EC2 stacks on Amazon AWS?  No matter
 - BAM! All of our production stacks are docker-composed & rancher compatible!
 
-#### 
-- Having trouble finding Angular, Aurelia, or other SPA stuff that works right?
-- Have you had Node-Gyp Errors in the past?  NO PROBLEM.  Our stacks come pre-configured and compiled via the power of GO LANG!
-- 
+![dinosaurs-rule](http://forktheweb.com.s3.amazonaws.com/dinosaurs.gif)
+### dinosaurs rule!
+- Stacks are CLI-driven, searchable, and one-click deployed!
+- Deploy to your localmachine on a .dev domain
+- Deploy to staging or production hosts at Amazon EC2
+- Deploy Kubernetes nodes to Google Cloud Hosting!
 
-It's under that premise that Dockistry has been created.  
+### what do you get?
+Just [take a gander] at all the cool virtualized apps we include in our CLI installer!
+- that's like everything a tech company needs to get up and running in one shot!
+- no kidding, we even give you a robot.  no for real, we do!  don't you want a frickin robot?!
+- hate installing stuff?  no worries boss, deploy our crazy-cool amazon AMI image!
+- wanna give Amazon more of your cash cause they super TIGHT-BALS!?  ... then deploy an **entire cluster** of amazon stuff via cloud-formation .... we build it right in!
+- even more fancy then cloud-formation, our docker-composed stacks can perform their own health checks and auto-scale right on the EC2 instance.  
+- That's like having an auto-scaling cluster RIGHT IN AN INSTANCE!  How cool is that, it saves you like mad cash!  
+
+It's under the premise that most people want to compare stuff, but only the stuff that matters, that Dockistry has been created.  
+It's been created by veteran web nerds who care about you, and our technology is backed by a benevolent winged-beast.... our god like overseer.
 
 # stacks
 
