@@ -13,11 +13,15 @@
 > - Why bother doing this again and again, only to find out the solution isn't _truly_ end-to-end or fails where it wasn't supposed to
 > - Why attempt to setup your own critical infrastructure on Amazon or Google Cloud clusters if you don't have to?
 
-Dockistry is a curated docker registry (its actually several registries in one).
+Dockistry is a curated docker registry (bam!  two-words in one!) of expertly crafted fullstack, e2e, continuous integration, and testing solutions... built by some nerd who is most certainly vitamin D deficient (and jurassically obsessed).
 
-You choose from over 30 stem baselines and hundreds of component combinations, cluster options, database options, and more... all from the comfort of our desktop app or website.   Deploy instantly to your local machine for testing, or to AWS/Google instantly for staging or production environments.  (adding heroku, digital ocean, and other provider soon too!)
+## Why so bomb-diggity, you might ask?
+*** we may reply: ***
+With Dockistry, you choose from over 30 stem baselines and hundreds of component combinations, cluster options, database options, and more (or let our app suggest them)... and you do this all from the comfort of our native desktop app or website.   
 
-### True-facts 
+Once you find what you're after, deploy your bitchin' fullstack solution instantly to a local machine for testing, or to AWS/Google instantly for staging or production environments. All without programming or touching a shell window, configuration prompt, or control panel.  ~ SUPA_TIGHT AMIRITE?!
+
+## True-facts 
 - Not another package manager
 - Not another tool
 - Intelligently designed for an intuitive, elegant experience
