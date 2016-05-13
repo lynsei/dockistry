@@ -7,16 +7,19 @@
 	 ~ Fullstack strategies by forking pterodactyls    ''              
 
 
-# Dockistry
+# Introduction to Dockistry
+Dockistry is a curated docker registry (bam!  two-words in one!) of expertly crafted fullstack, e2e, continuous integration, and testing solutions... built by some nerd who is most certainly vitamin D deficient (and jurassically obsessed).
+
+## Why use Dockistry?
+- can be used by person(s) of virtually any skill level 
+- within just a few clicks you can set up a development or production service
+- your service can be hosted locally or on amazon of google cloud providers
 
 > - Why clone one git repository after another, just to test solutions, and stack examples only to have them fail, or annoy you?
 > - Why bother doing this again and again, only to find out the solution isn't _truly_ end-to-end or fails where it wasn't supposed to
 > - Why attempt to setup your own critical infrastructure on Amazon or Google Cloud clusters if you don't have to?
 
-Dockistry is a curated docker registry (bam!  two-words in one!) of expertly crafted fullstack, e2e, continuous integration, and testing solutions... built by some nerd who is most certainly vitamin D deficient (and jurassically obsessed).
-
-## Why so bomb-diggity, you might ask?
-***With Dockistry***, you choose from over 30 stem baselines and hundreds of component combinations, cluster options, database options, and more (or let our app suggest them)...  all from our comfy desktop app.  So smooth it makes the beach boys sounds even sweeter, and just like the beach boys... we "get around" having to host your stuff like most services offering this (i.e.- Heroku, Devo.ps, Scalingo, Azure, etc.).  
+So smooth it makes the beach boys sounds even sweeter, and just like the beach boys... we "get around" having to host your stuff like most services offering this (i.e.- Heroku, Devo.ps, Scalingo, Azure, etc.).  
 
 Once you find what you're after, deploy your bitchin' fullstack solution instantly to a local machine for testing, or to AWS/Google instantly for staging or production environments. All without programming or touching a shell window, configuration prompt, or control panel.  ~ SUPA_TIGHT AMIRITE?!
 
