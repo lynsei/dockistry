@@ -50,24 +50,35 @@ Remember it's in YOUR CLOUD and not on whoever-the-heck's cloud.  Amazon is fair
 
 #### Will code for food though, so if you got it don't hold back now! ;)
 
-### We also have a pterodactyl as a mascot!
+> (We also have a pterodactyl as a mascot!)
 
-
-
-
+# Seriously
 ## This is not a joke
 
-- That's right folks! Leave those GitKrakens alone!
-- Our stacks are in definitely powered by enormous flying jurassic beasts and designed with your security and peace-of-mind, in mind!
-We build complete E2E strategies that work together and are designed *not to* fail miserably on any Windows 10, Linux Ubuntu Trusty, or Darwin/Mac OSX Environment that uses our fancy cross-platform SPA technology.
+- We're talking about Dockistry, we don't actually slave-drive anyone haha
+- That's right folks! Leave those GitKrakens alone from here on out
+- Our flying jurassic beasts will provide complete security and keep your peace-of-mind, in mind!
 
-We know those lousy [node-gyp issues](https://github.com/nodejs/node-gyp/issues/629) got you down!   And it's time to fire that accountant, or nephew who was supposed to build your technology infrastructures months ago ... we know they still haven't finished the wordpress website, and for christsakes we can set you up with fat HHVM mariadb stack running a PHP-LESS wordpress and Aurelia.  CAN YOUR NEPHEW AUTOMATE THAT?  I THINK NOT!
+## Comprehensive
+- We build complete E2E strategies that work together and are designed *not to* fail miserably on any Windows 10, Linux Ubuntu Trusty, or Darwin/Mac OSX Environment that uses our fancy cross-platform SPA technology.
+- We know those lousy [node-gyp issues](https://github.com/nodejs/node-gyp/issues/629) got you down!   
 
-# All Jokes Aside
+And it's time to fire that accountant, or nephew or whoever else was supposed to build your technology infrastructures months ago ...
+ 
+- We know they still haven't finished the wordpress website, and jiminy xmas!
+- Dockistry has a super-duper-fat HHVM mariadb stack running a souped-up PHP-LESS wordpress & calypso JSON-powered backend FFS!    
+- Dinosaurs to the rescue! 
+- Qucikly installed, tested, and deployed as a docker to your ec2/kube instance 
+- Default SSL, behind a reverse proxy... Route 53 DNS done for you!
 
-Now that we have your interest, this projects is definitely a real-deal thing.  It's our labor of love.
+##### CAN YOUR NEPHEW AUTOMATE THAT LIKE OUR PTERODACTYL?  I THINK NOT!
 
-# STATUS
+### All Jokes Aside
+We hope we have your interest, this projects is definitely a real-deal thing. ... and it's our labor of love.  Despite being pre-alpha, we're actually coming along at a faster rate than expected but are ALWAYS looking for help and contributors.
+
+Hit us up on [gitter](https://gitter.im/forktheweb/dockistry) and say hi!
+
+## STATUS
 
 ##### status is now ~pre-alpha 0.7x
 
