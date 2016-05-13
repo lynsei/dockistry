@@ -136,7 +136,8 @@ Just [take a gander] at all the cool virtualized apps we include in our CLI inst
 It's under the premise that most people want to compare stuff, but only the stuff that matters, that Dockistry has been created.  
 It's been created by veteran web nerds who care about you, and our technology is backed by a benevolent winged-beast.... our god like overseer.
 
-# stacks
+# Wow Such Example. So stack.
+### More better than traditional stack.
 
 > [pdf](https://goo.gl/dnBX4u)
 
