@@ -16,8 +16,7 @@
 Dockistry is a curated docker registry (bam!  two-words in one!) of expertly crafted fullstack, e2e, continuous integration, and testing solutions... built by some nerd who is most certainly vitamin D deficient (and jurassically obsessed).
 
 ## Why so bomb-diggity, you might ask?
-*** we may reply: ***
-With Dockistry, you choose from over 30 stem baselines and hundreds of component combinations, cluster options, database options, and more (or let our app suggest them)... and you do this all from the comfort of our native desktop app or website.   
+***With Dockistry***, you choose from over 30 stem baselines and hundreds of component combinations, cluster options, database options, and more (or let our app suggest them)...  all from our comfy desktop app.  So smooth it makes the beach boys sounds even sweeter, and just like the beach boys... we "get around" having to host your stuff like most services offering this (i.e.- Heroku, Devo.ps, Scalingo, Azure, etc.).  
 
 Once you find what you're after, deploy your bitchin' fullstack solution instantly to a local machine for testing, or to AWS/Google instantly for staging or production environments. All without programming or touching a shell window, configuration prompt, or control panel.  ~ SUPA_TIGHT AMIRITE?!
 
@@ -27,6 +26,13 @@ Once you find what you're after, deploy your bitchin' fullstack solution instant
 - Intelligently designed for an intuitive, elegant experience
 - YAML-driven, Docker-composed, CLI-driven
 - Dinosaurs are teh rad
+
+### Just Like Everyone in Open Source:
+Absolutely No Warranty...  But it's yours to operate and do what you want with.   DINOSAUR POPCICLES!
+We believe in the power of absolute zero liability, because we are not hosting you and we are platform independent.
+
+We don't even have a warranty for this stuff!  haha... Don't worry, you are STILL gonna sleep 100% better tonight.
+Remember it's in YOUR CLOUD and not on whoever-the-heck's cloud.  Amazon is fair pants and so is Google, yay!
 
 # WAIT WAIT THERE'S MORE!
 ![awesome-rex](http://forktheweb.com.s3.amazonaws.com/rext.gif)
