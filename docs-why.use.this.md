@@ -10,10 +10,10 @@
 # why use dockistry? 
 > "It is not our intention to create another tool or package manager, but rather... we intend to create a strategy engine."
 
-- The developers of Dockistry have created it for developing websites and mobile apps using various languages and tooling.
-- We aggregate many web components, CDNjs packages, SVG tools, and other shiny web things to organize them better
-- Github is overwhelming to many developers, and there are too many options.  Setting up devtools for them sucks.
-- Dockistry can help you shop around faster and more reliably by unifying the setup for many dev, staging, and production concerns.
+- The developers of Dockistry have created it for developing websites and mobile apps using a single codebase.
+- We aggregate many [web components](https://github.com/forktheweb/dockistry/blob/master/docs-componentry.md), CDNjs packages, [frameworks](https://github.com/forktheweb/dockistry/blob/master/docs-frameworks.md), [databases](https://github.com/forktheweb/dockistry/blob/master/docs-database.md), and other [shiny-things](https://github.com/forktheweb/dockistry/blob/master/docs-infrastructure-packages.md) in order to organize them better.
+- Github is overwhelming to many developers, and setting up devtools for them is an arduous and daunting process, mostly.
+- Dockistry can help you shop around faster and more reliably by [unifying the setup](https://github.com/forktheweb/dockistry/blob/master/dockistry-cli.md) for many dev, staging, and production concerns using a [multi-platorm toolkit](https://github.com/dockistry/devtools-multi-clis).
 
 It's because of the ***overwhelming*** amount of fullstack customization options currently available, that we identified a clear need for devtools & stack management software that is focused on strategy management and setup.  You can read more about that  [here](https://github.com/dockistry/devtools-multi-clis).
 
