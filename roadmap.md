@@ -19,15 +19,17 @@ Dockistry provides native tooling & docker-driven images that ease deployment an
 ##### dockistry is offering the following flavors (pre-alpha)
 | name | description | architectures | purpose | built with |
 | :-------- | --------:| :------: | :------: | :------: |
-| *"stackfork.com"*  |   desktop E2E primary  | darwin, win10, ubuntu | desktop installer baseline: live strategy management & toolkit installers |  angular2, electron, and using Falcor & RethinkDB.  immediately deploy stacks to any AWS/ Google Cloud/ Windows, or Ubuntu environment
-| *"[multi-tools-cli](https://github.com/dockistry/devtools-multi-clis)"*  |  multi-platform, agoric packages designed to streamline developer tooling &  consolidate build-tools and unit-testing.   | all platforms and devices | the goal is to keep the tooling the same for all packages in our registry. |  go, node, powershell, docker... [phase 2 maybe some elixir, swift, ionic] |
+| *"stackerize app"*  |   desktop E2E primary  | darwin, win10, ubuntu | desktop installer baseline: live strategy management & toolkit installers |  angular2, electron, and using Falcor & RethinkDB.  immediately deploy stacks to any AWS/ Google Cloud/ Windows, or Ubuntu environment
+| *"[devtools packages](https://github.com/dockistry/devtools-multi-clis)"*  |  multi-platform, agoric packages designed to streamline developer tooling &  consolidate build-tools and unit-testing.   | all platforms and devices | the goal is to keep the tooling the same for all packages in our registry. |  go, node, powershell, docker... [phase 2 maybe some elixir, swift, ionic] |
 
-## desktop 
+## stackerize app
+
+#### desktop 
 Dockistry comes in several flavors for desktop users.  All of our tools are installed from a single package called "Stackerize", which provides everything you will need for infrastructure and devtools packages. [you can also [download these tools individually](//github.com:443/dockistry/) if you wish].
 
 Dockistry is fundamentally a developer-oriented project that is designed to compose projects as "stacks", and do so with incredible speed and reliability.   This can only happen if a robust set of tools are offered through a CLI.  Dockistry developers intend to build a community on top of the CLI tools and technologies, and this is why we are separating our CLI tools from the Stackerize app itself, which will be more community focused.  The primary reason the Stackerize app exists is to integrate everything together, the tools, and the community.
 
-## tooling considerations
+#### tooling considerations
   > *... a bit of background information and a preface by [forktheweb](//github.com:443/forktheweb)*
 
   All too frequently in my career I've chosen the wrong technology and gotten stuck with it, only to regret that decision later on.  This is easy to do given the vast amount of tools and technologies readily available on the web.   This abundance of "flavor of the day" has turned me into a "magpie developer" over the years, but it's also brought me to a place where I now feel comfortable with the chaos.  I call this:  acceptance.  lol   
