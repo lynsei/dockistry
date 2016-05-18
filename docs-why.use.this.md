@@ -11,15 +11,19 @@
 > "It is not our intention to create another tool or package manager, but rather... we intend to create a strategy engine and a community that contributes to it."
 
 - The developers of Dockistry have created it for developing websites and mobile apps using a single codebase.
-- Dockistry organizes [web components](https://github.com/forktheweb/dockistry/blob/master/docs-componentry.md), CDNjs packages, [frameworks](https://github.com/forktheweb/dockistry/blob/master/docs-frameworks.md), [databases](https://github.com/forktheweb/dockistry/blob/master/docs-database.md), and other [shiny-things](https://github.com/forktheweb/dockistry/blob/master/docs-infrastructure-packages.md) our experts find useful.
-- Github can be overwhelming to developers starting out. Setting up devtools is an arduous and daunting process, mostly.
-- Dockistry can help you shop around faster and more reliably by [unifying the setup](https://github.com/forktheweb/dockistry/blob/master/dockistry-cli.md) for many dev, staging, and production concerns using a [multi-platorm toolkit](https://github.com/dockistry/devtools-multi-clis).
+- Dockistry organizes [web components](https://github.com/forktheweb/dockistry/blob/master/docs-componentry.md),  [frameworks](https://github.com/forktheweb/dockistry/blob/master/docs-frameworks.md), [databases](https://github.com/forktheweb/dockistry/blob/master/docs-database.md), and other [shiny-things](https://github.com/forktheweb/dockistry/blob/master/docs-infrastructure-packages.md) our experts find useful.
+
+> TRUE FACT:  Github can be overwhelming to developers starting out. Setting up tooling & package managers is often an arduous and daunting process.
+
+It's because of the ***overwhelming*** amount of fullstack customization options currently available that we identified a clear need for a more [organized approach](https://github.com/forktheweb/dockistry/blob/master/roadmap.md) paired with architecture-specific [devtools packages](https://github.com/dockistry/devtools-multi-clis) and that provide [setup options](https://github.com/forktheweb/dockistry/blob/master/docs-infrastructure-packages.md) for production environments.
+
+- Dockistry can help you shop around faster and more reliably by [unifying the setup](https://github.com/forktheweb/dockistry/blob/master/dockistry-cli.md) for many dev/ prod. concerns by using a [multi-platorm toolkit](https://github.com/dockistry/devtools-multi-clis) and [infrastructure setup tools](https://github.com/forktheweb/dockistry/blob/master/docs-infrastructure-packages.md), combined in one handy [desktop app](https://github.com/forktheweb/dockistry/blob/master/roadmap.md).
 - Useful to advanced developers by bringing into play languages, databases, frameworks, and boilerplates that you might not have considered (or even been aware of).
-- Dockistry will make you a programming rockstar, just generally speaking.  ;) It enables you to impress friends with your broad range of tooling knowledge, and makes the whole process less painless/ more efficient.
+- Makes you a programming rockstar, just generally speaking.  ;)
+- Impress your friends/boss with your broad range of tooling knowledge 
+- Use this for your Internet startup to get running on a full infrastructure, quickly & painlessly.
 
-It's because of the ***overwhelming*** amount of fullstack customization options currently available that we identified a clear need for a more [organized approach](https://github.com/forktheweb/dockistry/blob/master/roadmap.md) paired with architecture-specific [devtools packages](https://github.com/dockistry/devtools-multi-clis) and that provide [setup options](https://github.com/forktheweb/dockistry/blob/master/docs-infrastructure-packages.md) for production environments.  
-
-# instant infrastructure
+## about infrastructure setup
 Use Dockistry to instantly create the infrastructure necessary to operate any web development shop, freelancer, or software firm's baseline.  Here's what's included:
 
 - Setup Rancher as a master instance using our AMI/Kube/Droplet
@@ -29,7 +33,7 @@ Use Dockistry to instantly create the infrastructure necessary to operate any we
 - The build process is entirely customizable via the dockistry-yml file, and the other configs in the repository.
 - You can easily fork a repository to make minor modifications for your deployment
 
-# instant stack deploys
+## about stack deployment
 Dockistry offers the following features for instantaneous fullstack software installation:
 
 - fullstacks are designed for various [frameworks](https://github.com/forktheweb/dockistry/blob/master/docs-frameworks.md), [components](https://github.com/forktheweb/dockistry/blob/master/docs-componentry.md), and [databases](https://github.com/forktheweb/dockistry/blob/master/docs-database.md).
@@ -40,14 +44,16 @@ Dockistry offers the following features for instantaneous fullstack software ins
 
 > note: if you don't see anything you like, your can build your own stack solution using our directory of modular dockers and components
 
-# our approach
+# technical details
+
+## our approach
 - We understand the importance of infrastructure-through-code and repeatable patterns.
 - We embrace [12-factor methods](http://12factor.net/)
 - 100% Afero GPL code with enterprise capabilities out-of-the-box
 - We intend to offer enterprise services and world class support alongside the apps web build which utilize this platform.
 - We also offer DefaultSecure Let's Encrypt on SSL via Nginx-Proxy by default (automatic for all docker 443 hosts)
 
-# features run-down
+## features run-down
 - base installation includes access to our master registry, which can be easily cloned locally to "shop" strategies
 - each strategy is easy to fork and modify, and we use many existing technologies to accomplish this
 - comprehensive fullstack solution for deployment to dev/stage/prod envs.
