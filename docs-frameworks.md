@@ -1,12 +1,12 @@
-# frameworks
-This is a bleeding edge list of the frameworks we support for SPA (reactive) strategies within our Developer CLI and as part of our "baselines" for stack deployment on Docker/ Rancher/ Npm.   
+# javascript frameworks
+This is a "bleeding edge" list of the frameworks we are supporting by default for fullstack strategies.  All the frameworks below are client side and written in javascript using various NodeJS dependencies.
 
-Because Dockistry maintains private repos and is built on Docker-compose YAML, we can avoid Node-gyp and other package issues commonly occurring in NPM (depending on your platform).  This also allows you to run test instances on separate  versions of the master registries thereby circumventing unit testing/ versioning issues on HHVM/ROS/Node environments.
-
-For more information on how the CLI operates, view [docs-cli](https://github.com/forktheweb/dockistry/blob/master/dockistry-cli.md).
-For windows examples view [experimental-cli](https://github.com/forktheweb/dockistry/blob/master/docs-experimental-cli.md).
-
-To contribute or view our (pre-alpha) registry of stack strategies, say hi on [gitter](https://gitter.im/forktheweb/dockistry).
+## installs are automated
+- Development of our [devtools](https://github.com/dockistry/devtools-multi-clis) packages is ongoing and not test-ready
+- To see how the CLI operates in production environments such as Amazon/Google clouds, view [docs-cli](https://github.com/forktheweb/dockistry/blob/master/dockistry-cli.md).
+- For windows examples view [experimental-cli](https://github.com/forktheweb/dockistry/blob/master/docs-experimental-cli.md).
+- In some cases we support multiple versions of the frameworks listed below, for different use cases/ strategies
+- Installation of all dependencies and tooling considerations is done automatically
 
 ### aurelia 
 http://aurelia.io
@@ -53,7 +53,6 @@ https://angular.io/
  - [material2](https://github.com/angular/material2) or [semantic ui](http://semantic-ui.com/introduction/integrations.html)
  - https://material.angularjs.org
  - [mean stack generator optional](https://github.com/angular-fullstack/generator-angular-fullstack)
- - [blur example](https://github.com/akveo/blur-admin)
  
 ### react
 https://facebook.github.io/react/
