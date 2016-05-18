@@ -23,6 +23,12 @@ It's because of the ***overwhelming*** amount of fullstack customization options
 - Impress your friends/boss with your broad range of tooling knowledge 
 - Use this for your Internet startup to get running on a full infrastructure, quickly & painlessly.  (on AWS or Google clouds)
 
+
+> - Why clone one git repository after another, just to test solutions, and stack examples only to have them fail, or annoy you?
+> - Why bother doing this again and again, only to find out the solution isn't _truly_ end-to-end or fails where it wasn't supposed to
+> - Why attempt to setup your own critical infrastructure on Amazon or Google Cloud clusters if you don't have to?
+
+
 ## about infrastructure setup
 Use Dockistry to [instantly create](https://github.com/forktheweb/dockistry/blob/master/docs-infrastructure-packages.md) the infrastructure necessary to operate any web development shop, freelancer, or software firm's baseline.  
 
