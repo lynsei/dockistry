@@ -24,14 +24,23 @@ It's because of the ***overwhelming*** amount of fullstack customization options
 - Use this for your Internet startup to get running on a full infrastructure, quickly & painlessly.  (on AWS or Google clouds)
 
 ## about infrastructure setup
-Use Dockistry to instantly create the infrastructure necessary to operate any web development shop, freelancer, or software firm's baseline.  Here's what's included:
+Use Dockistry to [instantly create](https://github.com/forktheweb/dockistry/blob/master/docs-infrastructure-packages.md) the infrastructure necessary to operate any web development shop, freelancer, or software firm's baseline.  
 
-- Setup Rancher as a master instance using our AMI/Kube/Droplet
-- Pre-configured deployment of Gitlab CE, Rancher, Discourse, Rocketchat-Hubot, Private Registries (Dockers/ NPMs), a Wekan board and other nifty stuff
-- Optionally pre-load test frameworks for React, Aurelia, Wordpress, Angular, and Feathers and build/deploy them on your test environments by using our boilerplates
-- Our Go CLI can build test stacks for a variety of strategies in a single process
-- The build process is entirely customizable via the dockistry-yml file, and the other configs in the repository.
-- You can easily fork a repository to make minor modifications for your deployment
+##### Here's what's included with our basic infrastructure setup:
+- Private Registry Services (optional)
+    - NPM registry
+    - Docker registry
+    - Git registry
+- SSL-secured, Docker/ Rancher driven (optional) software such as:
+    - [Rancher](https://rancher.com/) with reverse-proxy for managing SSL websites and docker images
+    - [Discourse](https://www.discourse.org/), a ruby-driven web forum that kicks major ass
+    - [Rocketchat-Hubot](https://github.com/RocketChat/hubot-rocketchat), because who doesn't want their own robot?
+    - [Wekan Board](https://github.com/wekan/wekan), to help your projects stay organized (kinda like Trello)    
+    - [Gitlab CE](https://gitlab.com/) for managing your very own git repositories
+- Stack development
+    - Optionally pre-load test [frameworks](https://github.com/forktheweb/dockistry/blob/master/docs-frameworks.md) and boilerplates for local or production stacks
+- Our Go CLI can build test stacks for a variety of strategies in a single process, automatically for you.
+- You can easily fork a repository to make minor modifications for your own deployment pipeline
 
 ## about stack deployment
 Dockistry offers the following features for instantaneous fullstack software installation:
