@@ -23,7 +23,7 @@ Dockistry provides native tooling & docker-driven images that ease deployment an
 | *"[multi-tools-cli](https://github.com/dockistry/devtools-multi-clis)"*  |  multi-platform, agoric packages designed to streamline developer tooling &  consolidate build-tools and unit-testing.   | all platforms and devices | the goal is to keep the tooling the same for all packages in our registry. |  go, node, powershell, docker... [phase 2 maybe some elixir, swift, ionic] |
 
 ## desktop 
-Dockistry comes in several flavors for desktop users.  All of our tools are installed from a single package called "Stackerize", which provides everything you will need to clone the registry, set up infrastructure, and set up developer tooling packages [download these tools individually](//github.com:443/dockistry/) if you wish].
+Dockistry comes in several flavors for desktop users.  All of our tools are installed from a single package called "Stackerize", which provides everything you will need for infrastructure and devtools packages. [you can also [download these tools individually](//github.com:443/dockistry/) if you wish].
 
 Dockistry is fundamentally a developer-oriented project that is designed to compose projects as "stacks", and do so with incredible speed and reliability.   This can only happen if a robust set of tools are offered through a CLI, and only when those tools are unit tested and deployed in various architecture compositions and are relatively agoric or at minimum platform-adaptable.
 
