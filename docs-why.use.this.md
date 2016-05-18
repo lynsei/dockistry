@@ -21,7 +21,7 @@ It's because of the ***overwhelming*** amount of fullstack customization options
 - Useful to advanced developers by bringing into play languages, databases, frameworks, and boilerplates that you might not have considered (or even been aware of).
 - Makes you a programming rockstar, just generally speaking.  ;)
 - Impress your friends/boss with your broad range of tooling knowledge 
-- Use this for your Internet startup to get running on a full infrastructure, quickly & painlessly.
+- Use this for your Internet startup to get running on a full infrastructure, quickly & painlessly.  (on AWS or Google clouds)
 
 ## about infrastructure setup
 Use Dockistry to instantly create the infrastructure necessary to operate any web development shop, freelancer, or software firm's baseline.  Here's what's included:
