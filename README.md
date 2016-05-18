@@ -7,6 +7,18 @@
 	 ~ Fullstack strategies by forking pterodactyls    ''              
 
 
+# Links
+- about the author | preface
+- why use dockistry?
+- video gifs for the lazy
+- support is provided for
+   * frontend frameworks
+   * languages & dependencies
+   * devtooling and production 
+   * databases and utilities
+   * componentry setup
+   * infrastructure setup 
+
 # What is Dockistry?
 Dockistry is a [curated registry](https://labs.stackfork.com:2003/explore/projects/starred) containing many docker-composed stacks, boilerplates, and devtools packages which are organized in [various categories](https://labs.stackfork.com:2003/explore/groups)).  It comes with a [mutli-platform app](https://github.com/forktheweb/dockistry/blob/master/roadmap.md), which helps you install [devtools](https://github.com/dockistry/devtools-multi-clis) and various [production stacks](https://labs.stackfork.com:2003/groups/servers) on Ubuntu, Darwin, and Windows-based operating systems.
 
@@ -21,43 +33,36 @@ Dockistry is a [curated registry](https://labs.stackfork.com:2003/explore/projec
 - Dockistry makes it far more simple to shop for various fullstack strategies on Github
 - Dockistry packages are easy to fork and customize, and do not replace your existing tools
 
-# Why use Dockistry?
-> - Why clone one git repository after another, just to test solutions, and stack examples only to have them fail, or annoy you?
-> - Why bother doing this again and again, only to find out the solution isn't _truly_ end-to-end or fails where it wasn't supposed to
-> - Why attempt to setup your own critical infrastructure on Amazon or Google Cloud clusters if you don't have to?
-
-Our primary app is so smooth it hums the beach boys.  Our code is opensource, and you host it yourself.  Just take all the setup out of the equation, because our CLI and devtools packages do that work for you.
-
-Once you find what you're after in our app/registry, deploy your bitchin' fullstack solution instantly to a local machine for testing, or to AWS/Google instantly for staging or production environments. All without programming or touching a shell window, configuration prompt, or control panel. We set you up with boilerplates so you can look at examples of code rather than starting from scratch. 
-
 ~ SUPA_TIGHT AMIRITE?!
 
+Our [primary desktop app](https://github.com/forktheweb/dockistry/blob/master/roadmap.md) is so smooth it hums the beach boys!  Dockistry code is opensource, and you host it yourself like 'dapper dan'.  Just take all the setup out of the equation, because our CLI and devtools packages do that work for you!  So... more like 'forest gump' kinda simple. RUMPTASTIC!
+
+Once you find what you're after in our [forking registry](https://labs.stackfork.com:2003/explore/projects/starred), deploy your bitchin' fullstack solution instantly to your local machine for testing, or to AWS/Google instantly for staging or production environments.  If you don't have an infrastructure on AWS or Google yet, our CLI will build it for you.  We can even set you up with boilerplates so you can look at examples of code rather than starting from scratch.  STEGABEANS!
+
 ## True facts 
-- We embrace many package managers and programming languages
+- We embrace all the normal [package managers and programming languages](https://github.com/forktheweb/dockistry/blob/master/docs-why.use.this.md)
 - All our stacks are YAML-driven, Docker-composed, and can be installed for you
-- We offer serveral flavors of Command Line Interface (CLI), which are installed for you
-- Our mascot is a winged overlord from the jurassic age, and he loves to fork
+- We pre-install [all sorts of stuff for you](https://github.com/forktheweb/dockistry/blob/master/docs-why.use.this.md), and it's all cool we promise
+- Our mascot is a [winged overlord](https://github.com/forktheweb/dockistry/blob/master/docs-ptero.md) from the jurassic age, and he [loves to fork](https://twitter.com/allwedoisfork)
 
-### You host
-* Since this is an opensource project, we do not offer a warranty.
-* We do offer enterprise support and custom app development services.
-* It's all MIT/Apache/AGPL opensource code, isn't that DINOSAUR POPCICLES!?
+### Self-Hosted
+* NO WARRANTY:  Since this is an opensource project and all.
+* ENTERPRISE SUPPORT:   We do offer enterprise support and custom app development services, if you need em'.
+* LICENSING:  All our software is MIT/Apache/AGPL opensource code, isn't that DINOSAUR POPCICLES!?
 
-haha... Don't worry, you are STILL gonna sleep 100% better tonight.
-
-Remember it's in YOUR CLOUD and not on whoever-the-heck's cloud.  Amazon is fair pants and so is Google, yay!
+> haha... Don't worry, you are STILL gonna sleep 100% better tonight.  Remember it's in YOUR CLOUD and not on whoever-the-heck's cloud.  Amazon is fair pants and so is Google, yay!
 
 # WAIT WAIT THERE'S MORE!
 ![awesome-rex](http://forktheweb.com.s3.amazonaws.com/rext.gif)
 
-### Free fo shizzle
+### Free fo' shizzle
 
 - Some nerd has done all the work for you.  BRILLIANT!
 - These stacks are pre-composed, unit-tested, and have all your normal tooling stuff.
 - Our pTerodactyls are taking care of yo business, saving you the land before time and money!!
 - Focus on building your apps, cause we took care of some crazy awesome strategy for you!
  
-## Did we mention that this is 100% OPEN-SOURCE 
+## Did we mention that this is 100% OPEN-SOURCE?
 
 > That's right my brotha!  We slave-drive our wicked programmers so they can craft unbelievably cool components and frameworks designed to be smart, scalable, and effortless to deploy!  All on the MIT (Might Ingest Tyrannosaurs later) license!
 
