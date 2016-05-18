@@ -7,34 +7,44 @@
 	 ~ Fullstack strategies by forking pterodactyls    ''              
 
 
-# Introduction to Dockistry
-Dockistry is a curated docker registry (bam!  two-words in one!) of expertly crafted fullstack, e2e, continuous integration, and testing solutions... built by some nerd who is most certainly vitamin D deficient (and jurassically obsessed).
+# What is Dockistry?
+Dockistry is a [curated registry](https://labs.stackfork.com:2003/explore/projects/starred) containing many docker-composed stacks, boilerplates, and devtools packages which are organized in [various categories](https://labs.stackfork.com:2003/explore/groups)).  It comes with a [mutli-platform app](https://github.com/forktheweb/dockistry/blob/master/roadmap.md), which helps you install [devtools](https://github.com/dockistry/devtools-multi-clis) and various [production stacks](https://labs.stackfork.com:2003/groups/servers) on Ubuntu, Darwin, and Windows-based operating systems.
 
-## Why use Dockistry?
-- can be used by person(s) of virtually any skill level 
-- within just a few clicks you can set up a development or production service
-- your service can be hosted locally or on amazon of google cloud providers
+## For Fullstack Beginners
+- Dockistry sets you up with a robust server infrastructure easily on Amazon or Google, for free.
+- Dockistry can get up and running with fullstack boilerplates and tools on your local PC/mac to experiment with
+- Dockistry is easy to install and simplifies the process of installing package managers and language interpreters
 
+## For Advanced Users
+- Dockistry provides a robust CLI for managing AWS infrastructure & deploying apps
+- Dockistry simplifies the setup process of developer tooling
+- Dockistry makes it far more simple to shop for various fullstack strategies on Github
+- Dockistry packages are easy to fork and customize, and do not replace your existing tools
+
+# Why use Dockistry?
 > - Why clone one git repository after another, just to test solutions, and stack examples only to have them fail, or annoy you?
 > - Why bother doing this again and again, only to find out the solution isn't _truly_ end-to-end or fails where it wasn't supposed to
 > - Why attempt to setup your own critical infrastructure on Amazon or Google Cloud clusters if you don't have to?
 
-So smooth it makes the beach boys sounds even sweeter, and just like the beach boys... we "get around" having to host your stuff like most services offering this (i.e.- Heroku, Devo.ps, Scalingo, Azure, etc.).  
+Our primary app is so smooth it hums the beach boys.  Our code is opensource, and you host it yourself.  Just take all the setup out of the equation, because our CLI and devtools packages do that work for you.
 
-Once you find what you're after, deploy your bitchin' fullstack solution instantly to a local machine for testing, or to AWS/Google instantly for staging or production environments. All without programming or touching a shell window, configuration prompt, or control panel.  ~ SUPA_TIGHT AMIRITE?!
+Once you find what you're after in our app/registry, deploy your bitchin' fullstack solution instantly to a local machine for testing, or to AWS/Google instantly for staging or production environments. All without programming or touching a shell window, configuration prompt, or control panel. We set you up with boilerplates so you can look at examples of code rather than starting from scratch. 
 
-## True-facts 
-- Not another package manager
-- Not another tool
-- Intelligently designed for an intuitive, elegant experience
-- YAML-driven, Docker-composed, CLI-driven
-- Dinosaurs are teh rad
+~ SUPA_TIGHT AMIRITE?!
 
-### Just Like Everyone in Open Source:
-Absolutely No Warranty...  But it's yours to operate and do what you want with.   DINOSAUR POPCICLES!
-We believe in the power of absolute zero liability, because we are not hosting you and we are platform independent.
+## True facts 
+- We embrace many package managers and programming languages
+- All our stacks are YAML-driven, Docker-composed, and can be installed for you
+- We offer serveral flavors of Command Line Interface (CLI), which are installed for you
+- Our mascot is a winged overlord from the jurassic age, and he loves to fork
 
-We don't even have a warranty for this stuff!  haha... Don't worry, you are STILL gonna sleep 100% better tonight.
+### You host
+* Since this is an opensource project, we do not offer a warranty.
+* We do offer enterprise support and custom app development services.
+* It's all MIT/Apache/AGPL opensource code, isn't that DINOSAUR POPCICLES!?
+
+haha... Don't worry, you are STILL gonna sleep 100% better tonight.
+
 Remember it's in YOUR CLOUD and not on whoever-the-heck's cloud.  Amazon is fair pants and so is Google, yay!
 
 # WAIT WAIT THERE'S MORE!
