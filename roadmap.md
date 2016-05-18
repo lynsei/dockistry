@@ -25,8 +25,7 @@ Dockistry provides native tooling & docker-driven images that ease deployment an
 ## desktop 
 Dockistry comes in several flavors for desktop users.  All of our tools are installed from a single package called "Stackerize", which provides everything you will need for infrastructure and devtools packages. [you can also [download these tools individually](//github.com:443/dockistry/) if you wish].
 
-Dockistry is fundamentally a developer-oriented project that is designed to compose projects as "stacks", and do so with incredible speed and reliability.   This can only happen if a robust set of tools are offered through a CLI, and only when those tools are unit tested and deployed in various architecture compositions and are relatively agoric or at minimum platform-adaptable.
-
+Dockistry is fundamentally a developer-oriented project that is designed to compose projects as "stacks", and do so with incredible speed and reliability.   This can only happen if a robust set of tools are offered through a CLI.  Dockistry developers intend to build a community on top of the CLI tools and technologies, and this is why we are separating our CLI tools from the Stackerize app itself, which will be more community focused.  The primary reason the Stackerize app exists is to integrate everything together, the tools, and the community.
 
 ## tooling considerations
   > *... a bit of background information and a preface by [forktheweb](//github.com:443/forktheweb)*
