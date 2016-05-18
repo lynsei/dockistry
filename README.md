@@ -7,18 +7,6 @@
 	 ~ Fullstack strategies by forking pterodactyls    ''              
 
 
-# Links
-- about the author | preface
-- why use dockistry?
-- video gifs for the lazy
-- support is provided for
-   * frontend frameworks
-   * languages & dependencies
-   * devtooling and production 
-   * databases and utilities
-   * componentry setup
-   * infrastructure setup 
-
 # What is Dockistry?
 Dockistry is a [curated registry](https://labs.stackfork.com:2003/explore/projects/starred) containing many docker-composed stacks, boilerplates, and devtools packages which are organized in [various categories](https://labs.stackfork.com:2003/explore/groups)).  It comes with a [mutli-platform app](https://github.com/forktheweb/dockistry/blob/master/roadmap.md), which helps you install [devtools](https://github.com/dockistry/devtools-multi-clis) and various [production stacks](https://labs.stackfork.com:2003/groups/servers) on Ubuntu, Darwin, and Windows-based operating systems.
 
@@ -33,36 +21,80 @@ Dockistry is a [curated registry](https://labs.stackfork.com:2003/explore/projec
 - Dockistry makes it far more simple to shop for various fullstack strategies on Github
 - Dockistry packages are easy to fork and customize, and do not replace your existing tools
 
+# Why use Dockistry?
+> - Why clone one git repository after another, just to test solutions, and stack examples only to have them fail, or annoy you?
+> - Why bother doing this again and again, only to find out the solution isn't _truly_ end-to-end or fails where it wasn't supposed to
+> - Why attempt to setup your own critical infrastructure on Amazon or Google Cloud clusters if you don't have to?
+
+Our primary app is so smooth it hums the beach boys.  Our code is opensource, and you host it yourself saving you cash.  Just take all the setup out of the equation, because our CLI and devtools packages do that work for you.
+
+Once you find what you're after in our app/registry, deploy your bitchin' fullstack solution instantly to a local machine for testing, or to AWS/Google instantly for staging or production environments. All without programming or touching a shell window, configuration prompt, or control panel. We set you up with boilerplates so you can look at examples of code rather than starting from scratch. 
+
 ~ SUPA_TIGHT AMIRITE?!
 
-Our [primary desktop app](https://github.com/forktheweb/dockistry/blob/master/roadmap.md) is so smooth it hums the beach boys!  Dockistry code is opensource, and you host it yourself like 'dapper dan'.  Just take all the setup out of the equation, because our CLI and devtools packages do that work for you!  So... more like 'forest gump' kinda simple. RUMPTASTIC!
+# Premise of Dockistry
+- Every developer uses different tooling, dependencies and package management tools, scaffolds, and testing/monitoring tools.  There are too many tools out there, and we are not intent on building another one.  
+- ***Dockistry organizes all the frameworks and components you don't want to learn how to setup***, so that you can more easily shop around for strategies, 
+- Our developer tooling is written in Go-lang, so it works on any platform without breaking or causing headaches
+- We use Docker-driven production stacks, and they are also set up by a Go-lang CLI tool for either Amazon or Google clouds
 
-Once you find what you're after in our [forking registry](https://labs.stackfork.com:2003/explore/projects/starred), deploy your bitchin' fullstack solution instantly to your local machine for testing, or to AWS/Google instantly for staging or production environments.  If you don't have an infrastructure on AWS or Google yet, our CLI will build it for you.  We can even set you up with boilerplates so you can look at examples of code rather than starting from scratch.  STEGABEANS!
+# Fullstacks, simplified
+There are a million fullstack considerations, and we've broken them down into one simplistic format and online git [registry](https://labs.stackfork.com:2003/explore/groups) that's easily cloned.  That registry is what powers our desktop app, and it's constantly updated and curated by our fullstack experts.  So if you are an expert and just want an organized boilerplate registry, bam!  Otherwise we handle all the setup for you.
+
+Our developers are assembling collections of the best opensource products we can find on Github and building out boilerplates that  simplify your start-up.  Our ultimate goal is to build a tool and community that embraces any platform/ language/ skill level and focuses on improving strategies for building E2E/ Fullstack Apps.  We have a very detailed plan on how to achieve that, but this is our baseline and it must be constructed before the community.
+
+## introducing pTero!
+***let pTerodactyls handle your business!***
+- Have worked with Docker?  No matter if you haven't!  
+- Have you ever worked with Rancher?  No matter if you haven't
+- Have you ever setup EC2 stacks on Amazon AWS?  No matter
+- BAM! All of our production stacks are docker-composed & rancher compatible!
+
+![dinosaurs-rule](http://forktheweb.com.s3.amazonaws.com/dinosaurs.gif)
+### dinosaurs rule!
+- Stacks are CLI-driven, searchable, and one-click deployed!
+- Deploy to your localmachine on a .dev domain
+- Deploy to staging or production hosts at Amazon EC2
+- Deploy Kubernetes nodes to Google Cloud Hosting!
+
+### what do you get?
+Just [take a gander] at all the cool virtualized apps we include in our CLI installer!
+- that's like everything a tech company needs to get up and running in one shot!
+- no kidding, we even give you a robot.  no for real, we do!  don't you want a frickin robot?!
+- hate installing stuff?  no worries boss, deploy our crazy-cool amazon AMI image!
+- wanna give Amazon more of your cash cause they super TIGHT-BALS!?  ... then deploy an **entire cluster** of amazon stuff via cloud-formation .... we build it right in!
+- even more fancy then cloud-formation, our docker-composed stacks can perform their own health checks and auto-scale right on the EC2 instance.  
+- That's like having an auto-scaling cluster RIGHT IN AN INSTANCE!  How cool is that, it saves you like mad cash!  
+
+It's under the premise that most people want to compare stuff, but only the stuff that matters, that Dockistry has been created.  
+It's been created by veteran web nerds who care about you, and our technology is backed by a benevolent winged-beast.... our god like overseer.
 
 ## True facts 
-- We embrace all the normal [package managers and programming languages](https://github.com/forktheweb/dockistry/blob/master/docs-why.use.this.md)
+- We embrace many package managers and programming languages
 - All our stacks are YAML-driven, Docker-composed, and can be installed for you
-- We pre-install [all sorts of stuff for you](https://github.com/forktheweb/dockistry/blob/master/docs-why.use.this.md), and it's all cool we promise
-- Our mascot is a [winged overlord](https://github.com/forktheweb/dockistry/blob/master/docs-ptero.md) from the jurassic age, and he [loves to fork](https://twitter.com/allwedoisfork)
+- We offer serveral flavors of Command Line Interface (CLI), which are installed for you
+- Our mascot is a winged overlord from the jurassic age, and he loves to fork
 
-### Self-Hosted
-* NO WARRANTY:  Since this is an opensource project and all.
-* ENTERPRISE SUPPORT:   We do offer enterprise support and custom app development services, if you need em'.
-* LICENSING:  All our software is MIT/Apache/AGPL opensource code, isn't that DINOSAUR POPCICLES!?
+### You host
+* Since this is an opensource project, we do not offer a warranty.
+* We do offer enterprise support and custom app development services.
+* It's all MIT/Apache/AGPL opensource code, isn't that DINOSAUR POPCICLES!?
 
-> haha... Don't worry, you are STILL gonna sleep 100% better tonight.  Remember it's in YOUR CLOUD and not on whoever-the-heck's cloud.  Amazon is fair pants and so is Google, yay!
+haha... Don't worry, you are STILL gonna sleep 100% better tonight.
+
+Remember it's in YOUR CLOUD and not on whoever-the-heck's cloud.  Amazon is fair pants and so is Google, yay!
 
 # WAIT WAIT THERE'S MORE!
 ![awesome-rex](http://forktheweb.com.s3.amazonaws.com/rext.gif)
 
-### Free fo' shizzle
+### Free fo shizzle
 
 - Some nerd has done all the work for you.  BRILLIANT!
 - These stacks are pre-composed, unit-tested, and have all your normal tooling stuff.
 - Our pTerodactyls are taking care of yo business, saving you the land before time and money!!
 - Focus on building your apps, cause we took care of some crazy awesome strategy for you!
  
-## Did we mention that this is 100% OPEN-SOURCE?
+## Did we mention that this is 100% OPEN-SOURCE 
 
 > That's right my brotha!  We slave-drive our wicked programmers so they can craft unbelievably cool components and frameworks designed to be smart, scalable, and effortless to deploy!  All on the MIT (Might Ingest Tyrannosaurs later) license!
 
@@ -123,36 +155,7 @@ These are nice if you have no idea what this project is all about, but keep read
 
 
 
-# Dockistry Fullstacks!
-Every developer uses different tooling, dependencies and package management tools, scaffolds, and testing/monitoring tools.  There are too many tools out there, and we are not building another one.  Dockistry is a strategy engine, and it organizes all the crap you don't want to test and debug and learn how to setup, so that you can more easily "shop" strategies.
 
-There are a million fullstack considerations, and we've broken them down into an easy to understand registry that is modular, and will have a full-fledged SPA app that runs on your desktop and stays in sync with our master repo!  Our experts are constantly forming stack strategies and assembling collections of the best products you can find on Github using kick ass pTerodactyl powered devops!
-
-## introducing pTero!
-***let pTerodactyls handle your business!***
-- Have worked with Docker?  No matter if you haven't!  
-- Have you ever worked with Rancher?  No matter if you haven't
-- Have you ever setup EC2 stacks on Amazon AWS?  No matter
-- BAM! All of our production stacks are docker-composed & rancher compatible!
-
-![dinosaurs-rule](http://forktheweb.com.s3.amazonaws.com/dinosaurs.gif)
-### dinosaurs rule!
-- Stacks are CLI-driven, searchable, and one-click deployed!
-- Deploy to your localmachine on a .dev domain
-- Deploy to staging or production hosts at Amazon EC2
-- Deploy Kubernetes nodes to Google Cloud Hosting!
-
-### what do you get?
-Just [take a gander] at all the cool virtualized apps we include in our CLI installer!
-- that's like everything a tech company needs to get up and running in one shot!
-- no kidding, we even give you a robot.  no for real, we do!  don't you want a frickin robot?!
-- hate installing stuff?  no worries boss, deploy our crazy-cool amazon AMI image!
-- wanna give Amazon more of your cash cause they super TIGHT-BALS!?  ... then deploy an **entire cluster** of amazon stuff via cloud-formation .... we build it right in!
-- even more fancy then cloud-formation, our docker-composed stacks can perform their own health checks and auto-scale right on the EC2 instance.  
-- That's like having an auto-scaling cluster RIGHT IN AN INSTANCE!  How cool is that, it saves you like mad cash!  
-
-It's under the premise that most people want to compare stuff, but only the stuff that matters, that Dockistry has been created.  
-It's been created by veteran web nerds who care about you, and our technology is backed by a benevolent winged-beast.... our god like overseer.
 
 # Wow Such Example. So stack.
 ### More better than traditional stack.
