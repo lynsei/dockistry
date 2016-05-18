@@ -2,7 +2,9 @@
 
 `note: this project is in pre-alpha and actively seeking contributors`
 
-> upon first installing dockistry, we set you up with an entire infrastructure suite.  It's enough technology to run most web companies.
+> upon first installing dockistry, we set you up with an entire [infrastructure](https://github.com/forktheweb/dockistry/blob/master/docs-why.use.this.md) suite.  
+
+"It's enough technology to run most web companies."
 
 ## What is not shown here yet:
 
