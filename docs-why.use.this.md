@@ -35,12 +35,10 @@ Dockistry simplifies the [setup process](https://github.com/forktheweb/dockistry
 
 
 # Benefits
-
+- Get running on a full docker-driven AWS/Google infrastructure, quickly & painlessly.
+- Shed light on language, database, framework, and boilerplate combinations your team hasn't considered
 - Makes you a programming rockstar, just generally speaking.  ;)
 - Impress your friends/boss with your broad range of tooling knowledge 
-- Shed light on language, database, framework, and boilerplate combinations your team hasn't considered
-- Get running on a full docker-driven AWS/Google infrastructure, quickly & painlessly. 
-
  
 ## about infrastructure setup
 Use Dockistry to [instantly create](https://github.com/forktheweb/dockistry/blob/master/docs-infrastructure-packages.md) the infrastructure necessary to operate any web development shop, freelancer, or software firm's baseline.  
