@@ -91,7 +91,7 @@ Dockistry offers the following features for instantaneous fullstack software ins
 
 # encryption 
 - we embrace [port-80-shame](https://github.com/jimmycuadra/port-80-shame) because we believe the web should be default-secure
-- we fully automate SSL installation and renewal for all containers and websites by using the Let's Encrypt CA (no SSL errors)
+- we fully automate SSL installation and renewal for all containers and websites by using the Let's Encrypt CA 
 - we are [well on the way](https://labs.stackfork.com:2003/dockistry/cryptodev-ephemeral-ecdh) to implementing Gnupg keyrings and validated GPG signatures into Dockistry CLI(s) using elliptical curve crypography 
 
 #### about the author
