@@ -54,9 +54,9 @@ We even set you up with boilerplates so you can look at examples of code rather 
 #### For more information on the features and benefits of our stacks, read our "[why dockistry?](https://github.com/forktheweb/dockistry/blob/master/docs-why.use.this.md)" page.
 
 # Fullstacks, simplified
-There are a million fullstack considerations, and we've broken them down into one simplistic format and online git [registry](https://labs.stackfork.com:2003/explore/groups) that's easily cloned.  That registry is what powers our desktop app, and it's constantly updated and curated by our fullstack experts.  So if you are an expert and just want an organized boilerplate registry, bam!  Otherwise we handle all the setup for you.
+There are a million fullstack considerations, and we've broken them down into one simplistic format and online git [registry](https://labs.stackfork.com:2003/explore/groups) that's easily cloned.  That registry is what powers our desktop app, and it's constantly updated and curated by our fullstack pterodactyls.  
 
-Our developers are assembling collections of the best opensource products we can find on Github and building out boilerplates that  simplify your start-up.  Our ultimate goal is to build a tool and community that embraces any platform/ language/ skill level and focuses on improving strategies for building E2E/ Fullstack Apps.  We have a very detailed plan on how to achieve that, but this is our baseline and it must be constructed before the community.
+They are assembling collections of the best opensource products available Github and building out boilerplates that simplify your setup and give you a roadmap & guide to follow.  Our ultimate goal is to build a tool backed by a Fullstack community that embraces any platform/ language/ skill level.  We have a very detailed plan on how to achieve that, but this project is our baseline.
 
 
 
