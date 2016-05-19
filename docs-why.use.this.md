@@ -10,8 +10,18 @@
 # why use dockistry? 
 > "It is not our intention to create another tool or package manager, but rather... we intend to create a strategy engine and a community that contributes to it."
 
-- The developers of Dockistry have created it for developing websites and mobile apps using a single codebase.
-- Dockistry organizes [web components](https://github.com/forktheweb/dockistry/blob/master/docs-componentry.md),  [frameworks](https://github.com/forktheweb/dockistry/blob/master/docs-frameworks.md), [databases](https://github.com/forktheweb/dockistry/blob/master/docs-database.md), and other [shiny-things](https://github.com/forktheweb/dockistry/blob/master/docs-infrastructure-packages.md) our experts find useful.
+Dockistry was created specifically for developing and deploying fullstack solutions for:
+- websites and web-apps
+- mobile apps for iOS, Android, and Windows 
+- desktop software for Linux, Darwin, and Windows
+
+For each fullstack 'strategy' we require:
+- a single code base for 'end to end' (E2E) development 
+- unit-testing and multi-platform devtools architectures
+- continuous integration and delivery support
+- horizontal scalability 
+
+Dockistry organizes [web components](https://github.com/forktheweb/dockistry/blob/master/docs-componentry.md),  [frameworks](https://github.com/forktheweb/dockistry/blob/master/docs-frameworks.md), [databases](https://github.com/forktheweb/dockistry/blob/master/docs-database.md), and other [shiny-things](https://github.com/forktheweb/dockistry/blob/master/docs-infrastructure-packages.md) our experts find useful.
 
 > Why clone hundreds of git repositories searching for an end-to-end solution?
 
