@@ -13,22 +13,25 @@
 - The developers of Dockistry have created it for developing websites and mobile apps using a single codebase.
 - Dockistry organizes [web components](https://github.com/forktheweb/dockistry/blob/master/docs-componentry.md),  [frameworks](https://github.com/forktheweb/dockistry/blob/master/docs-frameworks.md), [databases](https://github.com/forktheweb/dockistry/blob/master/docs-database.md), and other [shiny-things](https://github.com/forktheweb/dockistry/blob/master/docs-infrastructure-packages.md) our experts find useful.
 
-> TRUE FACT:  Github can be overwhelming to developers starting out. Setting up tooling & package managers is often an arduous and daunting process.
+> Why clone hundreds of git repositories searching for an end-to-end solution?
+
+We have done the leg-work for you.  Our stacks are composed using some of the most popular frameworks and databases, and provide boilerplates that will save you time and money on your development effort.  *Enterprise support is available*.
 
 It's because of the ***overwhelming*** amount of fullstack customization options currently available that we identified a clear need for a more [organized approach](https://github.com/forktheweb/dockistry/blob/master/roadmap.md) paired with architecture-specific [devtools packages](https://github.com/dockistry/devtools-multi-clis), one that also provides [setup options](https://github.com/forktheweb/dockistry/blob/master/docs-infrastructure-packages.md) for production/staging infrastructure.
 
-- Dockistry can help you shop around faster and more reliably by [unifying the setup](https://github.com/forktheweb/dockistry/blob/master/dockistry-cli.md) for many dev/ prod. concerns by using a [multi-platorm toolkit](https://github.com/dockistry/devtools-multi-clis) and [infrastructure setup tools](https://github.com/forktheweb/dockistry/blob/master/docs-infrastructure-packages.md), combined in one handy [desktop app](https://github.com/forktheweb/dockistry/blob/master/roadmap.md).
-- Useful to advanced developers by bringing into play languages, databases, frameworks, and boilerplates that you might not have considered (or even been aware of).
+> Fact: Fullstack development is overwhelming. Setting up tooling & package managers is often a frustrating process.
+
+Dockistry simplifies the [setup process](https://github.com/forktheweb/dockistry/blob/master/dockistry-cli.md) for many dev & production concerns using our [multi-platorm toolkit](https://github.com/dockistry/devtools-multi-clis) and [infrastructure  tools](https://github.com/forktheweb/dockistry/blob/master/docs-infrastructure-packages.md), packaged in one [desktop app](https://github.com/forktheweb/dockistry/blob/master/roadmap.md).
+
+
+# Benefits
+
 - Makes you a programming rockstar, just generally speaking.  ;)
 - Impress your friends/boss with your broad range of tooling knowledge 
-- Use this for your Internet startup to get running on a full infrastructure, quickly & painlessly.  (on AWS or Google clouds)
+- Shed light on language, database, framework, and boilerplate combinations your team hasn't considered
+- Get running on a full docker-driven AWS/Google infrastructure, quickly & painlessly. 
 
-
-> - Why clone one git repository after another, just to test solutions, and stack examples only to have them fail, or annoy you?
-> - Why bother doing this again and again, only to find out the solution isn't _truly_ end-to-end or fails where it wasn't supposed to
-> - Why attempt to setup your own critical infrastructure on Amazon or Google Cloud clusters if you don't have to?
-
-
+ 
 ## about infrastructure setup
 Use Dockistry to [instantly create](https://github.com/forktheweb/dockistry/blob/master/docs-infrastructure-packages.md) the infrastructure necessary to operate any web development shop, freelancer, or software firm's baseline.  
 
