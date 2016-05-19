@@ -34,30 +34,28 @@ Dockistry allows you to "shop" for the perfect fullstack strategy by providing:
 - Continuous Delivery & Integration options available
 - Devops tooling to make your life easy when managing clusters of servers
 
-### each dockistry fullstack contains:
+## what is a fullstack strategy? 
+Each dockistry strategy contains the following:
    * one [frontend framework](https://github.com/forktheweb/dockistry/blob/master/docs-frameworks.md) 
    * many [languages & dependencies](#)
    * [tooling packages](https://github.com/dockistry/devtools-multi-clis) (for each environment)
    * [infrastructure packages](https://github.com/forktheweb/dockistry/blob/master/docs-infrastructure-packages.md) for setting up a hosting cluster on AWS/Google clouds
    * one or more [databases](https://github.com/forktheweb/dockistry/blob/master/docs-database.md)
    * an API or other [components](https://github.com/forktheweb/dockistry/blob/master/docs-componentry.md) to work with the database
-   * various other utilities depending on the purpose
- 
-> "Our primary app is so smooth it hums the beach boys.  Our code is opensource, and you host it yourself saving you cash.  Just take all the setup out of the equation, because our CLI and devtools packages do that work for you."
+   * various utilities (possibly many) 
 
-Once you find what you're after in our app/registry, deploy your bitchin' fullstack solution instantly to a local machine for testing, or to AWS/Google instantly for staging or production environments.  All without programming or touching a shell window, configuration prompt, or control panel. 
 
-We even set you up with boilerplates so you can look at examples of code rather than starting from scratch. 
-
-~ SUPA_TIGHT AMIRITE?!
- 
-#### For more information on the features and benefits of our stacks, read our "[why dockistry?](https://github.com/forktheweb/dockistry/blob/master/docs-why.use.this.md)" page.
-
-# Fullstacks, simplified
-There are a million fullstack considerations, and we've broken them down into one simplistic format and online git [registry](https://labs.stackfork.com:2003/explore/groups) that's easily cloned.  That registry is what powers our desktop app, and it's constantly updated and curated by our fullstack pterodactyls.  
+### Fullstack Development... Simplified
+There are a million fullstack considerations, and we've broken them down into one simplistic format and online git [registry](https://labs.stackfork.com:2003/explore/groups) that's easily cloned.  That registry is what powers our desktop app, and it's updated and curated by our fullstack pterodactyls.  
 
 They are assembling collections of the best opensource products available Github and building out boilerplates that simplify your setup and give you a roadmap & guide to follow.  Our ultimate goal is to build a tool backed by a Fullstack community that embraces any platform/ language/ skill level.  We have a very detailed plan on how to achieve that, but this project is our baseline.
 
+##### For more information on the features and benefits of our stacks, read our "[why dockistry?](https://github.com/forktheweb/dockistry/blob/master/docs-why.use.this.md)" page.
+
+### Self-Hosted
+* **NO WARRANTY**:  Since this is an opensource project we cannot offer a warranty of any kind.
+* **ENTERPRISE SUPPORT**:   We do, however, offer enterprise support and custom app development services.
+* **LICENSING**:  All contained software is MIT/ Apache/ AGPL code...  isn't that DINOSAUR POPCICLES!?
 
 
 ```bash
