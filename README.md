@@ -6,7 +6,14 @@
 	                                                  ,  |'  
 	 ~ Fullstack strategies by forking pterodactyls    ''              
 
+# dockistry
+- [why use this?](https://github.com/forktheweb/dockistry/blob/master/docs-why.use.this.md)
+- [fullstack strategy?](https://github.com/forktheweb/dockistry#what-is-a-fullstack-strategy)
+- [author info](https://labs.stackfork.com:2003/dockistry-contributors/cho)
+- [preface to dockistry](https://github.com/forktheweb/dockistry/blob/master/docs-preface.md) 
+- [videos](https://github.com/forktheweb/dockistry/blob/master/docs-videos.md)
 
+ 
 # what is dockistry?
 Dockistry is a [registry](https://labs.stackfork.com:2003/explore/projects/starred) containing many neat-o [docker](https://docker.com) stacks, boiler-plates, and devtools packages which are organized in [categories](https://labs.stackfork.com:2003/explore/groups) each serving a purpose i.e.- (blog, e-commerce, admin-panel, etc).  
 
