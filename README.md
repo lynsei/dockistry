@@ -44,11 +44,10 @@ Each dockistry strategy contains the following:
    * an API or other [components](https://github.com/forktheweb/dockistry/blob/master/docs-componentry.md) to work with the database
    * various utilities (possibly many) 
 
+## let's organize!
+There are a million fullstack considerations, and we've broken them down into one simplistic format and online git [registry](https://labs.stackfork.com:2003/explore/groups) that's easily cloned.  That registry is what powers our desktop app, which is constantly updated and curated by our fullstack forking pterodactyls.  
 
-### Fullstack Development... Simplified
-There are a million fullstack considerations, and we've broken them down into one simplistic format and online git [registry](https://labs.stackfork.com:2003/explore/groups) that's easily cloned.  That registry is what powers our desktop app, and it's updated and curated by our fullstack pterodactyls.  
-
-They are assembling collections of the best opensource products available Github and building out boilerplates that simplify your setup and give you a roadmap & guide to follow.  Our ultimate goal is to build a tool backed by a Fullstack community that embraces any platform/ language/ skill level.  We have a very detailed plan on how to achieve that, but this project is our baseline.
+They are assembling collections of the best opensource products available Github and building out boilerplates that simplify your setup and give you a roadmap & guide to follow.  Our ultimate goal is to build a fullstack community that embraces any platform/ language/ skill level.  We have a very detailed plan on how to achieve that, but this project is our baseline.
 
 ##### For more information on the features and benefits of our stacks, read our "[why dockistry?](https://github.com/forktheweb/dockistry/blob/master/docs-why.use.this.md)" page.
 
