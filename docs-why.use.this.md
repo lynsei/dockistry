@@ -85,7 +85,7 @@ Dockistry offers the following features for instantaneous fullstack software ins
 - immediate deployment and configuration of many [javascript frameworks](https://github.com/forktheweb/dockistry/blob/master/docs-frameworks.md) and their associated tools
 - containers designed for docker-compose 2.0 and rancher-management
 - automated [infrastructure](https://github.com/forktheweb/dockistry/blob/master/docs-infrastructure-packages.md) setup
-- containers for production stacks are provided in [categories](https://labs.stackfork.com:2003/explore/groups) for easy browsing/contributing with or without our desktop app
+- stacks and components are provided in [categories](https://labs.stackfork.com:2003/explore/groups) for browsing outside of our desktop app
 - our stacks are designed for specific purposes, i.e.- backups, utilities, web software, servers, components
 - our boilerplates use the aforementioned categories and are built for specific purposes (i.e.- CRM, E-commerce, etc.)
 
