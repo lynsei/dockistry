@@ -13,11 +13,11 @@ Dockistry is a [registry](https://labs.stackfork.com:2003/explore/projects/starr
 Dockistry comes with a [mutli-platform app](https://github.com/forktheweb/dockistry/blob/master/roadmap.md), which helps you install [devtools](https://github.com/dockistry/devtools-multi-clis) on Linux/ Mac/ Windows desktops, and various [production stacks](https://labs.stackfork.com:2003/groups/servers) or [infrastructure packages](https://github.com/forktheweb/dockistry/blob/master/docs-infrastructure-packages.md) on Docker servers at Amazon AWS and Google Cloud.
 
 ## for novice developers
-Dockistry installs and configures everything you need:
+Dockistry installs and configures everything you will need to build apps:
 
 - Hosting infrastructure for docker containers and websites
 - Local test environments based on our expert strategy engine
-- Boilerplates and other tools necessary for building fullstack apps
+- Boilerplates and other tools 
 
 It helps you make sense of the chaos, and gives you perspective on what is out there.
 
@@ -33,13 +33,8 @@ Dockistry allows you to "shop" for the perfect fullstack strategy by providing:
 - Desktop, mobile, and website apps from a ***single*** code base (i.e.- true E2E)
 - Continuous Delivery & Integration options available
 - Devops tooling to make your life easy when managing clusters of servers
- 
-# TOC
-- [why use dockistry?](https://github.com/forktheweb/dockistry/blob/master/docs-why.use.this.md)
-- [author](https://labs.stackfork.com:2003/dockistry-contributors/cho) | [preface](https://github.com/forktheweb/dockistry/blob/master/docs-preface.md)
-- [video demos]() of ***some*** functionality
 
-### each of our fullstack strategies are composed of:
+### each dockistry fullstack contains:
    * one [frontend framework](https://github.com/forktheweb/dockistry/blob/master/docs-frameworks.md) 
    * many [languages & dependencies](#)
    * [tooling packages](https://github.com/dockistry/devtools-multi-clis) (for each environment)
