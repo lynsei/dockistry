@@ -62,40 +62,34 @@ Dockistry offers the following features for instantaneous fullstack software ins
 
 > note: if you don't see anything you like, your can build your own stack solution using our directory of modular dockers and components
 
-# technical details
-
-## our approach
-- We understand the importance of infrastructure-through-code and repeatable patterns.
-- We embrace [12-factor methods](http://12factor.net/)
-- 100% Afero GPL code with enterprise capabilities out-of-the-box
-- We intend to offer enterprise services and world class support alongside the apps web build which utilize this platform.
-- We also offer DefaultSecure Let's Encrypt on SSL via Nginx-Proxy by default (automatic for all docker 443 hosts)
-
-## features run-down
-- base installation includes access to our master registry, which can be easily cloned locally to "shop" strategies
+# techniques
+- we utilize [Docker Kung-fu](https://github.com/dockistry/docker-kungfu) "infrastructure through code" throughout Dockistry
+- we embrace [12-factor methods](http://12factor.net/) wherever possible in respect to the above
+- 100% open source code with enterprise capabilities and support services available
+ 
+# features 
+- base installation includes access to our master registry of fullstack strategies
 - each strategy is easy to fork and modify, and we use many existing technologies to accomplish this
-- comprehensive fullstack solution for deployment to dev/stage/prod envs.
+- provides a comprehensive fullstack solution for deployment to dev/stage/prod envs.
 - peer-reviewed security practices and tools for keyring & cluster-devops security are included
-- a modular git-driven architecture containing skeletons/boilerplates
-- 12-factor support that aims to be indpendent of any one cloud provider or platform 
-- immediate deployment and configuration of many NodeJS driven [javascript frameworks](https://github.com/forktheweb/dockistry/blob/master/docs-frameworks.md)
-- containers designed for docker-compose 2.0 and rancher-management, automated [infrastructure](https://github.com/forktheweb/dockistry/blob/master/docs-infrastructure-packages.md) setup
-- containers for production stacks are provided in [categories](https://labs.stackfork.com:2003/explore/groups) for easy browsing/contributing
-- our stacks are designed for specific purposes, i.e.- backups, utilities, web software, components
+- a modular git-driven architecture containing many unit-tested skeletons/boilerplates
+- independent of any one cloud provider or platform
+- immediate deployment and configuration of many [javascript frameworks](https://github.com/forktheweb/dockistry/blob/master/docs-frameworks.md) and their associated tools
+- containers designed for docker-compose 2.0 and rancher-management
+- automated [infrastructure](https://github.com/forktheweb/dockistry/blob/master/docs-infrastructure-packages.md) setup
+- containers for production stacks are provided in [categories](https://labs.stackfork.com:2003/explore/groups) for easy browsing/contributing with or without our desktop app
+- our stacks are designed for specific purposes, i.e.- backups, utilities, web software, servers, components
+- our boilerplates use the aforementioned categories and are built for specific purposes (i.e.- CRM, E-commerce, etc.)
 
-# ssl is automated on every environment
-- we embrace [port-80 shaming](https://github.com/jimmycuadra/port-80-shame) because it's fun.
-- yes, we fully automate SSL deploys for you with Zero Setup using the Let's Encrypt CA (no SSL errors)
-- we are on the way to implementing Gnupg keyrings and validated GPG signatures too.
-- we also embrace calling out comcast for injecting javascript, an illegal practice (as seen with the recent Verizon suit)
+# encryption 
+- we embrace [port-80-shame](https://github.com/jimmycuadra/port-80-shame) because we believe the web should be default-secure
+- we fully automate SSL installation and renewal for all containers and websites by using the Let's Encrypt CA (no SSL errors)
+- we are [well on the way](https://labs.stackfork.com:2003/dockistry/cryptodev-ephemeral-ecdh) to implementing Gnupg keyrings and validated GPG signatures into Dockistry CLI(s) using elliptical curve crypography 
 
 #### about the author
 Dockistry was started on AWS by a [devops guru](https://labs.stackfork.com:2003/dockistry-contributors/cho) with over 15 years of experience building multi-platform software.
 
-
-
-
-
+ 
 
 ```bash
                             <\              _
