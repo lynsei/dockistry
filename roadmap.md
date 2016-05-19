@@ -9,12 +9,15 @@
 > last updated: 05-18-2016 2pm
 
 # dockistry roadmap
->  "a reference roadmap for dockistry platform agnostic, language agoric software"
+>  "a reference roadmap for dockistry"
 
-Dockistry provides native tooling & docker-driven images that ease deployment and E2E considerations across multiple architectures, and in multiple languages.  This is done to provide options for developers both locally, and in staging/production environments at Amazon and Google.
+Dockistry provides native tooling & docker-driven images that ease deployment and E2E considerations across multiple platforms, and in multiple languages.  This is done to provide options for developers both locally, and in the cloud. (AWS/Google)
 
 
-## management tools
+## tools we provide
+
+#### STATUS: PRE-ALPHA. 0.7
+Use at your own risk, as these software packages are currently under heavy development and are **not** stable.
 
 ##### dockistry is offering the following flavors (pre-alpha)
 | name | description | architectures | purpose | built with |
