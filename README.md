@@ -10,26 +10,29 @@
 # what is dockistry?
 Dockistry is a [registry](https://labs.stackfork.com:2003/explore/projects/starred) containing many neat-o [docker](https://docker.com) stacks, boiler-plates, and devtools packages which are organized in [categories](https://labs.stackfork.com:2003/explore/groups) each serving a purpose i.e.- (blog, e-commerce, admin-panel, etc).  
 
-Dockistry comes with a [mutli-platform app](https://github.com/forktheweb/dockistry/blob/master/roadmap.md), which helps you install [devtools](https://github.com/dockistry/devtools-multi-clis) and various [production stacks](https://labs.stackfork.com:2003/groups/servers) on Ubuntu, Darwin, and Windows-based operating systems.
+Dockistry comes with a [mutli-platform app](https://github.com/forktheweb/dockistry/blob/master/roadmap.md), which helps you install [devtools](https://github.com/dockistry/devtools-multi-clis) on Linux/ Mac/ Windows desktops, and various [production stacks](https://labs.stackfork.com:2003/groups/servers) or [infrastructure packages](https://github.com/forktheweb/dockistry/blob/master/docs-infrastructure-packages.md) on Docker servers at Amazon AWS and Google Cloud.
 
 ## for novice developers
 Dockistry installs and configures everything you need:
 
 - Hosting infrastructure for docker containers and websites
-- Local test environments based on expert strategy
+- Local test environments based on our expert strategy engine
 - Boilerplates and other tools necessary for building fullstack apps
+
+It helps you make sense of the chaos, and gives you perspective on what is out there.
 
 ## for seasoned developers
 Dockistry allows you to "shop" for the perfect fullstack strategy by providing:
 
-- Pre-built containers and tools that are installed via our [go-lang multi-platform app](https://github.com/forktheweb/dockistry/blob/master/roadmap.md)
+- Pre-built containers and tools that are installed via our [multi-platform app](https://github.com/forktheweb/dockistry/blob/master/roadmap.md), written in Go
 - Comprehensive, unit-tested [developer tooling packages](https://github.com/dockistry/devtools-multi-clis)
 - Support for your favorite package managers and languages
 - Expertly crafted environments on AWS and Google clouds for production deploys
 - Automatic Horizontal Scalability built-in
 - Built for End-to-End (E2E) solutions
-- Desktop, mobile, and website apps from a ***single*** code base (true E2E)
+- Desktop, mobile, and website apps from a ***single*** code base (i.e.- true E2E)
 - Continuous Delivery & Integration options available
+- Devops tooling to make your life easy when managing clusters of servers
  
 # TOC
 - [why use dockistry?](https://github.com/forktheweb/dockistry/blob/master/docs-why.use.this.md)
@@ -40,7 +43,7 @@ Dockistry allows you to "shop" for the perfect fullstack strategy by providing:
    * one [frontend framework](https://github.com/forktheweb/dockistry/blob/master/docs-frameworks.md) 
    * many [languages & dependencies](#)
    * [tooling packages](https://github.com/dockistry/devtools-multi-clis) (for each environment)
-   * [infrastructure packages](https://github.com/forktheweb/dockistry/blob/master/docs-infrastructure-packages.md) for production and staging environments
+   * [infrastructure packages](https://github.com/forktheweb/dockistry/blob/master/docs-infrastructure-packages.md) for setting up a hosting cluster on AWS/Google clouds
    * one or more [databases](https://github.com/forktheweb/dockistry/blob/master/docs-database.md)
    * an API or other [components](https://github.com/forktheweb/dockistry/blob/master/docs-componentry.md) to work with the database
    * various other utilities depending on the purpose
