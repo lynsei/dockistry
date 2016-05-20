@@ -1,3 +1,14 @@
+## t.o.c.
+- [dockistry home](https://github.com/forktheweb/dockistry)
+- [why use dockistry?](https://github.com/forktheweb/dockistry/blob/master/docs-why.use.this.md)
+- [what do we mean by fullstack strategy?](https://github.com/forktheweb/dockistry#what-is-a-fullstack-strategy)
+- [author info](https://labs.stackfork.com:2003/dockistry-contributors/cho)
+- [preface to dockistry](https://github.com/forktheweb/dockistry/blob/master/docs-preface.md) 
+- [videos](https://github.com/forktheweb/dockistry/blob/master/docs-videos.md) of ***some*** functionality
+- [changelog](https://github.com/forktheweb/dockistry/blob/master/changelog.md)
+- [roadmap](https://github.com/forktheweb/dockistry/blob/master/roadmap.md)
+
+
 # Dockistry CLI
 ```please note: this CLI is not publicly available yet, as it is in pre-alpha 0.5.9```
 
@@ -123,3 +134,23 @@ Based on those questions, the CLI will install a variety of things or store your
  - manage the docker containers (we feel Rancher does this amazingly well and so do not provide that)
  - manage registry data (they are disposable anyway, don't repair them, just copy from our master back down)
  - manage docker container volume data (only backups & initial setup of new containers)
+
+
+#### other components
+   * master registry [categories](https://labs.stackfork.com:2003/explore/groups) | [activity](https://labs.stackfork.com:2003/explore/projects/starred)
+   * [all components](https://github.com/forktheweb/dockistry/blob/master/docs-componentry.md)
+   * [frameworks](https://github.com/forktheweb/dockistry/blob/master/docs-frameworks.md) 
+   * [supported languages](https://github.com/forktheweb/dockistry/blob/master/docs-languages.md)
+   * developer [CLI(s)](https://github.com/forktheweb/dockistry/blob/master/dockistry-cli.md) | [experimental CLI(s)](https://github.com/forktheweb/dockistry/blob/master/docs-experimental-cli.md)
+   * [infrastructure](https://github.com/forktheweb/dockistry/blob/master/docs-infrastructure-packages.md) for setting up a hosting cluster on AWS/Google clouds
+   * [databases & stores](https://github.com/forktheweb/dockistry/blob/master/docs-database.md)
+
+## t.o.c.
+- [dockistry home](https://github.com/forktheweb/dockistry)
+- [why use dockistry?](https://github.com/forktheweb/dockistry/blob/master/docs-why.use.this.md)
+- [what do we mean by fullstack strategy?](https://github.com/forktheweb/dockistry#what-is-a-fullstack-strategy)
+- [author info](https://labs.stackfork.com:2003/dockistry-contributors/cho)
+- [preface to dockistry](https://github.com/forktheweb/dockistry/blob/master/docs-preface.md) 
+- [videos](https://github.com/forktheweb/dockistry/blob/master/docs-videos.md) of ***some*** functionality
+- [changelog](https://github.com/forktheweb/dockistry/blob/master/changelog.md)
+- [roadmap](https://github.com/forktheweb/dockistry/blob/master/roadmap.md)
