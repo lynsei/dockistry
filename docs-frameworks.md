@@ -1,5 +1,15 @@
+## t.o.c.
+- [dockistry home](https://github.com/forktheweb/dockistry)
+- [why use dockistry?](https://github.com/forktheweb/dockistry/blob/master/docs-why.use.this.md)
+- [what do we mean by fullstack strategy?](https://github.com/forktheweb/dockistry#what-is-a-fullstack-strategy)
+- [author info](https://labs.stackfork.com:2003/dockistry-contributors/cho)
+- [preface to dockistry](https://github.com/forktheweb/dockistry/blob/master/docs-preface.md) 
+- [videos](https://github.com/forktheweb/dockistry/blob/master/docs-videos.md) of partial functionality
+- [changelog](https://github.com/forktheweb/dockistry/blob/master/changelog.md)
+- [roadmap](https://github.com/forktheweb/dockistry/blob/master/roadmap.md)
+
 # javascript frameworks
-This is a "bleeding edge" list of the frameworks we are supporting by default for fullstack strategies.  All the frameworks below are client side and written in javascript using various NodeJS dependencies.
+The frameworks below are currently being utilized in the conception of boilerplates that are specific to the Dockistry project, and purposed for various stack strategies.  
 
 ## installs are automated
 - Development of our [devtools](https://github.com/dockistry/devtools-multi-clis) packages is ongoing and not test-ready
@@ -11,57 +21,68 @@ This is a "bleeding edge" list of the frameworks we are supporting by default fo
 ### aurelia 
 http://aurelia.io
 
-- aurelia-skeleton-navigation
-   * webpack-typescript
-   * es2016
-- optional sample apps
+- aurelia beta
+  * webpack-typescript
+  * es6 with jspm
   * aurelia-kendoui-bridge
-  * aurelia-kendo-demo
-- optional aurelia modules
-  * aurelia-auth (jwt/ddd)
-  * aurelia-config
-- generators
-   * [aurelia-ts generator](https://www.npmjs.com/package/generator-aurelia-ts)
-
+  * aurelia-token-auth
 
 ### roots
 http://roots.cx
-
-- sprout based setup
-- instant deploys on win32/64 node 0.12/4.43+/5.90+
-- ptero rapid environments setup
-- rethinkdb with strongloop
-- lightweight alternative to gulp/grunt based setups
-- great for desktop electron apps using coffee-basis
-- stable cli integration with ptero devops
 
 ### feathers
 http://feathersjs.com/
 
 - feathersjs base
-- material-ui
 - feathers-accounts
-- [this guy](http://kulakowka.com/) has more forks than even I do, so I follow him for feathers watching
-- [feathersjs generator](https://github.com/feathersjs/generator-feathers)
+- material-ui
 
 ### angular
 https://angular.io/
 
- - [angular2-gulp-webpack generator](https://github.com/ericmdantas/generator-ng-fullstack)
- - [ui grid](http://ui-grid.info/)
- - [dynatable](https://www.dynatable.com/) for small page light-weight grids
- - [material2](https://github.com/angular/material2) or [semantic ui](http://semantic-ui.com/introduction/integrations.html)
- - https://material.angularjs.org
- - [mean stack generator optional](https://github.com/angular-fullstack/generator-angular-fullstack)
+ - angular 1.4 
  
 ### react
 https://facebook.github.io/react/
 
-- generators
-    * [react with flux and alt and webpack](https://github.com/weblogixx/generator-react-webpack-alt)
-    * [react baseline with webpack](https://github.com/newtriks/generator-react-webpack)
-    * [react material-ui](https://www.npmjs.com/package/generator-material-react)
-- ui options 
-    * [semantic ui](http://semantic-ui.com/introduction/integrations.html)
-    * [material ui for react](http://www.material-ui.com)
-- option for [structor](https://github.com/ipselon/structor) [material-ui-prepack](https://github.com/ipselon/material-ui-prepack)
+
+
+### vuejs
+https://vuejs.org/
+
+### riot
+http://riotjs.com/
+
+
+# mobile
+
+### react native
+http://www.reactnative.com/
+
+### nativescript
+https://www.nativescript.org/
+
+- with angular 2.0 beta
+  
+### kendo ui
+- telerik platform
+- aurelia
+
+## other components
+   * master registry [categories](https://labs.stackfork.com:2003/explore/groups) | [activity]()
+   * [all components](https://github.com/forktheweb/dockistry/blob/master/docs-componentry.md)
+   * [frameworks](https://github.com/forktheweb/dockistry/blob/master/docs-frameworks.md) 
+   * [supported languages](https://github.com/forktheweb/dockistry/blob/master/docs-languages.md)
+   * developer [CLI(s)](https://github.com/forktheweb/dockistry/blob/master/dockistry-cli.md) | [experimental CLI(s)](https://github.com/forktheweb/dockistry/blob/master/docs-experimental-cli.md)
+   * [infrastructure](https://github.com/forktheweb/dockistry/blob/master/docs-infrastructure-packages.md) for setting up a hosting cluster on AWS/Google clouds
+   * [databases & stores](https://github.com/forktheweb/dockistry/blob/master/docs-database.md)
+
+## t.o.c.
+- [dockistry home](https://github.com/forktheweb/dockistry)
+- [why use dockistry?](https://github.com/forktheweb/dockistry/blob/master/docs-why.use.this.md)
+- [what do we mean by fullstack strategy?](https://github.com/forktheweb/dockistry#what-is-a-fullstack-strategy)
+- [author info](https://labs.stackfork.com:2003/dockistry-contributors/cho)
+- [preface to dockistry](https://github.com/forktheweb/dockistry/blob/master/docs-preface.md) 
+- [videos](https://github.com/forktheweb/dockistry/blob/master/docs-videos.md) of partial functionality
+- [changelog](https://github.com/forktheweb/dockistry/blob/master/changelog.md)
+- [roadmap](https://github.com/forktheweb/dockistry/blob/master/roadmap.md)
