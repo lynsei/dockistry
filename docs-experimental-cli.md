@@ -1,7 +1,7 @@
 # experimental-cli
 > this is a page devoted to detailed information on our experimental CLI(s)
 
-`please note: this project is in pre-alpha and is still a major WIP`
+`please note: this page is a major work in progress`
 
 ## New Design
 Since late 2015 I've redesigned ptero several times, and now it's morphed into the backbone behind Dockistry for devOps actions.
@@ -10,7 +10,6 @@ I have really dialed in the specific functionality that I want from it at this p
 - multi-platform binary distribution using [electron-boilerplate](https://github.com/szwacz/electron-boilerplate)
 - local windows and mac testing using [hotel](https://github.com/typicode/hotel) and [travis / gitlab ci runners](https://github.com/electron/electron/blob/master/docs/tutorial/testing-on-headless-ci.md)
 - maintaining distributions and synchronizations for [Dockistry](https://github.com/forktheweb/dockistry)
-
 
 
 # Dockistry Experimental CLI
@@ -49,10 +48,22 @@ I have really dialed in the specific functionality that I want from it at this p
 
 --------
 
+
 ![ec2-images-dockistry](http://pterops.com.s3.amazonaws.com/screen-dockistry/dockistry-cli-sample.gif)
 
- 
-# pTero
+
+### Example stack using developer tooling:
+Sometimes the best way to understand what a thing does, is to watch a quick video.  Just keep in mind that this is a very specific stack example, and we have many different stacks and many configurable options within them:
+
+> Watch the [video screencast](http://screencast-o-matic.com/watch/cDf0fO1GWx) (don't worry it's only like 99 seconds long!)
+
+#### Short version:
+
+<img src="http://pterops.com.s3.amazonaws.com/cli-devtools-powershell-windows.gif" width="100%" alt="Windows Developer Tooling" />
+
+ --------
+
+# pTero Example
 "**P**ortable **T**echnology **E**ngine for **R**eactive **O**perations"
 
 ## CLI Background Information
