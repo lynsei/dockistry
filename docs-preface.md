@@ -1,3 +1,14 @@
+## t.o.c.
+- [dockistry home](https://github.com/forktheweb/dockistry)
+- [why use dockistry?](https://github.com/forktheweb/dockistry/blob/master/docs-why.use.this.md)
+- [what do we mean by fullstack strategy?](https://github.com/forktheweb/dockistry#what-is-a-fullstack-strategy)
+- [author info](https://labs.stackfork.com:2003/dockistry-contributors/cho)
+- [preface to dockistry](https://github.com/forktheweb/dockistry/blob/master/docs-preface.md) 
+- [videos](https://github.com/forktheweb/dockistry/blob/master/docs-videos.md) of ***some*** functionality
+- [changelog](https://github.com/forktheweb/dockistry/blob/master/changelog.md)
+- [roadmap](https://github.com/forktheweb/dockistry/blob/master/roadmap.md)
+
+
 # author preface
   > *... a bit of background information and a preface by [forktheweb](//github.com:443/forktheweb)*
 
@@ -12,3 +23,22 @@
    The tools provided by Dockistry are curated & lean intentionally so they can be re-used/ easily forked.  I am building the primary desktop software based off an entirely web-based app integrated into a Git, Docker, and NPM registry.  This allows the app to stay current without regular updates to the binaries, and will allow the same API to be accessed through a variety of separate tooling packages as things progress.  The registry is pretty lightweight, since it's all just docker-composition files and basic boilerplates.  So the idea is to clone the whole thing and quickly browse various strategies locally, then deploy them.
 
 I intend to galvanize any skeptic-thinkers by hitting people with a truly fresh take on stack development & deployment, something they haven't seen ever before.  I'm stoked to be able to do that.
+
+#### other components
+   * master registry [categories](https://labs.stackfork.com:2003/explore/groups) | [activity](https://labs.stackfork.com:2003/explore/projects/starred)
+   * [all components](https://github.com/forktheweb/dockistry/blob/master/docs-componentry.md)
+   * [frameworks](https://github.com/forktheweb/dockistry/blob/master/docs-frameworks.md) 
+   * [supported languages](https://github.com/forktheweb/dockistry/blob/master/docs-languages.md)
+   * developer [CLI(s)](https://github.com/forktheweb/dockistry/blob/master/dockistry-cli.md) | [experimental CLI(s)](https://github.com/forktheweb/dockistry/blob/master/docs-experimental-cli.md)
+   * [infrastructure](https://github.com/forktheweb/dockistry/blob/master/docs-infrastructure-packages.md) for setting up a hosting cluster on AWS/Google clouds
+   * [databases & stores](https://github.com/forktheweb/dockistry/blob/master/docs-database.md)
+
+## t.o.c.
+- [dockistry home](https://github.com/forktheweb/dockistry)
+- [why use dockistry?](https://github.com/forktheweb/dockistry/blob/master/docs-why.use.this.md)
+- [what do we mean by fullstack strategy?](https://github.com/forktheweb/dockistry#what-is-a-fullstack-strategy)
+- [author info](https://labs.stackfork.com:2003/dockistry-contributors/cho)
+- [preface to dockistry](https://github.com/forktheweb/dockistry/blob/master/docs-preface.md) 
+- [videos](https://github.com/forktheweb/dockistry/blob/master/docs-videos.md) of ***some*** functionality
+- [changelog](https://github.com/forktheweb/dockistry/blob/master/changelog.md)
+- [roadmap](https://github.com/forktheweb/dockistry/blob/master/roadmap.md)
