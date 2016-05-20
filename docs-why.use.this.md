@@ -128,7 +128,8 @@ Dockistry was started on AWS by a [devops guru](https://labs.stackfork.com:2003/
                           \\      WWW
                           XvX
 
-Devops by pTero                           "an overseer of things..."```
+Devops by pTero                           "an overseer of things..."
+```
 
 
 #### other components
