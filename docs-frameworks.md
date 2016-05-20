@@ -4,7 +4,7 @@
 - [what do we mean by fullstack strategy?](https://github.com/forktheweb/dockistry#what-is-a-fullstack-strategy)
 - [author info](https://labs.stackfork.com:2003/dockistry-contributors/cho)
 - [preface to dockistry](https://github.com/forktheweb/dockistry/blob/master/docs-preface.md) 
-- [videos](https://github.com/forktheweb/dockistry/blob/master/docs-videos.md) of partial functionality
+- [videos](https://github.com/forktheweb/dockistry/blob/master/docs-videos.md) of ***some*** functionality
 - [changelog](https://github.com/forktheweb/dockistry/blob/master/changelog.md)
 - [roadmap](https://github.com/forktheweb/dockistry/blob/master/roadmap.md)
 
@@ -83,6 +83,6 @@ https://www.nativescript.org/
 - [what do we mean by fullstack strategy?](https://github.com/forktheweb/dockistry#what-is-a-fullstack-strategy)
 - [author info](https://labs.stackfork.com:2003/dockistry-contributors/cho)
 - [preface to dockistry](https://github.com/forktheweb/dockistry/blob/master/docs-preface.md) 
-- [videos](https://github.com/forktheweb/dockistry/blob/master/docs-videos.md) of partial functionality
+- [videos](https://github.com/forktheweb/dockistry/blob/master/docs-videos.md) of ***some*** functionality
 - [changelog](https://github.com/forktheweb/dockistry/blob/master/changelog.md)
 - [roadmap](https://github.com/forktheweb/dockistry/blob/master/roadmap.md)
