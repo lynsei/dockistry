@@ -1,10 +1,21 @@
-## Dockistry philosophies
+## t.o.c.
+- [dockistry home](https://github.com/forktheweb/dockistry)
+- [why use dockistry?](https://github.com/forktheweb/dockistry/blob/master/docs-why.use.this.md)
+- [what do we mean by fullstack strategy?](https://github.com/forktheweb/dockistry#what-is-a-fullstack-strategy)
+- [author info](https://labs.stackfork.com:2003/dockistry-contributors/cho)
+- [preface to dockistry](https://github.com/forktheweb/dockistry/blob/master/docs-preface.md) 
+- [videos](https://github.com/forktheweb/dockistry/blob/master/docs-videos.md) of ***some*** functionality
+- [changelog](https://github.com/forktheweb/dockistry/blob/master/changelog.md)
+- [roadmap](https://github.com/forktheweb/dockistry/blob/master/roadmap.md)
+
+
+## Code Practices used by Dockistry
 
 #### Embrace 12-factor wherever possible
 Read about 12 factor methods [here](http://12factor.net/).
 
 #### Hogans are always applicable
-Because [hogans](https://github.com/object-code/hogan.js) are always fast.
+Because [hogans](https://github.com/object-code/hogan.js) are always fast.  (okay this is a joke because of the author's name)
 
 # apply the least astonishment principle
 "if a necessary feature has a high astonishment factor, it may be necessary to redesign the feature."  In general engineering design contexts, the principle may be taken to mean that a component of a system should behave in a manner consistent with how users of that component are likely to expect it to behave.
@@ -43,3 +54,22 @@ DWIM
 
 - a [how-to](https://github.com/braydie/HowToBeAProgrammer) worth reading
 - a [really funny guide](https://encyclopediadramatica.se/Ruby_on_Rails) to ruby
+
+#### other components
+   * master registry [categories](https://labs.stackfork.com:2003/explore/groups) | [activity](https://labs.stackfork.com:2003/explore/projects/starred)
+   * [all components](https://github.com/forktheweb/dockistry/blob/master/docs-componentry.md)
+   * [frameworks](https://github.com/forktheweb/dockistry/blob/master/docs-frameworks.md) 
+   * [supported languages](https://github.com/forktheweb/dockistry/blob/master/docs-languages.md)
+   * developer [CLI(s)](https://github.com/forktheweb/dockistry/blob/master/dockistry-cli.md) | [experimental CLI(s)](https://github.com/forktheweb/dockistry/blob/master/docs-experimental-cli.md)
+   * [infrastructure](https://github.com/forktheweb/dockistry/blob/master/docs-infrastructure-packages.md) for setting up a hosting cluster on AWS/Google clouds
+   * [databases & stores](https://github.com/forktheweb/dockistry/blob/master/docs-database.md)
+
+## t.o.c.
+- [dockistry home](https://github.com/forktheweb/dockistry)
+- [why use dockistry?](https://github.com/forktheweb/dockistry/blob/master/docs-why.use.this.md)
+- [what do we mean by fullstack strategy?](https://github.com/forktheweb/dockistry#what-is-a-fullstack-strategy)
+- [author info](https://labs.stackfork.com:2003/dockistry-contributors/cho)
+- [preface to dockistry](https://github.com/forktheweb/dockistry/blob/master/docs-preface.md) 
+- [videos](https://github.com/forktheweb/dockistry/blob/master/docs-videos.md) of ***some*** functionality
+- [changelog](https://github.com/forktheweb/dockistry/blob/master/changelog.md)
+- [roadmap](https://github.com/forktheweb/dockistry/blob/master/roadmap.md)
