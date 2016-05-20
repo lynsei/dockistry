@@ -58,10 +58,6 @@ To run the CLI executable (complete menu)
 ## uninstalling
 ```dockistry uninstall```
 
-##### gif of the above video
-
-<img src="http://pterops.com.s3.amazonaws.com/cli-devtools-powershell-windows.gif" width="100%" alt="Windows Developer Tooling" />
-
 #### other components
    * master registry [categories](https://labs.stackfork.com:2003/explore/groups) | [activity](https://labs.stackfork.com:2003/explore/projects/starred)
    * [all components](https://github.com/forktheweb/dockistry/blob/master/docs-componentry.md)
