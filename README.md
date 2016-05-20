@@ -50,7 +50,7 @@ Each dockistry strategy contains the following:
    * one or more [databases](https://github.com/forktheweb/dockistry/blob/master/docs-database.md)
    * an API or other [components](https://github.com/forktheweb/dockistry/blob/master/docs-componentry.md) to work with the database
 
-## let's organize!
+## the first and only fullstack strategy engine
 There are a million fullstack considerations, and we've broken them down into one simple format and online  [registry](https://labs.stackfork.com:2003/explore/groups) that's easily cloned.  That registry is what powers our desktop app, and is constantly updated and curated by our fullstack forking pterodactyls.  
 
 They're assembling collections of the best fullstack stuff available on Github and building out boilerplates that simplify your development setup.  
