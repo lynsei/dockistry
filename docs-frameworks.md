@@ -69,7 +69,7 @@ https://www.nativescript.org/
 - aurelia
 
 ## other components
-   * master registry [categories](https://labs.stackfork.com:2003/explore/groups) | [activity]()
+   * master registry [categories](https://labs.stackfork.com:2003/explore/groups) | [activity](https://labs.stackfork.com:2003/explore/projects/starred)
    * [all components](https://github.com/forktheweb/dockistry/blob/master/docs-componentry.md)
    * [frameworks](https://github.com/forktheweb/dockistry/blob/master/docs-frameworks.md) 
    * [supported languages](https://github.com/forktheweb/dockistry/blob/master/docs-languages.md)
