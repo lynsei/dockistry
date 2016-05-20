@@ -9,20 +9,21 @@
 - [roadmap](https://github.com/forktheweb/dockistry/blob/master/roadmap.md)
 
 
-# Production CLI
+# CLIs
 ```please note: this CLI is not publicly available yet, as it is in pre-alpha 0.7. This page is a total work in progress, and I'm using it as a map for the development effort.```
 
 ### We have two primary types of CLI
 - Production
 - Developer Tools
 
-Both are integrated into the [primary desktop app]().
+Both are integrated into the [primary desktop app](https://github.com/forktheweb/dockistry/blob/master/roadmap.md).
 
-Our dockistry CLI is written in Go-lang using [Spf13/Cobra](https://github.com/spf13/cobra).
-It operates using the following options menu:
 
-### AWS Production features
-These are features currently in development, aggressively so:
+# Prodution CLI
+Our production CLI is written in Go and distributed as a binary.
+
+### AWS Features for the Prod CLI
+These are features are currently being developed (aggressively) lol:
 
  - configure aws credentials
  - install infrastructure packages
@@ -31,7 +32,7 @@ These are features currently in development, aggressively so:
  - set up automatic SSL provisioning for docker containers
  - set up automatic dns setup via route 53
  - set up automatic s3 backups
- - run any fullstack strategy on rancher
+ - run any fullstack strategy (notes on [build process](https://github.com/forktheweb/dockistry/blob/master/docs-build-process.md) for stacks)
  - search & fork any fullstack strategy
  - operate saws command line app
  
@@ -42,8 +43,6 @@ We supply a binary that you can run from these operating systems:
 - aws ec2 using Ubuntu Trusty 14.4
 - gcp using docker
 - docker swarm
-
- 
 
 ## usage
 For first-time setup
