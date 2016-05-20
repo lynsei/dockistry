@@ -8,32 +8,32 @@
 - [changelog](https://github.com/forktheweb/dockistry/blob/master/changelog.md)
 - [roadmap](https://github.com/forktheweb/dockistry/blob/master/roadmap.md)
 
-# Databases
+# databases
 Dockistry supports many different databases & stores through the use of API(s) and [components](https://github.com/forktheweb/dockistry/blob/master/docs-componentry.md) that connect to [frameworks](https://github.com/forktheweb/dockistry/blob/master/docs-frameworks.md).  These connections occur as a result of configurable YAML, which is what we use to configure pretty much everything in Dockistry through the [desktop app](https://github.com/forktheweb/dockistry/blob/master/roadmap.md).
 
-### Types
+## storage types
 - Data stores
 - RDBMS systems
 - External providers
 
-### APIs
+## api providers
   * [swagger](http://swagger.io/)
   * [goat](#)
   * [php-crud](#)
   * [eloquent](#)
   * [vapor](#)
   
-### Web-Admins
+## admin panels
   * [PHPmy](#)
   * [PG](#)
   * [Arc](#)
   * [Swagger](#)
 
-# Data-Boilerplates
+## boilerplates
 - [membership.db](https://github.com/membership/membership.db)
 - Fake REST
 
-## other components
+#### other components
    * master registry [categories](https://labs.stackfork.com:2003/explore/groups) | [activity](https://labs.stackfork.com:2003/explore/projects/starred)
    * [all components](https://github.com/forktheweb/dockistry/blob/master/docs-componentry.md)
    * [frameworks](https://github.com/forktheweb/dockistry/blob/master/docs-frameworks.md) 
