@@ -16,22 +16,45 @@ Dockistry supports many different databases & stores through the use of API(s) a
 - RDBMS systems
 - External providers
 
+## stores
+- mongo
+- rethink
+- couch
+- dynamo
+- redis
+
+## databases
+- citus (shard postgres)
+- postgres
+- maria/ mysql
+- cassandra
+
+## external
+- Amazon RDS
+- Amazon Aurora
+- GCP Cloud Datastore
+- GCP Cloud SQL
+
 ## api providers
-  * [swagger](http://swagger.io/)
-  * [goat](#)
-  * [php-crud](#)
-  * [eloquent](#)
-  * [vapor](#)
+  * [swagger](https://github.com/swagger-api/swagger-js)
+  * [goat](https://github.com/bahlo/goat)
+  * [php-crud](https://github.com/mevdschee/php-crud-api)
+  * [wp-api](http://www.wp-api.org)
+  * custom laravel api using [eloquent](https://laravel.com/docs/5.0/eloquent)
+  * swift based using [vapor](https://github.com/qutheory/vapor)
   
 ## admin panels
-  * [PHPmy](#)
-  * [PG](#)
-  * [Arc](#)
-  * [Swagger](#)
+  * [PHPmy](https://github.com/phpmyadmin/phpmyadmin)
+  * [PG](http://phppgadmin.sourceforge.net/doku.php?id=start)
+  * [Arc](https://strongloop.com/node-js/arc/) for strongloop
+  * [Swagger](http://editor.swagger.io/#/) for creating APIs
+  * [Chateau](https://github.com/neumino/chateau) for rethink management
 
-## boilerplates
+## boilerplates & native
 - [membership.db](https://github.com/membership/membership.db)
 - Fake REST
+- [drywall](https://github.com/jedireza/drywall)
+- [robomongo](https://github.com/paralect/robomongo) for native mongodb management
 
 #### other components
    * master registry [categories](https://labs.stackfork.com:2003/explore/groups) | [activity](https://labs.stackfork.com:2003/explore/projects/starred)
