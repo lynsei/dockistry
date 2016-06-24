@@ -26,34 +26,34 @@
 
 ### Gitlab CE pre-configured instance
 --------
-![gitlab](http://pterops.com.s3.amazonaws.com/screen-dockistry/dockistry-gitlab-ce.gif)
+![gitlab](https://github.com/dockistry/dockistry-assets/blob/master/branding/dockistry/dockistry-gitlab-ce.gif)
 
 ### Owncloud DMS file storage instance
 --------
-![owncloud](http://pterops.com.s3.amazonaws.com/screen-dockistry/dockistry-owncloud.gif)
+![owncloud](https://github.com/dockistry/dockistry-assets/blob/master/branding/dockistry/dockistry-owncloud.gif)
 
 ### Rancher Container Management
 
 > installation binaries allow for various provisioning setups for actual AWS & Kubernetes nodes (instantly configured via cloud-init & cloud formation style templates)
 
 --------
-![rancher](http://pterops.com.s3.amazonaws.com/screen-dockistry/dockistry-rancher.gif)
+![rancher](https://github.com/dockistry/dockistry-assets/blob/master/branding/dockistry/dockistry-rancher.gif)
 
 ### Rocket Chat with Hubot pre-installed and Hot script loading enabled
 > this makes it easy to switch coffee scripts in and out of the bot's code without reloading him
 
 --------
-![rocket](http://pterops.com.s3.amazonaws.com/screen-dockistry/dockistry-rocket.gif)
+![rocket](https://github.com/dockistry/dockistry-assets/blob/master/branding/dockistry/dockistry-rocket.gif)
 
 ### Wekan board 
 > c'mon now! ... you know you like to plan & strategize otherwise you wouldn't be reading this!
 
 --------
-![wekan](http://pterops.com.s3.amazonaws.com/screen-dockistry/dockistry-wekan.gif)
+![wekan](https://github.com/dockistry/dockistry-assets/blob/master/branding/dockistry/dockistry-wekan.gif)
 
 
 ### Galaca!
-![galaca](http://pterops.com.s3.amazonaws.com/screen-dockistry/galaca.gif)
+![galaca](https://github.com/dockistry/dockistry-assets/blob/master/branding/dockistry/galaca.gif)
 --------
 *sorry to tease you but we really don't include Galaca in our releases (yet?)*
 
