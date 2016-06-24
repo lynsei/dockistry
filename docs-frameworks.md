@@ -59,6 +59,8 @@ http://riotjs.com/
 ### react native
 http://www.reactnative.com/
 
+- [ignite](https://github.com/infinitered/ignite) boilerplates
+
 ### nativescript
 https://www.nativescript.org/
 
@@ -67,6 +69,7 @@ https://www.nativescript.org/
 ### kendo ui
 - telerik platform
 - aurelia
+ 
 
 ## other components
    * master registry [categories](https://labs.stackfork.com:2003/explore/groups) | [activity](https://labs.stackfork.com:2003/explore/projects/starred)
