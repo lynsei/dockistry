@@ -1,13 +1,15 @@
-> This project is EOL and not maintained.
+> _This project is EOL and not maintained._
 
-||`           '||               ||                  
+
+```bash
+            '||             ||                  
 	     ||             ||     ''        ||                  
 	 .|''|| .|''|,.|'', || //` || (''''''||'' '||''|'||  ||` 
 	 ||  || ||  ||||    ||<<   ||  `'')  ||    ||    `|..||  
 	 `|..||.`|..|'`|..'.|| \\..||.`...'  `|..'.||.       ||  
-	                                                  ,  |'  
+	                                                  ,  |'  ```
 	 ~ Fullstack strategies by forking pterodactyls    ''              
-
+```
 # dockistry
 - [why use this?](https://github.com/forktheweb/dockistry/blob/master/docs-why.use.this.md)
 - [fullstack strategy?](https://github.com/forktheweb/dockistry#what-is-a-fullstack-strategy)
