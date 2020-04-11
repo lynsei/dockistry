@@ -12,7 +12,7 @@ Our docker strategies operate in various backend languages.  They are as follows
 - java/groovy
 - golang
 - python
-- bash
+- javascript
 
 # shell scripts
 It's not uncommon for us to utilize some of the following in container strategies or developer tooling packages:
