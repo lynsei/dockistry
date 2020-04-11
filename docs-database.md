@@ -2,7 +2,6 @@
 - [dockistry home](https://github.com/forktheweb/dockistry)
 - [why use dockistry?](https://github.com/forktheweb/dockistry/blob/master/docs-why.use.this.md)
 - [what do we mean by fullstack strategy?](https://github.com/forktheweb/dockistry#what-is-a-fullstack-strategy)
-- [author info](https://labs.stackfork.com:2003/dockistry-contributors/cho)
 - [preface to dockistry](https://github.com/forktheweb/dockistry/blob/master/docs-preface.md) 
 - [videos](https://github.com/forktheweb/dockistry/blob/master/docs-videos.md) of ***some*** functionality
 - [changelog](https://github.com/forktheweb/dockistry/blob/master/changelog.md)
@@ -69,7 +68,6 @@ Dockistry supports many different databases & stores through the use of API(s) a
 - [dockistry home](https://github.com/forktheweb/dockistry)
 - [why use dockistry?](https://github.com/forktheweb/dockistry/blob/master/docs-why.use.this.md)
 - [what do we mean by fullstack strategy?](https://github.com/forktheweb/dockistry#what-is-a-fullstack-strategy)
-- [author info](https://labs.stackfork.com:2003/dockistry-contributors/cho)
 - [preface to dockistry](https://github.com/forktheweb/dockistry/blob/master/docs-preface.md) 
 - [videos](https://github.com/forktheweb/dockistry/blob/master/docs-videos.md) of ***some*** functionality
 - [changelog](https://github.com/forktheweb/dockistry/blob/master/changelog.md)
