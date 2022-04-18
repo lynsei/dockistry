@@ -1,5 +1,8 @@
 > _This project is EOL and not maintained._
 
+# CURRENTLY NOT MAINTAINED
+
+That might change in the near future, not sure just yet.
 
 ```bash
             '||             ||                  
